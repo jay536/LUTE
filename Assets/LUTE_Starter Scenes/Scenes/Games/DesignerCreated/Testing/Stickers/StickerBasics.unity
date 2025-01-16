@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -385,10 +381,8 @@ RenderTexture:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
+  serializedVersion: 6
   m_Width: 1069
   m_Height: 694
   m_AntiAliasing: 1
@@ -399,6 +393,7 @@ RenderTexture:
   m_GenerateMips: 1
   m_SRGB: 1
   m_UseDynamicScale: 0
+  m_UseDynamicScaleExplicit: 0
   m_BindMS: 0
   m_EnableCompatibleFormat: 1
   m_EnableRandomWrite: 0
@@ -748,9 +743,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 27028.225
-    y: 25099.137
-    width: 96.34145
+    x: 27025.592
+    y: 25101.77
+    width: 95.83
     height: 40
   nodeName: Stickers
   nodeDescription: Basic building block of a narrative engine
@@ -788,7 +783,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 27007.225
     y: 25031.137
-    width: 134.14633
+    width: 132.45
     height: 40
   nodeName: PostcardMenu
   nodeDescription: Basic building block of a narrative engine
@@ -854,6 +849,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  buttonSound: {fileID: 0}
 --- !u!114 &781823935
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -942,7 +938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 26938.537
     y: 25204.387
-    width: 89.02438
+    width: 89.58
     height: 40
   nodeName: Node 1
   nodeDescription: Basic building block of a narrative engine
@@ -978,7 +974,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 80.4878
+    width: 80.63
     height: 40
   nodeName: Node
   nodeDescription: Basic building block of a narrative engine
@@ -1014,7 +1010,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 90.2439
+    width: 91.270004
     height: 40
   nodeName: Node 2
   nodeDescription: Basic building block of a narrative engine
@@ -1050,7 +1046,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 27275.537
     y: 25026.387
-    width: 168.29266
+    width: 166.75
     height: 40
   nodeName: Unlock Achievement
   nodeDescription: Can be executed to unlock an achievement
@@ -1128,11 +1124,11 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: groups.Array.data[0]
+      propertyPath: 'groups.Array.data[0]'
       value: 
       objectReference: {fileID: 949217715}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: groups.Array.data[1]
+      propertyPath: 'groups.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
@@ -1144,23 +1140,23 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: variables.Array.data[0]
+      propertyPath: 'variables.Array.data[0]'
       value: 
       objectReference: {fileID: 949217714}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: variables.Array.data[1]
+      propertyPath: 'variables.Array.data[1]'
       value: 
       objectReference: {fileID: 949217741}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: variables.Array.data[2]
+      propertyPath: 'variables.Array.data[2]'
       value: 
       objectReference: {fileID: 949217740}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: variables.Array.data[3]
+      propertyPath: 'variables.Array.data[3]'
       value: 
       objectReference: {fileID: 949217762}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: variables.Array.data[4]
+      propertyPath: 'variables.Array.data[4]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
@@ -1172,51 +1168,51 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[0]
+      propertyPath: 'selectedNodes.Array.data[0]'
       value: 
       objectReference: {fileID: 949217800}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[1]
+      propertyPath: 'selectedNodes.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[2]
+      propertyPath: 'selectedNodes.Array.data[2]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[3]
+      propertyPath: 'selectedNodes.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[4]
+      propertyPath: 'selectedNodes.Array.data[4]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[5]
+      propertyPath: 'selectedNodes.Array.data[5]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[6]
+      propertyPath: 'selectedNodes.Array.data[6]'
       value: 
       objectReference: {fileID: 949217692}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[7]
+      propertyPath: 'selectedNodes.Array.data[7]'
       value: 
       objectReference: {fileID: 781823840}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[8]
+      propertyPath: 'selectedNodes.Array.data[8]'
       value: 
       objectReference: {fileID: 781823932}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[9]
+      propertyPath: 'selectedNodes.Array.data[9]'
       value: 
       objectReference: {fileID: 781823974}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedNodes.Array.data[10]
+      propertyPath: 'selectedNodes.Array.data[10]'
       value: 
       objectReference: {fileID: 781823997}
     - target: {fileID: 259267083496140413, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: selectedOrders.Array.data[0]
+      propertyPath: 'selectedOrders.Array.data[0]'
       value: 
       objectReference: {fileID: 949217803}
     - target: {fileID: 491454960197904109, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
@@ -1244,11 +1240,11 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 500084417248727041, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: orderList.Array.data[4]
+      propertyPath: 'orderList.Array.data[4]'
       value: 
       objectReference: {fileID: 949217738}
     - target: {fileID: 500084417248727041, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: orderList.Array.data[5]
+      propertyPath: 'orderList.Array.data[5]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 567233814792415327, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
@@ -1900,87 +1896,87 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[0].backupLocations.Array.data[0]
+      propertyPath: 'failureMethods.Array.data[0].backupLocations.Array.data[0]'
       value: 
       objectReference: {fileID: 949217740}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[0].priorityMethods.Array.data[0]
+      propertyPath: 'failureMethods.Array.data[0].priorityMethods.Array.data[0]'
       value: Use_Backup_Location
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[0].priorityMethods.Array.data[1]
+      propertyPath: 'failureMethods.Array.data[0].priorityMethods.Array.data[1]'
       value: Execute_Anyway
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[0].priorityMethods.Array.data[2]
+      propertyPath: 'failureMethods.Array.data[0].priorityMethods.Array.data[2]'
       value: Use_Nearest_Location
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[0].priorityMethods.Array.data[3]
+      propertyPath: 'failureMethods.Array.data[0].priorityMethods.Array.data[3]'
       value: Disbale_Location_Behaviour
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[0].priorityMethods.Array.data[4]
+      propertyPath: 'failureMethods.Array.data[0].priorityMethods.Array.data[4]'
       value: JumpToNode
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[0].priorityMethods.Array.data[5]
+      propertyPath: 'failureMethods.Array.data[0].priorityMethods.Array.data[5]'
       value: DisbaleLocationBehaviour
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[1].priorityMethods.Array.data[0]
+      propertyPath: 'failureMethods.Array.data[1].priorityMethods.Array.data[0]'
       value: Execute_Anyway
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[1].priorityMethods.Array.data[1]
+      propertyPath: 'failureMethods.Array.data[1].priorityMethods.Array.data[1]'
       value: Increase_Radius
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[1].priorityMethods.Array.data[2]
+      propertyPath: 'failureMethods.Array.data[1].priorityMethods.Array.data[2]'
       value: Use_Nearest_Location
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[1].priorityMethods.Array.data[3]
+      propertyPath: 'failureMethods.Array.data[1].priorityMethods.Array.data[3]'
       value: Disbale_Location_Behaviour
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[1].priorityMethods.Array.data[4]
+      propertyPath: 'failureMethods.Array.data[1].priorityMethods.Array.data[4]'
       value: JumpToNode
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[1].priorityMethods.Array.data[5]
+      propertyPath: 'failureMethods.Array.data[1].priorityMethods.Array.data[5]'
       value: DisbaleLocationBehaviour
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[2].priorityMethods.Array.data[0]
+      propertyPath: 'failureMethods.Array.data[2].priorityMethods.Array.data[0]'
       value: Execute_Anyway
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[2].priorityMethods.Array.data[1]
+      propertyPath: 'failureMethods.Array.data[2].priorityMethods.Array.data[1]'
       value: Increase_Radius
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[2].priorityMethods.Array.data[2]
+      propertyPath: 'failureMethods.Array.data[2].priorityMethods.Array.data[2]'
       value: Use_Nearest_Location
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[2].priorityMethods.Array.data[3]
+      propertyPath: 'failureMethods.Array.data[2].priorityMethods.Array.data[3]'
       value: Disbale_Location_Behaviour
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[3].priorityMethods.Array.data[0]
+      propertyPath: 'failureMethods.Array.data[3].priorityMethods.Array.data[0]'
       value: Increase_Radius
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[3].priorityMethods.Array.data[1]
+      propertyPath: 'failureMethods.Array.data[3].priorityMethods.Array.data[1]'
       value: Execute_Anyway
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[3].priorityMethods.Array.data[2]
+      propertyPath: 'failureMethods.Array.data[3].priorityMethods.Array.data[2]'
       value: Use_Nearest_Location
       objectReference: {fileID: 0}
     - target: {fileID: 4327719991540447548, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: failureMethods.Array.data[3].priorityMethods.Array.data[3]
+      propertyPath: 'failureMethods.Array.data[3].priorityMethods.Array.data[3]'
       value: Disbale_Location_Behaviour
       objectReference: {fileID: 0}
     - target: {fileID: 4530709463290212775, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
@@ -2056,7 +2052,7 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4920726387187847569, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: orderList.Array.data[1]
+      propertyPath: 'orderList.Array.data[1]'
       value: 
       objectReference: {fileID: 781823973}
     - target: {fileID: 4981513096460099000, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
@@ -2356,11 +2352,11 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7776012543760205945, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: orderList.Array.data[1]
+      propertyPath: 'orderList.Array.data[1]'
       value: 
       objectReference: {fileID: 781823819}
     - target: {fileID: 7776012543760205945, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: orderList.Array.data[2]
+      propertyPath: 'orderList.Array.data[2]'
       value: 
       objectReference: {fileID: 781823819}
     - target: {fileID: 7958164731226345212, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
@@ -2596,11 +2592,11 @@ PrefabInstance:
       value: 51.42849125, -1.8542195
       objectReference: {fileID: 0}
     - target: {fileID: 9196987336573309532, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[0].Materials.Array.data[0]
+      propertyPath: '_vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[0].Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9196987336573309532, guid: 4e5ad4b6faa38e14fbd27f0bbe609644, type: 3}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[1].Materials.Array.data[0]
+      propertyPath: '_vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[1].Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -2749,7 +2745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 27291.537
     y: 25132.387
-    width: 136.58536
+    width: 135.48999
     height: 40
   nodeName: Test Behaviour
   nodeDescription: Will play when any achievement is unlocked (linked or postcard
@@ -2802,8 +2798,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &949217714
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2817,7 +2812,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: Linked_Group
+  key: Achievement Test
+  propertyReferences: []
   value: {fileID: 991332991}
 --- !u!114 &949217715
 MonoBehaviour:
@@ -2835,7 +2831,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 27225.537
     y: 24976.387
-    width: 268.29297
+    width: 266.75
     height: 246
   nodeName: Achievement Test
   nodeDescription: Basic building block of a narrative engine
@@ -2878,7 +2874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 26359.537
     y: 25234.387
-    width: 137.80487
+    width: 136.69
     height: 40
   nodeName: LocationFailure
   nodeDescription: Basic building block of a narrative engine
@@ -2944,6 +2940,8 @@ MonoBehaviour:
   hideThisOption: 0
   closeMenuOnSelect: 1
   buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
+  saveSettings: 0
 --- !u!114 &949217739
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2972,6 +2970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Backup
+  propertyReferences: []
   value: {fileID: 0}
 --- !u!114 &949217741
 MonoBehaviour:
@@ -2987,6 +2986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: NewLocation
+  propertyReferences: []
   value: {fileID: 0}
 --- !u!114 &949217742
 MonoBehaviour:
@@ -3004,7 +3004,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 27737.537
     y: 25030.387
-    width: 136.58536
+    width: 135.56
     height: 40
   nodeName: LocationTester
   nodeDescription: Basic building block of a narrative engine
@@ -3070,8 +3070,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &949217762
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3086,6 +3085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: LocationTest
+  propertyReferences: []
   value: {fileID: 0}
 --- !u!114 &949217780
 MonoBehaviour:
@@ -3103,7 +3103,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 26400.877
     y: 25302.277
-    width: 129.26828
+    width: 127.48
     height: 40
   nodeName: ShowStickers
   nodeDescription: Basic building block of a narrative engine
@@ -3155,6 +3155,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  buttonSound: {fileID: 0}
 --- !u!114 &949217782
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3183,9 +3184,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26767.951
-    y: 25282.758
-    width: 91.46341
+    x: 26741.93
+    y: 25332.066
+    width: 91.64
     height: 40
   nodeName: Node 3
   nodeDescription: Basic building block of a narrative engine
@@ -3210,7 +3211,7 @@ MonoBehaviour:
   NodeComplete: 0
 --- !u!114 &949217801
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3227,7 +3228,7 @@ MonoBehaviour:
   addIfAlreadyInInventory: 1
 --- !u!114 &949217802
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3244,7 +3245,7 @@ MonoBehaviour:
   addIfAlreadyInInventory: 1
 --- !u!114 &949217803
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3270,7 +3271,7 @@ GameObject:
   - component: {fileID: 991332992}
   - component: {fileID: 991332991}
   m_Layer: 0
-  m_Name: Linked_Group
+  m_Name: Achievement Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4293,7 +4294,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7039259536982662330, guid: 0973709683afc8b49b81c6eeed1e4c3f, type: 3}
-      propertyPath: engines.Array.data[0]
+      propertyPath: 'engines.Array.data[0]'
       value: 
       objectReference: {fileID: 781823837}
     - target: {fileID: 7942912827991774118, guid: 0973709683afc8b49b81c6eeed1e4c3f, type: 3}
