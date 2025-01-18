@@ -1606,7 +1606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25872.725
+    x: 25871.725
     y: 24433.637
     width: 113.020004
     height: 40
@@ -2486,7 +2486,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 25699.225
-    y: 24433.137
+    y: 24432.137
     width: 106.020004
     height: 40
   nodeName: Set Sprite

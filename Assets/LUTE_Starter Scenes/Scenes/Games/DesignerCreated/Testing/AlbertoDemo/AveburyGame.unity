@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -162,7 +158,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7039259536982662330, guid: 0973709683afc8b49b81c6eeed1e4c3f, type: 3}
-      propertyPath: engines.Array.data[0]
+      propertyPath: 'engines.Array.data[0]'
       value: 
       objectReference: {fileID: 1034535573}
     - target: {fileID: 7942912827991774118, guid: 0973709683afc8b49b81c6eeed1e4c3f, type: 3}
@@ -1598,11 +1594,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1936438535394246270, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[0].Materials.Array.data[0]
+      propertyPath: '_vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[0].Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1936438535394246270, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[1].Materials.Array.data[0]
+      propertyPath: '_vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[1].Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2069400216335030655, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -1634,11 +1630,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2295455367105576888, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _waypoints.Array.data[0]
+      propertyPath: '_waypoints.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2295455367105576888, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _waypoints.Array.data[1]
+      propertyPath: '_waypoints.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2314671349316445044, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -1754,19 +1750,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[0]
+      propertyPath: '_latitudeLongitude.Array.data[0]'
       value: 51.428491, -1.854219
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[1]
+      propertyPath: '_latitudeLongitude.Array.data[1]'
       value: 48.859489, 2.32030
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[2]
+      propertyPath: '_latitudeLongitude.Array.data[2]'
       value: 48.859489, 2.32045
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[3]
+      propertyPath: '_latitudeLongitude.Array.data[3]'
       value: 48.859489, 2.32060
       objectReference: {fileID: 0}
     - target: {fileID: 3804884752071051529, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -2266,7 +2262,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groups.Array.data[0]
+      propertyPath: 'groups.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -2282,35 +2278,35 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[0]
+      propertyPath: 'variables.Array.data[0]'
       value: 
       objectReference: {fileID: 1034535656}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[1]
+      propertyPath: 'variables.Array.data[1]'
       value: 
       objectReference: {fileID: 1034535657}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[2]
+      propertyPath: 'variables.Array.data[2]'
       value: 
       objectReference: {fileID: 1034535658}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[3]
+      propertyPath: 'variables.Array.data[3]'
       value: 
       objectReference: {fileID: 1034535684}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[4]
+      propertyPath: 'variables.Array.data[4]'
       value: 
       objectReference: {fileID: 1034535689}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[5]
+      propertyPath: 'variables.Array.data[5]'
       value: 
       objectReference: {fileID: 1034535688}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[6]
+      propertyPath: 'variables.Array.data[6]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groupnames.Array.data[0]
+      propertyPath: 'groupnames.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -2322,27 +2318,27 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[0]
+      propertyPath: 'selectedNodes.Array.data[0]'
       value: 
       objectReference: {fileID: 1034535599}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[1]
+      propertyPath: 'selectedNodes.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[2]
+      propertyPath: 'selectedNodes.Array.data[2]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[3]
+      propertyPath: 'selectedNodes.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[4]
+      propertyPath: 'selectedNodes.Array.data[4]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedOrders.Array.data[0]
+      propertyPath: 'selectedOrders.Array.data[0]'
       value: 
       objectReference: {fileID: 1034535690}
     - target: {fileID: 8715595856689934979, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -2679,8 +2675,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -120.11026
-    y: -515.39685
-    width: 106.83058
+    y: -517.0362
+    width: 109.71
     height: 40
   nodeName: Question 1
   nodeDescription: Central Avebury
@@ -2718,11 +2714,15 @@ MonoBehaviour:
   text: Banana Man
   description: 
   targetNode: {fileID: 1034535593}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 1002202588}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535592
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2754,6 +2754,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535593
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2770,7 +2771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 85.98572
     y: -540.94464
-    width: 100.27321
+    width: 101.82
     height: 40
   nodeName: Correct 1
   nodeDescription: Shows an corresponding info panel based on the node it came from
@@ -2809,7 +2810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -372.95972
     y: -492.3694
-    width: 99.18031
+    width: 101.04
     height: 40
   nodeName: Incorrect
   nodeDescription: show incorrect panel/image then cancel the question node so it
@@ -2847,11 +2848,15 @@ MonoBehaviour:
   text: A Dog
   description: 
   targetNode: {fileID: 1034535594}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 1002202588}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535597
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2866,8 +2871,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   customButtonIcon: {fileID: 21300000, guid: 53d730aba6cc75a448e5094c794b80bd, type: 3}
   setIconButton: {fileID: 0}
-  inventory: {fileID: 722612698}
   showIcon: 1
+  buttonFeedback: {fileID: 0}
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  buttonSound: {fileID: 0}
+  inventory: {fileID: 722612698}
 --- !u!114 &1034535599
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2884,7 +2894,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 363.1726
     y: -577.0358
-    width: 113.387955
+    width: 116.26
     height: 40
   nodeName: Menu Items
   nodeDescription: Basic building block of a narrative engine
@@ -2938,6 +2948,11 @@ MonoBehaviour:
   customButtonIcon: {fileID: 21300000, guid: 5bfab30af7233e94688428361b4ee076, type: 3}
   setIconButton: {fileID: 0}
   showIcon: 1
+  buttonFeedback: {fileID: 0}
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535617
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2969,6 +2984,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535624
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3013,8 +3029,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   customButtonIcon: {fileID: 21300000, guid: 4f8bf5b672858b447801748c33406026, type: 3}
   setIconButton: {fileID: 0}
-  setList: {fileID: 0}
   showIcon: 1
+  buttonFeedback: {fileID: 0}
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  buttonSound: {fileID: 0}
+  setList: {fileID: 0}
 --- !u!114 &1034535628
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3031,7 +3052,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -119.548706
     y: -459.3145
-    width: 107.92348
+    width: 111.4
     height: 40
   nodeName: Question 2
   nodeDescription: Manor House
@@ -3085,6 +3106,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535631
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3100,11 +3122,15 @@ MonoBehaviour:
   text: Mr Cool
   description: 
   targetNode: {fileID: 1034535594}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535632
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3120,11 +3146,15 @@ MonoBehaviour:
   text: Mr Egg
   description: 
   targetNode: {fileID: 1034535633}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535633
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3141,7 +3171,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.16362
     y: -466.27338
-    width: 101.366104
+    width: 103.509995
     height: 40
   nodeName: Correct 2
   nodeDescription: Basic building block of a narrative engine
@@ -3221,6 +3251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Cove
+  propertyReferences: []
   value: {fileID: 11400000, guid: 4609a0df513e2e745b8e036283e762a1, type: 2}
 --- !u!114 &1034535657
 MonoBehaviour:
@@ -3236,6 +3267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Banks
+  propertyReferences: []
   value: {fileID: 11400000, guid: 6895b74a5b1f54841ac2356c6d16d2fa, type: 2}
 --- !u!114 &1034535658
 MonoBehaviour:
@@ -3251,6 +3283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: BarberStone
+  propertyReferences: []
   value: {fileID: 11400000, guid: 780726421f0dbb845bd9b50054fd929e, type: 2}
 --- !u!114 &1034535659
 MonoBehaviour:
@@ -3268,7 +3301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -125.298706
     y: -405.3145
-    width: 109.01637
+    width: 111.78
     height: 40
   nodeName: Question 3
   nodeDescription: Basic building block of a narrative engine
@@ -3337,7 +3370,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.16362
     y: -403.27338
-    width: 102.459
+    width: 103.89
     height: 40
   nodeName: Correct 3
   nodeDescription: Basic building block of a narrative engine
@@ -3390,6 +3423,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535664
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3405,11 +3439,15 @@ MonoBehaviour:
   text: Steamland
   description: 
   targetNode: {fileID: 1034535594}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535665
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3425,11 +3463,15 @@ MonoBehaviour:
   text: Avebury
   description: 
   targetNode: {fileID: 1034535662}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535669
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3445,8 +3487,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 361.0609
-    y: -504.49585
-    width: 128.68849
+    y: -506.1352
+    width: 130.51001
     height: 40
   nodeName: Start Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -3499,6 +3541,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535671
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3561,6 +3604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Obelisk
+  propertyReferences: []
   value: {fileID: 11400000, guid: 316fda83a3081c847886a5544cfe2ff6, type: 2}
 --- !u!114 &1034535688
 MonoBehaviour:
@@ -3576,6 +3620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: StoneCircle
+  propertyReferences: []
   value: {fileID: 11400000, guid: 5b49f528c49bb59438920a1ac10e6ccf, type: 2}
 --- !u!114 &1034535689
 MonoBehaviour:
@@ -3591,6 +3636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: InnerCircle
+  propertyReferences: []
   value: {fileID: 11400000, guid: 53511e5d7409dc1468297807e9f347d1, type: 2}
 --- !u!114 &1034535690
 MonoBehaviour:
@@ -3607,9 +3653,11 @@ MonoBehaviour:
   customButtonIcon: {fileID: 21300000, guid: bf01c73da455bc446be28c24cf1b3ce5, type: 3}
   setIconButton: {fileID: 0}
   showIcon: 1
+  buttonFeedback: {fileID: 0}
   buttonEvent:
     m_PersistentCalls:
       m_Calls: []
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535691
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3656,7 +3704,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.44304
     y: -210.03409
-    width: 101.366104
+    width: 103.729996
     height: 40
   nodeName: Correct 6
   nodeDescription: Basic building block of a narrative engine
@@ -3724,7 +3772,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 88.00041
     y: -280.52588
-    width: 101.366104
+    width: 103.55
     height: 40
   nodeName: Correct 5
   nodeDescription: Basic building block of a narrative engine
@@ -3792,7 +3840,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 88.00041
     y: -339.54224
-    width: 102.459
+    width: 103.96
     height: 40
   nodeName: Correct 4
   nodeDescription: Basic building block of a narrative engine
@@ -3829,11 +3877,15 @@ MonoBehaviour:
   text: Avebury
   description: 
   targetNode: {fileID: 1034535662}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535701
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3849,11 +3901,15 @@ MonoBehaviour:
   text: Steamland
   description: 
   targetNode: {fileID: 1034535594}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535702
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3885,6 +3941,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535703
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3901,7 +3958,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -98.884796
     y: -208.39474
-    width: 107.92348
+    width: 111.619995
     height: 40
   nodeName: Question 6
   nodeDescription: Basic building block of a narrative engine
@@ -3939,11 +3996,15 @@ MonoBehaviour:
   text: Avebury
   description: 
   targetNode: {fileID: 1034535662}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535705
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3959,11 +4020,15 @@ MonoBehaviour:
   text: Steamland
   description: 
   targetNode: {fileID: 1034535594}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535706
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3995,6 +4060,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535707
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4011,7 +4077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -98.884796
     y: -269.05048
-    width: 107.92348
+    width: 111.44
     height: 40
   nodeName: Question 5
   nodeDescription: Basic building block of a narrative engine
@@ -4049,11 +4115,15 @@ MonoBehaviour:
   text: Avebury
   description: 
   targetNode: {fileID: 1034535662}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535709
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4069,11 +4139,15 @@ MonoBehaviour:
   text: Steamland
   description: 
   targetNode: {fileID: 1034535594}
+  justContinue: 0
+  showNextChoice: 0
   hideIfVisited: 0
   interactable: 1
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
+  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
 --- !u!114 &1034535710
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4105,6 +4179,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!114 &1034535711
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4121,7 +4196,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -120.19626
     y: -344.46027
-    width: 109.01637
+    width: 111.84
     height: 40
   nodeName: Question 4
   nodeDescription: Basic building block of a narrative engine
@@ -4455,10 +4530,8 @@ RenderTexture:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
+  serializedVersion: 6
   m_Width: 1461
   m_Height: 661
   m_AntiAliasing: 1
@@ -4469,6 +4542,7 @@ RenderTexture:
   m_GenerateMips: 1
   m_SRGB: 1
   m_UseDynamicScale: 0
+  m_UseDynamicScaleExplicit: 0
   m_BindMS: 0
   m_EnableCompatibleFormat: 1
   m_EnableRandomWrite: 0
@@ -4785,6 +4859,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1174488356745260051, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174488356745260051, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1602403881827374704, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
       propertyPath: m_Camera
       value: 
@@ -4796,6 +4878,18 @@ PrefabInstance:
     - target: {fileID: 2205289510571520907, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653958491984466701, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653958491984466701, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653958491984466701, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2672870621958300050, guid: ecbc705784ae4514295ca214bcad8ba0, type: 3}
       propertyPath: unlockFeedback

@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -348,10 +344,8 @@ RenderTexture:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
+  serializedVersion: 6
   m_Width: 1157
   m_Height: 823
   m_AntiAliasing: 1
@@ -362,6 +356,7 @@ RenderTexture:
   m_GenerateMips: 1
   m_SRGB: 1
   m_UseDynamicScale: 0
+  m_UseDynamicScaleExplicit: 0
   m_BindMS: 0
   m_EnableCompatibleFormat: 1
   m_EnableRandomWrite: 0
@@ -668,7 +663,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7039259536982662330, guid: 0973709683afc8b49b81c6eeed1e4c3f, type: 3}
-      propertyPath: engines.Array.data[0]
+      propertyPath: 'engines.Array.data[0]'
       value: 
       objectReference: {fileID: 1034535573}
     - target: {fileID: 7942912827991774118, guid: 0973709683afc8b49b81c6eeed1e4c3f, type: 3}
@@ -2022,15 +2017,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -2848,15 +2845,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -3716,7 +3715,7 @@ PrefabInstance:
       value: Dr. Webb
       objectReference: {fileID: 0}
     - target: {fileID: 434510967925487979, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: characterPortraits.Array.data[0]
+      propertyPath: 'characterPortraits.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: deaf0d10c1d18b44a82b5f34f26fc338, type: 3}
     - target: {fileID: 496504999456748656, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -3756,7 +3755,7 @@ PrefabInstance:
       value: Finley
       objectReference: {fileID: 0}
     - target: {fileID: 726365311240392868, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: characterPortraits.Array.data[0]
+      propertyPath: 'characterPortraits.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 68a9f8b4ebb003448be3ea2893944cb3, type: 3}
     - target: {fileID: 775363441165077150, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -4052,11 +4051,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1936438535394246270, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[0].Materials.Array.data[0]
+      propertyPath: '_vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[0].Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1936438535394246270, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[1].Materials.Array.data[0]
+      propertyPath: '_vectorData._layerProperty.vectorSubLayers.Array.data[0].materialOptions.materials.Array.data[1].Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2069400216335030655, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -4088,11 +4087,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2295455367105576888, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _waypoints.Array.data[0]
+      propertyPath: '_waypoints.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2295455367105576888, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _waypoints.Array.data[1]
+      propertyPath: '_waypoints.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2314671349316445044, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -4308,19 +4307,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[0]
+      propertyPath: '_latitudeLongitude.Array.data[0]'
       value: 51.428491, -1.854219
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[1]
+      propertyPath: '_latitudeLongitude.Array.data[1]'
       value: 48.859489, 2.32030
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[2]
+      propertyPath: '_latitudeLongitude.Array.data[2]'
       value: 48.859489, 2.32045
       objectReference: {fileID: 0}
     - target: {fileID: 3426012756570791379, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: _latitudeLongitude.Array.data[3]
+      propertyPath: '_latitudeLongitude.Array.data[3]'
       value: 48.859489, 2.32060
       objectReference: {fileID: 0}
     - target: {fileID: 3529640426392764723, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -4408,7 +4407,7 @@ PrefabInstance:
       value: Henry
       objectReference: {fileID: 0}
     - target: {fileID: 4086195344475215711, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: characterPortraits.Array.data[0]
+      propertyPath: 'characterPortraits.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 8db00d0ccf567d44ca784b516765365c, type: 3}
     - target: {fileID: 4139589153010598153, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -4492,7 +4491,7 @@ PrefabInstance:
       value: Clara
       objectReference: {fileID: 0}
     - target: {fileID: 4563077360956677471, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: characterPortraits.Array.data[0]
+      propertyPath: 'characterPortraits.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: a035b6a7a5fd0f84badccd8e27bf6c8d, type: 3}
     - target: {fileID: 4754314516596845260, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -5424,27 +5423,27 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groups.Array.data[0]
+      propertyPath: 'groups.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groups.Array.data[1]
+      propertyPath: 'groups.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groups.Array.data[2]
+      propertyPath: 'groups.Array.data[2]'
       value: 
       objectReference: {fileID: 1034536475}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groups.Array.data[3]
+      propertyPath: 'groups.Array.data[3]'
       value: 
       objectReference: {fileID: 1034536477}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groups.Array.data[4]
+      propertyPath: 'groups.Array.data[4]'
       value: 
       objectReference: {fileID: 1034536479}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groups.Array.data[5]
+      propertyPath: 'groups.Array.data[5]'
       value: 
       objectReference: {fileID: 1034536489}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -5460,63 +5459,63 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[0]
+      propertyPath: 'variables.Array.data[0]'
       value: 
       objectReference: {fileID: 1034535942}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[1]
+      propertyPath: 'variables.Array.data[1]'
       value: 
       objectReference: {fileID: 1034535656}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[2]
+      propertyPath: 'variables.Array.data[2]'
       value: 
       objectReference: {fileID: 1034535657}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[3]
+      propertyPath: 'variables.Array.data[3]'
       value: 
       objectReference: {fileID: 1034535658}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[4]
+      propertyPath: 'variables.Array.data[4]'
       value: 
       objectReference: {fileID: 1034535684}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[5]
+      propertyPath: 'variables.Array.data[5]'
       value: 
       objectReference: {fileID: 1034536451}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[6]
+      propertyPath: 'variables.Array.data[6]'
       value: 
       objectReference: {fileID: 1034535689}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[7]
+      propertyPath: 'variables.Array.data[7]'
       value: 
       objectReference: {fileID: 1034535941}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[8]
+      propertyPath: 'variables.Array.data[8]'
       value: 
       objectReference: {fileID: 1034535958}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[9]
+      propertyPath: 'variables.Array.data[9]'
       value: 
       objectReference: {fileID: 1034536272}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groupnames.Array.data[0]
+      propertyPath: 'groupnames.Array.data[0]'
       value: Maji Dialogue
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groupnames.Array.data[2]
+      propertyPath: 'groupnames.Array.data[2]'
       value: Location Unlocking
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groupnames.Array.data[3]
+      propertyPath: 'groupnames.Array.data[3]'
       value: Menu Components
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groupnames.Array.data[4]
+      propertyPath: 'groupnames.Array.data[4]'
       value: Dr Webb Tutorial
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: groupnames.Array.data[5]
+      propertyPath: 'groupnames.Array.data[5]'
       value: Location-Based Dialogues
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -5524,55 +5523,55 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[10]
+      propertyPath: 'variables.Array.data[10]'
       value: 
       objectReference: {fileID: 1034536287}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[11]
+      propertyPath: 'variables.Array.data[11]'
       value: 
       objectReference: {fileID: 1034535981}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[12]
+      propertyPath: 'variables.Array.data[12]'
       value: 
       objectReference: {fileID: 1034536050}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[13]
+      propertyPath: 'variables.Array.data[13]'
       value: 
       objectReference: {fileID: 1034536474}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[14]
+      propertyPath: 'variables.Array.data[14]'
       value: 
       objectReference: {fileID: 1034536478}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[15]
+      propertyPath: 'variables.Array.data[15]'
       value: 
       objectReference: {fileID: 1034536488}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[16]
+      propertyPath: 'variables.Array.data[16]'
       value: 
       objectReference: {fileID: 1034536476}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[17]
+      propertyPath: 'variables.Array.data[17]'
       value: 
       objectReference: {fileID: 1034536497}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[18]
+      propertyPath: 'variables.Array.data[18]'
       value: 
       objectReference: {fileID: 1034536496}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[19]
+      propertyPath: 'variables.Array.data[19]'
       value: 
       objectReference: {fileID: 1034536495}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[20]
+      propertyPath: 'variables.Array.data[20]'
       value: 
       objectReference: {fileID: 1034536498}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[21]
+      propertyPath: 'variables.Array.data[21]'
       value: 
       objectReference: {fileID: 1034536507}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: variables.Array.data[22]
+      propertyPath: 'variables.Array.data[22]'
       value: 
       objectReference: {fileID: 1034536517}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -5584,87 +5583,87 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[0]
+      propertyPath: 'selectedNodes.Array.data[0]'
       value: 
       objectReference: {fileID: 1034535861}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[1]
+      propertyPath: 'selectedNodes.Array.data[1]'
       value: 
       objectReference: {fileID: 1034535858}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[2]
+      propertyPath: 'selectedNodes.Array.data[2]'
       value: 
       objectReference: {fileID: 1034535853}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[3]
+      propertyPath: 'selectedNodes.Array.data[3]'
       value: 
       objectReference: {fileID: 1034535849}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[4]
+      propertyPath: 'selectedNodes.Array.data[4]'
       value: 
       objectReference: {fileID: 1034535845}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[5]
+      propertyPath: 'selectedNodes.Array.data[5]'
       value: 
       objectReference: {fileID: 1034535838}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[6]
+      propertyPath: 'selectedNodes.Array.data[6]'
       value: 
       objectReference: {fileID: 1034535831}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[7]
+      propertyPath: 'selectedNodes.Array.data[7]'
       value: 
       objectReference: {fileID: 1034535825}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[8]
+      propertyPath: 'selectedNodes.Array.data[8]'
       value: 
       objectReference: {fileID: 1034535817}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[9]
+      propertyPath: 'selectedNodes.Array.data[9]'
       value: 
       objectReference: {fileID: 1034535809}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: optionSettings.Array.data[0]
+      propertyPath: 'optionSettings.Array.data[0]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[10]
+      propertyPath: 'selectedNodes.Array.data[10]'
       value: 
       objectReference: {fileID: 1034536112}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[11]
+      propertyPath: 'selectedNodes.Array.data[11]'
       value: 
       objectReference: {fileID: 1034536109}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[12]
+      propertyPath: 'selectedNodes.Array.data[12]'
       value: 
       objectReference: {fileID: 1034536103}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[13]
+      propertyPath: 'selectedNodes.Array.data[13]'
       value: 
       objectReference: {fileID: 1034536097}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[14]
+      propertyPath: 'selectedNodes.Array.data[14]'
       value: 
       objectReference: {fileID: 1034536092}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[15]
+      propertyPath: 'selectedNodes.Array.data[15]'
       value: 
       objectReference: {fileID: 1034536087}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[16]
+      propertyPath: 'selectedNodes.Array.data[16]'
       value: 
       objectReference: {fileID: 1034536081}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[17]
+      propertyPath: 'selectedNodes.Array.data[17]'
       value: 
       objectReference: {fileID: 1034536060}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedNodes.Array.data[18]
+      propertyPath: 'selectedNodes.Array.data[18]'
       value: 
       objectReference: {fileID: 1034536062}
     - target: {fileID: 8642065374393819403, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
-      propertyPath: selectedOrders.Array.data[0]
+      propertyPath: 'selectedOrders.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8647909171326844323, guid: ba9b3434c907a5948a27e87a2fde18d9, type: 3}
@@ -8094,7 +8093,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2360.0068
     y: -628.97656
-    width: 117
+    width: 118.7
     height: 40
   nodeName: Introduction
   nodeDescription: Shows an corresponding info panel based on the node it came from
@@ -8154,7 +8153,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2497.2642
     y: 180.8825
-    width: 115
+    width: 116.26
     height: 40
   nodeName: Menu Items
   nodeDescription: Basic building block of a narrative engine
@@ -8257,6 +8256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Cove
+  propertyReferences: []
   value: {fileID: 11400000, guid: 4609a0df513e2e745b8e036283e762a1, type: 2}
 --- !u!114 &1034535657
 MonoBehaviour:
@@ -8272,6 +8272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Banks
+  propertyReferences: []
   value: {fileID: 11400000, guid: 6895b74a5b1f54841ac2356c6d16d2fa, type: 2}
 --- !u!114 &1034535658
 MonoBehaviour:
@@ -8287,6 +8288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: BarberStone
+  propertyReferences: []
   value: {fileID: 11400000, guid: 780726421f0dbb845bd9b50054fd929e, type: 2}
 --- !u!114 &1034535669
 MonoBehaviour:
@@ -8304,7 +8306,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2304.0967
     y: 266.1095
-    width: 130
+    width: 130.51001
     height: 40
   nodeName: Start Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -8364,6 +8366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Obelisk
+  propertyReferences: []
   value: {fileID: 11400000, guid: 316fda83a3081c847886a5544cfe2ff6, type: 2}
 --- !u!114 &1034535689
 MonoBehaviour:
@@ -8379,6 +8382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: StoneCircle
+  propertyReferences: []
   value: {fileID: 11400000, guid: 5b49f528c49bb59438920a1ac10e6ccf, type: 2}
 --- !u!114 &1034535700
 MonoBehaviour:
@@ -8437,8 +8441,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535703
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8455,7 +8458,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2359.9556
     y: -550.0935
-    width: 157
+    width: 157.26999
     height: 40
   nodeName: Katrine - The Cove
   nodeDescription: Basic building block of a narrative engine
@@ -8513,8 +8516,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535748
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8531,7 +8533,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1912.0154
     y: 201.93793
-    width: 151
+    width: 151.13
     height: 40
   nodeName: Maji 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -8586,8 +8588,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535750
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8604,7 +8605,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1905.376
     y: 134.35184
-    width: 113
+    width: 113.020004
     height: 40
   nodeName: Maji - Start
   nodeDescription: Basic building block of a narrative engine
@@ -8658,8 +8659,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535752
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8748,7 +8748,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1911.0569
     y: 256.81787
-    width: 158
+    width: 157.85
     height: 40
   nodeName: Maji - 3rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -8803,8 +8803,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535758
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8845,7 +8844,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1907.7695
     y: 391.06824
-    width: 158
+    width: 157.45999
     height: 40
   nodeName: Maji - 4th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -8903,8 +8902,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535765
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8937,8 +8935,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535766
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8972,8 +8969,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535767
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8990,7 +8986,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2023.4263
     y: 532.31573
-    width: 157
+    width: 156.61
     height: 40
   nodeName: Maji - 7th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -9145,8 +9141,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535773
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9179,8 +9174,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535774
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9214,8 +9208,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535775
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9232,7 +9225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1797.7705
     y: 467.7484
-    width: 157
+    width: 157.23999
     height: 40
   nodeName: Maji - 6th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -9336,8 +9329,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535779
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9370,8 +9362,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535780
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9388,7 +9379,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2030.581
     y: 467.63562
-    width: 157
+    width: 157.05
     height: 40
   nodeName: Maji - 5th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -9446,8 +9437,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535783
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9479,8 +9469,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535784
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9513,8 +9502,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535785
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9547,8 +9535,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535786
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9581,8 +9568,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535787
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9684,8 +9670,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535794
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9718,8 +9703,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535795
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9736,7 +9720,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1936.8723
     y: 322.2307
-    width: 209
+    width: 210.39
     height: 40
   nodeName: Maji - 3.5rd Dialogue (Copy)
   nodeDescription: Basic building block of a narrative engine
@@ -9805,8 +9789,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535798
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9893,8 +9876,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535802
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9927,8 +9909,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535803
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9961,8 +9942,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535804
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9994,7 +9974,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1811.8699
     y: 528.1635
-    width: 157
+    width: 157.15
     height: 40
   nodeName: Maji - 8th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -10069,7 +10049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1888.3076
     y: 584.4398
-    width: 107
+    width: 107.06
     height: 40
   nodeName: Maji - End
   nodeDescription: Basic building block of a narrative engine
@@ -10107,7 +10087,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1333.7631
     y: 790.9979
-    width: 117
+    width: 117.35
     height: 40
   nodeName: Finley - End
   nodeDescription: Basic building block of a narrative engine
@@ -10209,8 +10189,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535814
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10243,8 +10222,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535815
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10277,8 +10255,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535816
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10310,7 +10287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1235.8242
     y: 722.1205
-    width: 167
+    width: 167.45
     height: 40
   nodeName: Finley - 8th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -10420,8 +10397,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535822
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10454,8 +10430,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535823
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10488,8 +10463,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535824
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10521,7 +10495,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1489.9585
     y: 735.20984
-    width: 167
+    width: 166.9
     height: 40
   nodeName: Finley - 7th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -10629,8 +10603,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535829
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10662,8 +10635,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535830
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10695,7 +10667,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1240.9955
     y: 666.9744
-    width: 167
+    width: 167.53
     height: 40
   nodeName: Finley - 6th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -10801,8 +10773,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535835
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10835,8 +10806,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535836
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10868,8 +10838,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535837
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10901,7 +10870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1491.0342
     y: 667.12537
-    width: 167
+    width: 167.34
     height: 40
   nodeName: Finley - 5th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -11007,8 +10976,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535844
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11041,8 +11009,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535845
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11059,7 +11026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1364.1277
     y: 604.8884
-    width: 168
+    width: 167.75
     height: 40
   nodeName: Finley - 4th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -11115,8 +11082,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535848
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11149,8 +11115,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535849
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11167,7 +11132,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1373.2676
     y: 531.4166
-    width: 181
+    width: 181.3
     height: 40
   nodeName: Finley - 3.5nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -11247,8 +11212,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535852
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11281,8 +11245,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535853
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11299,7 +11262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1368.0469
     y: 467.93793
-    width: 168
+    width: 168.14
     height: 40
   nodeName: Finley - 3rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -11404,8 +11367,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535857
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11437,8 +11399,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535858
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11455,7 +11416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1367.362
     y: 409.43665
-    width: 170
+    width: 170.32
     height: 40
   nodeName: Finley - 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -11535,8 +11496,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535861
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11553,7 +11513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1343.3699
     y: 348.54352
-    width: 123
+    width: 123.32
     height: 40
   nodeName: Finley - Start
   nodeDescription: Basic building block of a narrative engine
@@ -11608,8 +11568,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535863
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11665,8 +11624,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535865
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11699,8 +11657,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535866
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11733,8 +11690,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535867
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11767,8 +11723,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535868
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11816,8 +11771,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535870
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11834,7 +11788,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2325.2034
     y: 489.43103
-    width: 176
+    width: 177.73999
     height: 40
   nodeName: DrWebb - 1st Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -11891,8 +11845,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535872
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11970,8 +11923,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535877
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12007,8 +11959,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535878
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12040,7 +11991,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 238.36023
     y: 1817.6587
-    width: 128
+    width: 130.29001
     height: 40
   nodeName: DrWebb - End
   nodeDescription: Basic building block of a narrative engine
@@ -12120,8 +12071,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535883
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12138,7 +12088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2323.4458
     y: 598.7217
-    width: 179
+    width: 181.08
     height: 40
   nodeName: DrWebb - 3rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -12244,8 +12194,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535888
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12262,7 +12211,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2324.4893
     y: 542.68787
-    width: 181
+    width: 183.26
     height: 40
   nodeName: DrWebb - 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -12303,7 +12252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2324.8145
     y: 647.00684
-    width: 179
+    width: 180.69
     height: 40
   nodeName: DrWebb - 4th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -12381,8 +12330,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535895
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12414,8 +12362,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535897
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12447,8 +12394,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535898
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12481,8 +12427,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535899
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12517,8 +12462,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535900
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12550,8 +12494,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535901
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12584,8 +12527,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535902
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12618,8 +12560,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535903
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12652,8 +12593,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535904
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12685,8 +12625,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535905
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12719,8 +12658,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535906
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12753,8 +12691,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535908
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12786,8 +12723,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535912
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12804,7 +12740,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 215.41711
     y: 1662.2424
-    width: 178
+    width: 180.47
     height: 40
   nodeName: DrWebb - 6th Dialogue
   nodeDescription: Dialogue to fire with boolean
@@ -12884,8 +12820,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535919
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12918,8 +12853,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535920
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12951,8 +12885,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535921
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12988,8 +12921,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535922
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13021,8 +12953,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535923
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13054,8 +12985,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535924
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13088,8 +13018,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535925
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13106,7 +13035,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2323.1016
     y: 703.6225
-    width: 178
+    width: 180.28
     height: 40
   nodeName: DrWebb - 5th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -13213,8 +13142,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535930
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13248,8 +13176,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535931
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13284,8 +13211,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535932
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13322,8 +13248,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535933
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13340,7 +13265,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 391.29724
     y: 1734.3163
-    width: 178
+    width: 180.38
     height: 40
   nodeName: DrWebb - 8th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -13416,8 +13341,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535936
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13451,8 +13375,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535937
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13487,8 +13410,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535938
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13525,8 +13447,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535939
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13543,7 +13464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.4032
     y: 1725.8923
-    width: 178
+    width: 179.84
     height: 40
   nodeName: DrWebb - 7th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -13607,6 +13528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: FirstTutorialComplete
+  propertyReferences: []
   value: 0
 --- !u!114 &1034535942
 MonoBehaviour:
@@ -13622,6 +13544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Barn
+  propertyReferences: []
   value: {fileID: 11400000, guid: f16cdbbbcdf995546be6761f34d8cd52, type: 2}
 --- !u!114 &1034535943
 MonoBehaviour:
@@ -13639,7 +13562,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2966.673
     y: 1251.2202
-    width: 183
+    width: 185
     height: 40
   nodeName: DrWebb2 - 1st Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -13699,8 +13622,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535948
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13733,8 +13655,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034535958
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13749,6 +13670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: SecondTutorialComplete
+  propertyReferences: []
   value: 0
 --- !u!114 &1034535959
 MonoBehaviour:
@@ -13766,7 +13688,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2866.2292
     y: -352.36176
-    width: 162
+    width: 162.18
     height: 40
   nodeName: Unlock Tutorial One
   nodeDescription: Basic building block of a narrative engine
@@ -13806,7 +13728,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2687.4446
     y: -347.9001
-    width: 164
+    width: 163.64
     height: 40
   nodeName: Unlock Tutorial Two
   nodeDescription: Basic building block of a narrative engine
@@ -13880,6 +13802,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -13916,6 +13859,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -13949,6 +13913,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034535964
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14016,6 +14001,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -14052,6 +14058,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -14085,6 +14112,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034535970
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14132,6 +14180,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 0
   var: {fileID: 0}
   integerData:
@@ -14146,6 +14215,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034535971
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14193,6 +14268,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 0
   var: {fileID: 0}
   integerData:
@@ -14207,6 +14303,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034535976
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14291,6 +14393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: StartDialogue
+  propertyReferences: []
   value: {fileID: 1034535669}
 --- !u!114 &1034535983
 MonoBehaviour:
@@ -14358,6 +14461,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -14394,6 +14518,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -14427,6 +14572,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034535986
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14522,7 +14688,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2624.6924
     y: 178.8678
-    width: 120
+    width: 119.65
     height: 40
   nodeName: Pause Menu
   nodeDescription: Basic building block of a narrative engine
@@ -14665,7 +14831,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2622.5806
     y: 268.0417
-    width: 113
+    width: 112.34
     height: 40
   nodeName: Main Menu
   nodeDescription: Basic building block of a narrative engine
@@ -14778,7 +14944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2785.121
     y: 273.8678
-    width: 70
+    width: 70.87
     height: 40
   nodeName: Exit
   nodeDescription: Basic building block of a narrative engine
@@ -14960,6 +15126,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 0
   var: {fileID: 0}
   integerData:
@@ -14974,6 +15161,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034536020
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14990,7 +15183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2770.3696
     y: 1367.9521
-    width: 135
+    width: 137.55
     height: 40
   nodeName: DrWebb2 - End
   nodeDescription: Basic building block of a narrative engine
@@ -15064,6 +15257,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -15100,6 +15314,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -15133,6 +15368,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536022
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15179,8 +15435,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536032
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15231,8 +15486,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536034
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15267,8 +15521,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536035
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15300,8 +15553,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536036
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15334,8 +15586,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536037
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15370,8 +15621,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536038
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15403,8 +15653,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536039
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15437,8 +15686,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536040
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15470,8 +15718,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536041
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15503,8 +15750,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536042
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15536,8 +15782,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536043
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15588,6 +15833,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -15624,6 +15890,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -15657,6 +15944,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536044
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15673,7 +15981,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0.3100586
     y: 1887.8354
-    width: 224
+    width: 226.95
     height: 40
   nodeName: DrWebb2 - 1st Dialogue (Copy)
   nodeDescription: Basic building block of a narrative engine
@@ -15783,7 +16091,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2675.3242
     y: -427.6512
-    width: 140
+    width: 142.63
     height: 40
   nodeName: Prefix Text Start
   nodeDescription: Basic building block of a narrative engine
@@ -15857,6 +16165,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -15893,6 +16222,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -15926,6 +16276,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536050
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15940,6 +16311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: FirstPlay
+  propertyReferences: []
   value: 1
 --- !u!114 &1034536051
 MonoBehaviour:
@@ -15988,6 +16360,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 0
   var: {fileID: 0}
   integerData:
@@ -16002,6 +16395,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034536052
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16039,7 +16438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2789.5854
     y: 181.06116
-    width: 90
+    width: 91.119995
     height: 40
   nodeName: Credits
   nodeDescription: Basic building block of a narrative engine
@@ -16160,7 +16559,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2788.5854
     y: 229.8847
-    width: 109
+    width: 108.79
     height: 40
   nodeName: Disclaimer
   nodeDescription: Basic building block of a narrative engine
@@ -16220,7 +16619,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -891.5237
     y: 741.56726
-    width: 176
+    width: 177.68
     height: 40
   nodeName: Katrine  - 8th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -16279,7 +16678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -858.9498
     y: 815.0775
-    width: 123
+    width: 124.2
     height: 40
   nodeName: Katrine - End
   nodeDescription: Basic building block of a narrative engine
@@ -16350,8 +16749,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536065
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16384,8 +16782,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536066
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16418,8 +16815,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536067
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16481,8 +16877,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536070
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16514,8 +16909,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536071
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16548,8 +16942,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536072
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16581,8 +16974,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536073
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16614,8 +17006,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536074
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16648,8 +17039,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536075
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16729,8 +17119,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536078
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16762,8 +17151,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536079
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16796,8 +17184,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536080
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16829,7 +17216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -762.47766
     y: 667.8723
-    width: 176
+    width: 177.76001
     height: 40
   nodeName: Katrine  - 6th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -16934,8 +17321,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16970,8 +17356,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536086
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17003,7 +17388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1029.0171
     y: 671.7927
-    width: 176
+    width: 177.57
     height: 40
   nodeName: Katrine  - 5th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -17110,8 +17495,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536091
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17146,8 +17530,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536092
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17164,7 +17547,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -889.46875
     y: 590.7758
-    width: 177
+    width: 177.98001
     height: 40
   nodeName: Katrine  - 4th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -17239,8 +17622,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536095
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17274,8 +17656,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536096
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17308,8 +17689,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536097
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17326,7 +17706,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -891.1803
     y: 522.2021
-    width: 190
+    width: 191.53
     height: 40
   nodeName: Katrine  - 3.5nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -17431,8 +17811,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536101
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17465,8 +17844,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536102
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17498,8 +17876,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536103
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17516,7 +17893,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -878.9542
     y: 462.07965
-    width: 177
+    width: 178.37
     height: 40
   nodeName: Katrine  - 3rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -17620,8 +17997,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536107
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17653,8 +18029,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536108
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17688,8 +18063,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536109
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17706,7 +18080,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -870.926
     y: 405.8417
-    width: 179
+    width: 180.55
     height: 40
   nodeName: Katrine  - 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -17787,8 +18161,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536112
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17805,7 +18178,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -853.5287
     y: 349.91345
-    width: 129
+    width: 130.17
     height: 40
   nodeName: Katrine - Start
   nodeDescription: Basic building block of a narrative engine
@@ -17845,7 +18218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2562.253
     y: 1505.4775
-    width: 163
+    width: 163.48999
     height: 40
   nodeName: Clara - 5th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -17911,7 +18284,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2243.0813
     y: 1584.5864
-    width: 163
+    width: 163.59
     height: 40
   nodeName: Clara - 8th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -17970,7 +18343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2374.45
     y: 1680.8584
-    width: 113
+    width: 113.5
     height: 40
   nodeName: Clara - End
   nodeDescription: Basic building block of a narrative engine
@@ -18058,8 +18431,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536121
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18092,8 +18464,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536122
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18127,8 +18498,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536123
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18184,7 +18554,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2563.2483
     y: 1593.4548
-    width: 163
+    width: 163.05
     height: 40
   nodeName: Clara - 7th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -18293,8 +18663,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536131
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18326,8 +18695,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536132
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18360,8 +18728,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536133
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18408,8 +18775,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536135
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18441,8 +18807,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536136
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18474,8 +18839,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536137
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18523,8 +18887,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536139
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18557,8 +18920,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536140
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18592,8 +18954,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536141
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18626,8 +18987,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536142
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18731,8 +19091,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536146
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18764,8 +19123,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536147
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18798,8 +19156,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536148
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18831,7 +19188,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2249.244
     y: 1507.737
-    width: 163
+    width: 163.68
     height: 40
   nodeName: Clara - 6th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -18936,8 +19293,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536153
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18971,8 +19327,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536154
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19005,8 +19360,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536155
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19023,7 +19377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2408.9229
     y: 1423.5195
-    width: 164
+    width: 163.9
     height: 40
   nodeName: Clara - 4th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -19095,8 +19449,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536158
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19131,8 +19484,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536159
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19167,8 +19519,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536160
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19202,8 +19553,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536161
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19220,7 +19570,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2416.504
     y: 1352.2756
-    width: 177
+    width: 177.45
     height: 40
   nodeName: Clara - 3.5nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -19301,8 +19651,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536164
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19335,8 +19684,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536165
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19368,8 +19716,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536166
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19386,7 +19733,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2410.8354
     y: 1290.812
-    width: 164
+    width: 164.29001
     height: 40
   nodeName: Clara - 3rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -19468,8 +19815,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536169
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19486,7 +19832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2413.1995
     y: 1214.7671
-    width: 166
+    width: 166.47
     height: 40
   nodeName: Clara - 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -19565,8 +19911,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536172
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19583,7 +19928,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2389.7485
     y: 1147.7079
-    width: 119
+    width: 119.47
     height: 40
   nodeName: Clara - Start
   nodeDescription: Basic building block of a narrative engine
@@ -19622,7 +19967,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1808.3354
     y: 1269.8044
-    width: 168
+    width: 168.76001
     height: 40
   nodeName: Henry - 3rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -19665,7 +20010,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1811.159
     y: 1346.2411
-    width: 168
+    width: 168.37
     height: 40
   nodeName: Henry - 4th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -19707,7 +20052,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1779.45
     y: 1678.3584
-    width: 117
+    width: 117.97
     height: 40
   nodeName: Henry - End
   nodeDescription: Basic building block of a narrative engine
@@ -19743,7 +20088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1968.0195
     y: 1586.0112
-    width: 167
+    width: 167.51999
     height: 40
   nodeName: Henry - 7th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -19856,8 +20201,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536196
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19889,8 +20233,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536197
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19924,8 +20267,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536198
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19957,7 +20299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1975.848
     y: 1458.2786
-    width: 167
+    width: 167.95999
     height: 40
   nodeName: Henry - 5th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -20069,8 +20411,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536208
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20104,8 +20445,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536209
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20139,8 +20479,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536210
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20188,8 +20527,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536216
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20221,8 +20559,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536217
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20254,8 +20591,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536218
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20290,8 +20626,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536219
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20326,8 +20661,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536220
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20362,8 +20696,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536221
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20397,8 +20730,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536222
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20432,8 +20764,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536223
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20466,8 +20797,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536224
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20499,8 +20829,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536225
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20557,8 +20886,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536227
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20591,8 +20919,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536228
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20626,8 +20953,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536229
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20660,8 +20986,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536230
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20718,8 +21043,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536232
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20736,7 +21060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1810.1995
     y: 1200.9436
-    width: 170
+    width: 170.94
     height: 40
   nodeName: Henry - 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -20817,8 +21141,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536235
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20835,7 +21158,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1789.2944
     y: 1135.9056
-    width: 123
+    width: 123.94
     height: 40
   nodeName: Henry - Start
   nodeDescription: Basic building block of a narrative engine
@@ -20914,7 +21237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1636.5494
     y: 1457.0911
-    width: 167
+    width: 168.15
     height: 40
   nodeName: Henry - 6th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -21031,8 +21354,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536242
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21067,8 +21389,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536243
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21100,8 +21421,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536244
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21133,8 +21453,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536245
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21168,8 +21487,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536246
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21201,8 +21519,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536247
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21234,8 +21551,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536248
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21267,8 +21583,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536249
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21300,8 +21615,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536250
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21333,8 +21647,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536251
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21410,8 +21723,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536254
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21446,8 +21758,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536255
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21479,8 +21790,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536256
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21512,8 +21822,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536257
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21547,8 +21856,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536258
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21580,8 +21888,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536259
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21613,8 +21920,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536260
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21651,8 +21957,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536261
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21687,8 +21992,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536262
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21774,8 +22078,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536266
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21812,8 +22115,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536267
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21847,8 +22149,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536268
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21880,8 +22181,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536269
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21915,8 +22215,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536270
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21948,7 +22247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1627.6163
     y: 1581.9623
-    width: 167
+    width: 168.06
     height: 40
   nodeName: Henry - 8th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -21991,6 +22290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: ThirdTutorialComplete
+  propertyReferences: []
   value: 0
 --- !u!114 &1034536274
 MonoBehaviour:
@@ -22094,6 +22394,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -22130,6 +22451,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -22163,6 +22505,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536278
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22179,7 +22542,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2127.5364
     y: -729.169
-    width: 190
+    width: 190.17
     height: 40
   nodeName: Unlock Tutorial Three 1 1
   nodeDescription: Basic building block of a narrative engine
@@ -22253,6 +22616,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -22289,6 +22673,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -22322,6 +22727,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536280
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22369,6 +22795,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 0
   var: {fileID: 0}
   integerData:
@@ -22383,6 +22830,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034536281
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22497,6 +22950,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -22533,6 +23007,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -22566,6 +23061,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536286
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22582,7 +23098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2510.9702
     y: -349.53284
-    width: 172
+    width: 172.26999
     height: 40
   nodeName: Unlock Tutorial Three
   nodeDescription: Basic building block of a narrative engine
@@ -22620,6 +23136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: ForthTutorialComplete
+  propertyReferences: []
   value: 0
 --- !u!114 &1034536288
 MonoBehaviour:
@@ -22671,6 +23188,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -22707,6 +23245,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -22740,6 +23299,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536290
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22756,7 +23336,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -732.74414
     y: 2311.5283
-    width: 122
+    width: 122.98
     height: 40
   nodeName: Angela - End
   nodeDescription: Basic building block of a narrative engine
@@ -22859,8 +23439,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536296
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22893,8 +23472,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536297
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22927,8 +23505,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536298
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22960,8 +23537,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536299
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22993,7 +23569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -910.2324
     y: 2194.4363
-    width: 172
+    width: 173.07
     height: 40
   nodeName: Angela - 8th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -23052,8 +23628,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536309
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23085,7 +23660,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -765.1211
     y: 2078.232
-    width: 172
+    width: 172.53
     height: 40
   nodeName: Angela - 7th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -23193,8 +23768,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536314
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23229,8 +23803,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536315
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23262,8 +23835,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536316
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23295,8 +23867,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536317
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23330,8 +23901,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536318
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23363,8 +23933,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536319
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23396,8 +23965,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536320
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23429,8 +23997,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536321
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23462,8 +24029,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536322
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23495,8 +24061,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536323
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23528,7 +24093,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 41.69745
     y: 2117.1777
-    width: 182
+    width: 183.79
     height: 40
   nodeName: Angela - 6th Dialogue 2
   nodeDescription: Basic building block of a narrative engine
@@ -23641,8 +24206,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536334
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23675,8 +24239,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536335
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23708,8 +24271,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536336
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23741,8 +24303,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536338
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23759,7 +24320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -970.97424
     y: 2003.589
-    width: 172
+    width: 172.97
     height: 40
   nodeName: Angela - 5th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -23867,8 +24428,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536344
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23901,8 +24461,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536345
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23919,7 +24478,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -765.3165
     y: 1957.3428
-    width: 173
+    width: 173.38
     height: 40
   nodeName: Angela - 4th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -23974,8 +24533,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536351
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24007,8 +24565,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536352
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24040,8 +24597,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536353
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24058,7 +24614,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -770.60986
     y: 1814.3381
-    width: 173
+    width: 173.76999
     height: 40
   nodeName: Angela - 3rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -24137,8 +24693,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536360
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24155,7 +24710,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -775.27747
     y: 1738.3632
-    width: 175
+    width: 175.95
     height: 40
   nodeName: Angela - 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -24232,8 +24787,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536363
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24266,8 +24820,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536364
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24284,7 +24837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -749.6703
     y: 1669.6575
-    width: 128
+    width: 128.95
     height: 40
   nodeName: Angela - Start
   nodeDescription: Basic building block of a narrative engine
@@ -24386,8 +24939,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536368
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24419,8 +24971,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536369
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24453,8 +25004,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536370
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24487,8 +25037,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536371
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24520,8 +25069,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536372
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24553,8 +25101,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536373
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24571,7 +25118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -566.11035
     y: 2001.2354
-    width: 172
+    width: 173.16
     height: 40
   nodeName: Angela - 6th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -24630,8 +25177,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536375
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24663,8 +25209,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536376
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24737,8 +25282,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536379
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24770,8 +25314,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536380
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24804,8 +25347,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536381
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24837,8 +25379,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536382
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24855,7 +25396,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -768.0011
     y: 1894.0913
-    width: 183
+    width: 184.37
     height: 40
   nodeName: Angela - 3.5rd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -25041,7 +25582,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -593.51086
     y: 2199.5015
-    width: 172
+    width: 173.16
     height: 40
   nodeName: Angela - 9th Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -25152,8 +25693,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536406
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25185,8 +25725,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536407
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25219,8 +25758,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536408
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25267,8 +25805,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536411
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25300,8 +25837,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536412
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25357,8 +25893,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536414
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25391,8 +25926,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536415
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25427,8 +25961,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536416
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25462,8 +25995,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536417
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25499,8 +26031,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536418
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25532,8 +26063,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536419
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25565,8 +26095,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536420
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25598,8 +26127,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536421
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25616,7 +26144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2631.4382
     y: 1251.5366
-    width: 188
+    width: 190.52
     height: 40
   nodeName: DrWebb2 - 2nd Dialogue
   nodeDescription: Basic building block of a narrative engine
@@ -25677,8 +26205,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536423
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25712,8 +26239,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536424
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25745,8 +26271,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536425
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25779,8 +26304,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536426
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25813,8 +26337,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536427
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25850,8 +26373,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536428
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25884,8 +26406,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536429
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25925,8 +26446,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536430
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25960,8 +26480,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536431
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -25997,8 +26516,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536432
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26031,8 +26549,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536433
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26064,8 +26581,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536434
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26097,8 +26613,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536435
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26149,6 +26664,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -26185,6 +26721,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -26218,6 +26775,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536436
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26234,7 +26812,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 18.154907
     y: 1799.8627
-    width: 182
+    width: 185.46
     height: 40
   nodeName: DrWebb2 - Start (Copy)
   nodeDescription: Basic building block of a narrative engine
@@ -26347,8 +26925,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536441
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26383,8 +26960,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26418,8 +26994,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536443
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26455,8 +27030,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536444
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26489,8 +27063,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536445
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26522,8 +27095,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536446
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26555,8 +27127,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536447
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26607,6 +27178,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -26643,6 +27235,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -26676,6 +27289,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536448
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26692,7 +27326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2772.5825
     y: 1151.4424
-    width: 141
+    width: 143.51999
     height: 40
   nodeName: DrWebb2 - Start
   nodeDescription: Basic building block of a narrative engine
@@ -26755,8 +27389,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536451
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26771,6 +27404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: InnerCircle
+  propertyReferences: []
   value: {fileID: 11400000, guid: 53511e5d7409dc1468297807e9f347d1, type: 2}
 --- !u!114 &1034536452
 MonoBehaviour:
@@ -26857,7 +27491,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2380.2444
     y: -734.11163
-    width: 211
+    width: 213.38
     height: 40
   nodeName: JB Custom Location Updater
   nodeDescription: Basic building block of a narrative engine
@@ -26926,7 +27560,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2083.5283
     y: -647.2543
-    width: 122
+    width: 121.44
     height: 40
   nodeName: Layer Cycler
   nodeDescription: Basic building block of a narrative engine
@@ -27023,7 +27657,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1887.2726
     y: -730.908
-    width: 80
+    width: 80.63
     height: 40
   nodeName: Node
   nodeDescription: Basic building block of a narrative engine
@@ -27057,6 +27691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Location Unlocking
+  propertyReferences: []
   value: {fileID: 1884373269}
 --- !u!114 &1034536475
 MonoBehaviour:
@@ -27074,7 +27709,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2916.2292
     y: -477.6512
-    width: 627.25903
+    width: 627.52905
     height: 219.75113
   nodeName: Location Unlocking
   nodeDescription: Basic building block of a narrative engine
@@ -27117,6 +27752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Menu Components
+  propertyReferences: []
   value: {fileID: 670595384}
 --- !u!114 &1034536477
 MonoBehaviour:
@@ -27134,7 +27770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2839.5854
     y: 128.8678
-    width: 507.3213
+    width: 508.5813
     height: 235
   nodeName: Menu Components
   nodeDescription: Basic building block of a narrative engine
@@ -27179,6 +27815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Dr Webb Tutorial
+  propertyReferences: []
   value: {fileID: 1932107278}
 --- !u!114 &1034536479
 MonoBehaviour:
@@ -27196,7 +27833,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2375.2034
     y: 439.43103
-    width: 281.7141
+    width: 283.97412
     height: 354.19147
   nodeName: Dr Webb Tutorial
   nodeDescription: Basic building block of a narrative engine
@@ -27297,7 +27934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -355.49152
     y: 525.55835
-    width: 89
+    width: 89.58
     height: 40
   nodeName: Node 1
   nodeDescription: Basic building block of a narrative engine
@@ -27351,6 +27988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Location-Based Dialogues
+  propertyReferences: []
   value: {fileID: 76710398}
 --- !u!114 &1034536489
 MonoBehaviour:
@@ -27368,7 +28006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1541.0342
     y: 298.54352
-    width: 1004.5565
+    width: 1006.3165
     height: 606.534
   nodeName: Location-Based Dialogues
   nodeDescription: Basic building block of a narrative engine
@@ -27462,6 +28100,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -27498,6 +28157,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -27531,6 +28211,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536491
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -27581,6 +28282,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -27617,6 +28339,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -27650,6 +28393,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536492
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -27847,7 +28611,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1530.938
     y: -289.29163
-    width: 164
+    width: 165.59
     height: 40
   nodeName: Conditional Example
   nodeDescription: Basic building block of a narrative engine
@@ -27900,6 +28664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: PlayerLevel
+  propertyReferences: []
   value: 6
 --- !u!114 &1034536496
 MonoBehaviour:
@@ -27915,6 +28680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: XPThreshold
+  propertyReferences: []
   value: 0
 --- !u!114 &1034536497
 MonoBehaviour:
@@ -27930,6 +28696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: PlayerXP
+  propertyReferences: []
   value: 60
 --- !u!114 &1034536498
 MonoBehaviour:
@@ -27945,6 +28712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: WizardDefeated
+  propertyReferences: []
   value: 1
 --- !u!114 &1034536499
 MonoBehaviour:
@@ -27977,8 +28745,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setDialogueBox: {fileID: 0}
-  allowClickAnywhere: 0
-  useButtonToProgress: 0
+  showButton: 1
 --- !u!114 &1034536500
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28073,6 +28840,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -28109,6 +28897,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -28142,6 +28951,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536504
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28189,6 +29019,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 2
   var: {fileID: 0}
   integerData:
@@ -28203,6 +29054,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034536505
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28253,6 +29110,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -28289,6 +29167,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -28322,6 +29221,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536506
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28350,6 +29270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: PlayerHealth
+  propertyReferences: []
   value: 100
 --- !u!114 &1034536508
 MonoBehaviour:
@@ -28422,6 +29343,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 3
   var: {fileID: 0}
   integerData:
@@ -28436,6 +29378,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034536511
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28513,6 +29461,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -28549,6 +29518,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -28582,6 +29572,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536514
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28608,6 +29619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: Var
+  propertyReferences: []
   value: 0
 --- !u!114 &1034536516
 MonoBehaviour:
@@ -28659,6 +29671,27 @@ MonoBehaviour:
         stringData:
           stringRef: {fileID: 0}
           stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
   compareOperator: 0
   anyVariable:
     variable: {fileID: 0}
@@ -28695,6 +29728,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   variable: {fileID: 0}
   integerData:
     integerRef: {fileID: 0}
@@ -28728,6 +29782,27 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
 --- !u!114 &1034536517
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28742,6 +29817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: PlayerLives
+  propertyReferences: []
   value: 0
 --- !u!114 &1034536518
 MonoBehaviour:
@@ -28804,6 +29880,27 @@ MonoBehaviour:
       stringData:
         stringRef: {fileID: 0}
         stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
   setOperator: 3
   var: {fileID: 0}
   integerData:
@@ -28818,6 +29915,12 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
 --- !u!114 &1034536520
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28899,7 +30002,7 @@ MonoBehaviour:
   updateLocationMarkerOnComplete: 0
 --- !u!114 &1034536525
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29978,15 +31081,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -32045,15 +33150,15 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3405058802546516696, guid: 8be6048bc203b7242ba9e5e896cdf336, type: 3}
-      propertyPath: beepSounds.Array.data[0]
+      propertyPath: 'beepSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: d0f5779e9778b044e89741c419f8dd98, type: 3}
     - target: {fileID: 3405058802546516696, guid: 8be6048bc203b7242ba9e5e896cdf336, type: 3}
-      propertyPath: beepSounds.Array.data[1]
+      propertyPath: 'beepSounds.Array.data[1]'
       value: 
       objectReference: {fileID: 8300000, guid: ba3c9cdb459d3e146b842c73adaf6548, type: 3}
     - target: {fileID: 3405058802546516696, guid: 8be6048bc203b7242ba9e5e896cdf336, type: 3}
-      propertyPath: beepSounds.Array.data[2]
+      propertyPath: 'beepSounds.Array.data[2]'
       value: 
       objectReference: {fileID: 8300000, guid: 3d6a4810e8f2d564892e23541331fdc3, type: 3}
     - target: {fileID: 6309333995028514880, guid: 8be6048bc203b7242ba9e5e896cdf336, type: 3}
