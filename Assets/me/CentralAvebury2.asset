@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b4ddc75f9f1b3043893d0de76d49f2c, type: 3}
-  m_Name: CentralAvebury
+  m_Name: CentralAvebury2
   m_EditorClassIdentifier: 
   infoID: 1479e2c3-7de5-4396-b0a9-d24189958481
-  Position: 51.42856861319775, -1.8542802086417438
+  Position: 51.4291384314977,-1.88682345829719
   Name: Central Avebury
   Sprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
   InProgressSprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}

@@ -29,8 +29,8 @@ MonoBehaviour:
   interactable: 1
   saveInfo: 1
   indepedentMarkerUpdating: 1
-  allowClickWithoutLocation: 1
-  locationStatus: 2
+  allowClickWithoutLocation: 0
+  locationStatus: 1
   infoImage: {fileID: 0}
   displayName: 
   description: 

@@ -2674,8 +2674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -120.11026
-    y: -517.0362
+    x: -112.9674
+    y: -518.4647
     width: 109.71
     height: 40
   nodeName: Question 1
@@ -2808,7 +2808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -372.95972
+    x: -375.81686
     y: -492.3694
     width: 101.04
     height: 40
@@ -3299,7 +3299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -125.298706
+    x: -123.87013
     y: -405.3145
     width: 111.78
     height: 40
