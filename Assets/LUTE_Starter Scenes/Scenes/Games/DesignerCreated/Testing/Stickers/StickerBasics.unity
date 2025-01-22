@@ -782,8 +782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 27007.225
-    y: 25031.137
+    x: 27006.006
+    y: 25028.7
     width: 132.45
     height: 40
   nodeName: PostcardMenu
@@ -3188,7 +3188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26741.93
+    x: 26740.71
     y: 25332.066
     width: 91.64
     height: 40

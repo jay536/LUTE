@@ -4,6 +4,8 @@ namespace LoGaCulture.LUTE
 {
     public class dressUp1 : MonoBehaviour
     {
+        public GameObject game;
+
         public GameObject skirt1;
         public GameObject skirt2;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,6 +30,11 @@ namespace LoGaCulture.LUTE
         {
             skirt2.SetActive(true);
             skirt1.SetActive(false);
+        }
+
+        public void finish()
+        {
+            game.SetActive(false);
         }
     }
 }
