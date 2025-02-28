@@ -10,12 +10,21 @@ namespace LoGaCulture.LUTE
         public Transform spawnto;
         public GameObject parentObject;
 
+        public GameObject gameui;
+        public GameObject screenshotui;
+        public GameObject bin;
+        public GameObject screenshotcontrol;
+
         public GameObject game;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-        
+            gameui.SetActive(true);
+            screenshotui.SetActive(false);
+            bin.SetActive(true);
+            screenshotcontrol.SetActive(false);
+
         }
 
         // Update is called once per frame
@@ -38,6 +47,14 @@ namespace LoGaCulture.LUTE
         {
             GameObject newimage2 = Instantiate(image2, spawnto.position, Quaternion.identity);
             newimage2.transform.parent = spawnto.transform;
+        }
+
+        public void openscreenshotmenu()
+        {
+            gameui.SetActive(false);
+            screenshotui.SetActive(true);
+            bin.SetActive(false);
+            screenshotcontrol.SetActive(true);
         }
 
         public void close()
