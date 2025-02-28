@@ -5,15 +5,18 @@ namespace LoGaCulture.LUTE
 {
     public class draganddrop1 : MonoBehaviour
     {
-        private bool dragging;
+        private bool dragging, placed;
+
+        public GameObject image;
 
         Vector2 offset;
+        public GameObject slot;
 
        
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-        
+            slot = GameObject.Find("bin");
         }
 
         // Update is called once per frame
@@ -26,6 +29,12 @@ namespace LoGaCulture.LUTE
             var mouseposition = getmousepos();
 
             transform.position = mouseposition - offset;
+
+            if (placed) return;
+
+
+
+           
         }
 
         void OnMouseDown()
@@ -43,7 +52,28 @@ namespace LoGaCulture.LUTE
 
         private void OnMouseUp()
         {
-            dragging = false;
+            //dragging = false;
+
+            if (Vector2.Distance(transform.position, slot.transform.position) < 1)
+            {
+                transform.position = slot.transform.position;
+                placed = true;
+                //image.SetActive(false);
+                Destroy(image);
+            }
+            else
+            {
+                dragging = false;
+            }
+          
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.CompareTag("bin") && dragging == false)
+            {
+                image.SetActive(false);
+            }
         }
     }
 }

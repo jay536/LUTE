@@ -8,6 +8,7 @@ namespace LoGaCulture.LUTE
         public GameObject image1;
         public GameObject image2;
         public Transform spawnto;
+        public GameObject parentObject;
 
         public GameObject game;
 
@@ -28,11 +29,15 @@ namespace LoGaCulture.LUTE
 
        public void Spawnimage1()
         {
-            Instantiate(image1, spawnto.position, Quaternion.identity);
+            GameObject newimage1 = Instantiate(image1, spawnto.position, Quaternion.identity);
+            //Instantiate(image1, parentObject.transform);
+            newimage1.transform.parent = spawnto.transform;
+            
         }
         public void Spawnimage2()
         {
-            Instantiate(image2, spawnto.position, Quaternion.identity);
+            GameObject newimage2 = Instantiate(image2, spawnto.position, Quaternion.identity);
+            newimage2.transform.parent = spawnto.transform;
         }
 
         public void close()
