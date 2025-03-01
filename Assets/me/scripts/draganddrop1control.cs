@@ -14,6 +14,9 @@ namespace LoGaCulture.LUTE
         public GameObject screenshotui;
         public GameObject bin;
         public GameObject screenshotcontrol;
+        public GameObject luteui;
+        public GameObject dialogue;
+        public GameObject gameobjects;
 
         public GameObject game;
 
@@ -24,6 +27,8 @@ namespace LoGaCulture.LUTE
             screenshotui.SetActive(false);
             bin.SetActive(true);
             screenshotcontrol.SetActive(false);
+
+            luteui = GameObject.Find("PopupIcon");
 
         }
 
@@ -55,11 +60,15 @@ namespace LoGaCulture.LUTE
             screenshotui.SetActive(true);
             bin.SetActive(false);
             screenshotcontrol.SetActive(true);
+            luteui.SetActive(false);
         }
 
         public void close()
         {
             game.SetActive(false);
+            luteui.SetActive(true);
+            dialogue.SetActive(true);
+            gameobjects.SetActive(false);
         }
     }
 }
