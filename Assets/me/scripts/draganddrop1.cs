@@ -12,6 +12,9 @@ namespace LoGaCulture.LUTE
         Vector2 offset;
         public GameObject slot;
 
+
+       // public GameObject selected;
+
        
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
@@ -41,6 +44,7 @@ namespace LoGaCulture.LUTE
         {
             dragging = true;
             offset = getmousepos() - (Vector2)transform.position;
+            //selected.SetActive(true);
         }
 
 
@@ -75,5 +79,11 @@ namespace LoGaCulture.LUTE
                 image.SetActive(false);
             }
         }
+
+
+        /*public void deselect()
+        {
+            selected.SetActive(false);
+        }*/
     }
 }

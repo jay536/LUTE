@@ -150,7 +150,7 @@ namespace LoGaCulture.LUTE
                 wearingh2 = true;
                 wearingh3 = false;
             }
-            else if (wearingh1 == true)
+            else if (wearingh2 == true)
             {
                 hat1.SetActive(false);
                 hat2.SetActive(false);

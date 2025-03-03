@@ -20,7 +20,7 @@ namespace LoGaCulture.LUTE
         
         }
 
-        void OnMouseDown()
+        /*void OnMouseDown()
         {
             if (uion == true)
             {
@@ -33,6 +33,31 @@ namespace LoGaCulture.LUTE
             }
         }
         private void OnMouseUp()
+        {
+            if (uion == true)
+            {
+                uion = (false);
+            }
+            else if (uion == false)
+            {
+                uion = true;
+            }
+        }*/
+
+        public void hide()
+        {
+            if (uion == true)
+            {
+                ui.SetActive(false);
+            }
+            if (uion == false)
+            {
+                ui.SetActive(true);
+                //uionoff = true;
+            }
+        }
+
+        public void show()
         {
             if (uion == true)
             {

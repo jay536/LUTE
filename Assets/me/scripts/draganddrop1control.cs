@@ -17,6 +17,7 @@ namespace LoGaCulture.LUTE
         public GameObject luteui;
         public GameObject dialogue;
         public GameObject gameobjects;
+        public GameObject screenshotbutton;
 
         public GameObject game;
 
@@ -43,14 +44,14 @@ namespace LoGaCulture.LUTE
 
        public void Spawnimage1()
         {
-            GameObject newimage1 = Instantiate(image1, spawnto.position, Quaternion.identity);
+            GameObject newimage1 = Instantiate(image1, spawnto.position, spawnto.rotation);
             //Instantiate(image1, parentObject.transform);
             newimage1.transform.parent = spawnto.transform;
             
         }
         public void Spawnimage2()
         {
-            GameObject newimage2 = Instantiate(image2, spawnto.position, Quaternion.identity);
+            GameObject newimage2 = Instantiate(image2, spawnto.position, spawnto.rotation);
             newimage2.transform.parent = spawnto.transform;
         }
 
@@ -61,6 +62,7 @@ namespace LoGaCulture.LUTE
             bin.SetActive(false);
             screenshotcontrol.SetActive(true);
             luteui.SetActive(false);
+            screenshotbutton.SetActive(true);
         }
 
         public void close()
@@ -69,6 +71,7 @@ namespace LoGaCulture.LUTE
             luteui.SetActive(true);
             dialogue.SetActive(true);
             gameobjects.SetActive(false);
+            screenshotbutton.SetActive(false);
         }
     }
 }
