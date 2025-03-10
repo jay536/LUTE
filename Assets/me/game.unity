@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: zoom
-      value: 0.73000026
+      value: 0.85000014
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: demoMapMode
@@ -358,11 +358,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: scrollPos.x
-      value: -24999.912
+      value: -25013.443
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: scrollPos.y
-      value: -24694.318
+      value: -24526.102
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeViewHeight
@@ -418,7 +418,7 @@ PrefabInstance:
       objectReference: {fileID: 827730533}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: selectedNodes.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'variables.Array.data[10]'
@@ -5060,11 +5060,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a72ba2d9b50395b47afd252117aa0f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  locationInfo: {fileID: 1989849661}
-  spriteRenderer: {fileID: 1684603708}
+  markerSpriteRenderer: {fileID: 0}
   radiusSpriteRenderer: {fileID: 492357450}
-  textMesh: {fileID: 367730892}
-  completeFeedback: {fileID: 0}
+  markerTextMesh: {fileID: 0}
+  updateVisuals: 0
+  allowClickWithoutLocation: 0
+  interactable: 0
+  visualisationObject: {fileID: 0}
+  maxScaleThreshold: 17
+  hideMarkerThreshold: 14
 --- !u!114 &274912221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13238,7 +13242,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 0}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -13246,6 +13249,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730177
 MonoBehaviour:
@@ -13261,9 +13265,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26411.525
-    y: 24829.893
-    width: 76.1
+    x: 26378.525
+    y: 24804.893
+    width: 75.83
     height: 40
   nodeName: food
   nodeDescription: Basic building block of a narrative engine
@@ -13281,7 +13285,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730179}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -13289,6 +13292,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730178
 MonoBehaviour:
@@ -13309,8 +13313,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730179
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13357,8 +13360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26300.059
-    y: 25039.936
+    x: 26267.059
+    y: 25014.936
     width: 85.85
     height: 40
   nodeName: manor
@@ -13376,7 +13379,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730180}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -13384,6 +13386,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 1
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730182
 MonoBehaviour:
@@ -13404,8 +13407,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730183
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13496,11 +13498,10 @@ MonoBehaviour:
   customButtonIcon: {fileID: 21300000, guid: a06bae358f5e9054da7f3c6e2377645a, type: 3}
   setIconButton: {fileID: 0}
   showIcon: 1
-  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
   buttonEvent:
     m_PersistentCalls:
       m_Calls: []
-  buttonSound: {fileID: 0}
   inventory: {fileID: 1997210073}
 --- !u!114 &827730264
 MonoBehaviour:
@@ -13516,7 +13517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: e64c3c3cfca296e4cb034df9b22b0bb3, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 1
   addIfAlreadyInInventory: 0
 --- !u!114 &827730265
@@ -13533,7 +13534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 68457a98ecdbbb94ab7e1d537e86c777, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 1
   addIfAlreadyInInventory: 0
 --- !u!114 &827730290
@@ -13551,7 +13552,7 @@ MonoBehaviour:
   customButtonIcon: {fileID: 21300000, guid: e7b2e350786702446beb84264882b8d1, type: 3}
   setIconButton: {fileID: 0}
   showIcon: 1
-  buttonFeedback: {fileID: 0}
+  buttonSound: {fileID: 0}
   buttonEvent:
     m_PersistentCalls:
       m_Calls:
@@ -13567,7 +13568,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  buttonSound: {fileID: 0}
 --- !u!114 &827730313
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13585,6 +13585,7 @@ MonoBehaviour:
   customKey: 
   keySeperator: _
   descriptionMode: 0
+  saveProfile: 1
   customDescription: 
   fireEvent: 1
   resumeOnLoad: 1
@@ -13725,8 +13726,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26297.752
-    y: 24736.346
+    x: 26264.752
+    y: 24711.346
     width: 88.34
     height: 40
   nodeName: william
@@ -13745,7 +13746,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730394}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -13753,6 +13753,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730396
 MonoBehaviour:
@@ -13773,8 +13774,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730397
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13842,8 +13842,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730400
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13858,9 +13857,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26495.693
-    y: 24830.334
-    width: 101.36
+    x: 26462.693
+    y: 24805.334
+    width: 100.53
     height: 40
   nodeName: farmyard
   nodeDescription: Basic building block of a narrative engine
@@ -13875,7 +13874,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730398}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -13883,6 +13881,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730401
 MonoBehaviour:
@@ -13958,7 +13957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: cbfeaf7377b8ac34d9a95a20dc5c92e3, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 0
   addIfAlreadyInInventory: 1
 --- !u!114 &827730425
@@ -13975,7 +13974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 8a5bdfdcaccc574439ee74cc59b272c8, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 0
   addIfAlreadyInInventory: 1
 --- !u!114 &827730446
@@ -14079,7 +14078,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 0}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -14087,6 +14085,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730495
 MonoBehaviour:
@@ -14161,9 +14160,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26597.367
-    y: 24832.133
-    width: 101.35
+    x: 26564.367
+    y: 24807.133
+    width: 100.869995
     height: 40
   nodeName: TheCove
   nodeDescription: Basic building block of a narrative engine
@@ -14177,7 +14176,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730497}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -14185,6 +14183,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730501
 MonoBehaviour:
@@ -14205,8 +14204,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730502
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14306,8 +14304,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730523
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14322,8 +14319,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26705.92
-    y: 24835.31
+    x: 26672.92
+    y: 24810.31
     width: 98.07
     height: 40
   nodeName: museum
@@ -14338,7 +14335,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730520}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -14346,6 +14342,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730525
 MonoBehaviour:
@@ -14398,8 +14395,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730527
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14414,9 +14410,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26295.29
-    y: 24833.236
-    width: 103.490005
+    x: 26262.29
+    y: 24808.236
+    width: 102.95
     height: 40
   nodeName: dovecote
   nodeDescription: Basic building block of a narrative engine
@@ -14430,7 +14426,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730528}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -14438,6 +14433,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730528
 MonoBehaviour:
@@ -14485,9 +14481,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26643.166
-    y: 24896.78
-    width: 119.4
+    x: 26610.166
+    y: 24871.78
+    width: 119.33
     height: 40
   nodeName: barberstone
   nodeDescription: Basic building block of a narrative engine
@@ -14501,7 +14497,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730529}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -14509,6 +14504,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730531
 MonoBehaviour:
@@ -14529,8 +14525,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730532
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14598,8 +14593,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730535
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14817,7 +14811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 6ed9cb925f43fec449533e0320d501e6, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 1
   addIfAlreadyInInventory: 0
 --- !u!114 &827730544
@@ -14862,9 +14856,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26393.488
-    y: 24737.717
-    width: 95.740005
+    x: 26360.488
+    y: 24712.717
+    width: 95.53
     height: 40
   nodeName: dressup
   nodeDescription: Basic building block of a narrative engine
@@ -14886,7 +14880,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730533}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -14894,6 +14887,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730547
 MonoBehaviour:
@@ -15001,8 +14995,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26424.252
-    y: 24896.734
+    x: 26391.252
+    y: 24871.734
     width: 104.68
     height: 40
   nodeName: devilchair
@@ -15017,7 +15011,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730551}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -15025,6 +15018,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730554
 MonoBehaviour:
@@ -15045,8 +15039,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730555
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15160,8 +15153,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730560
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15176,9 +15168,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26295.678
-    y: 24893.758
-    width: 124.26
+    x: 26262.678
+    y: 24868.758
+    width: 124.19
     height: 40
   nodeName: buriedstones
   nodeDescription: Basic building block of a narrative engine
@@ -15192,7 +15184,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730552}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -15200,6 +15191,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730561
 MonoBehaviour:
@@ -15231,9 +15223,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26531.943
-    y: 24895.625
-    width: 104.86
+    x: 26498.943
+    y: 24870.625
+    width: 104.79
     height: 40
   nodeName: perimeter
   nodeDescription: Basic building block of a narrative engine
@@ -15247,7 +15239,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730561}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -15255,6 +15246,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730563
 MonoBehaviour:
@@ -15275,8 +15267,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730564
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15354,9 +15345,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26766.016
-    y: 24900.037
-    width: 129.33
+    x: 26733.016
+    y: 24875.037
+    width: 129.26999
     height: 40
   nodeName: swindonstone
   nodeDescription: Basic building block of a narrative engine
@@ -15370,7 +15361,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730566}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -15378,6 +15368,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730568
 MonoBehaviour:
@@ -15398,8 +15389,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730569
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15493,8 +15483,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26470.426
-    y: 24956.094
+    x: 26437.426
+    y: 24931.094
     width: 90.09
     height: 40
   nodeName: obelisk
@@ -15509,7 +15499,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730571}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -15517,6 +15506,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730574
 MonoBehaviour:
@@ -15537,8 +15527,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730575
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15652,8 +15641,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730580
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15668,9 +15656,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26302.285
-    y: 24953.902
-    width: 157.65
+    x: 26269.285
+    y: 24928.902
+    width: 157.72
     height: 40
   nodeName: southernenterance
   nodeDescription: Basic building block of a narrative engine
@@ -15684,7 +15672,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730572}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -15692,6 +15679,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730581
 MonoBehaviour:
@@ -15833,6 +15821,7 @@ MonoBehaviour:
   customKey: 
   keySeperator: _
   descriptionMode: 0
+  saveProfile: 1
   customDescription: 
   fireEvent: 1
   resumeOnLoad: 1
@@ -15851,7 +15840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 68457a98ecdbbb94ab7e1d537e86c777, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 1
   addIfAlreadyInInventory: 0
 --- !u!114 &827730589
@@ -15901,8 +15890,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730592
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15917,9 +15905,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26493.49
-    y: 24739.6
-    width: 111.979996
+    x: 26460.49
+    y: 24714.6
+    width: 112.130005
     height: 40
   nodeName: lostpottery
   nodeDescription: Basic building block of a narrative engine
@@ -15939,7 +15927,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730581}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -15947,6 +15934,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730593
 MonoBehaviour:
@@ -15978,9 +15966,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26608.55
-    y: 24744.988
-    width: 111.270004
+    x: 26575.55
+    y: 24719.988
+    width: 110.79
     height: 40
   nodeName: makecircle
   nodeDescription: Basic building block of a narrative engine
@@ -15997,7 +15985,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730593}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -16005,6 +15992,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730595
 MonoBehaviour:
@@ -16025,8 +16013,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730596
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16102,7 +16089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 8a5bdfdcaccc574439ee74cc59b272c8, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 0
   addIfAlreadyInInventory: 1
 --- !u!114 &827730600
@@ -16181,9 +16168,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26730.082
-    y: 24746.207
-    width: 141.64
+    x: 26697.082
+    y: 24721.207
+    width: 141.37
     height: 40
   nodeName: makedecoration
   nodeDescription: Basic building block of a narrative engine
@@ -16202,7 +16189,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730602}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -16210,6 +16196,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730604
 MonoBehaviour:
@@ -16230,8 +16217,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730605
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16338,7 +16324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: e64c3c3cfca296e4cb034df9b22b0bb3, type: 2}
   amount: 1
-  feedback: {fileID: 0}
+  giveSound: {fileID: 0}
   persistentItem: 1
   addIfAlreadyInInventory: 0
 --- !u!114 &827730610
@@ -16414,8 +16400,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26393.475
-    y: 25040.713
+    x: 26360.475
+    y: 25015.713
     width: 77.84
     height: 40
   nodeName: shop
@@ -16430,7 +16416,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730613}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -16438,6 +16423,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 1
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730615
 MonoBehaviour:
@@ -16458,8 +16444,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730616
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16537,9 +16522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26475.914
-    y: 25044.012
-    width: 73.61
+    x: 26442.914
+    y: 25019.012
+    width: 73.38
     height: 40
   nodeName: play
   nodeDescription: Basic building block of a narrative engine
@@ -16553,7 +16538,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730618}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -16561,6 +16545,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 1
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730620
 MonoBehaviour:
@@ -16581,8 +16566,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730621
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16660,8 +16644,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26555.025
-    y: 25051.14
+    x: 26522.025
+    y: 25026.14
     width: 78.32
     height: 40
   nodeName: drink
@@ -16677,7 +16661,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730623}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -16685,6 +16668,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 1
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730625
 MonoBehaviour:
@@ -16705,8 +16689,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730626
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16784,9 +16767,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26640.771
-    y: 25051.715
-    width: 72.82
+    x: 26607.771
+    y: 25026.715
+    width: 72.61
     height: 40
   nodeName: tree
   nodeDescription: Basic building block of a narrative engine
@@ -16800,7 +16783,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 827730628}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -16808,6 +16790,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 1
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730630
 MonoBehaviour:
@@ -16828,8 +16811,7 @@ MonoBehaviour:
   requiresPress: 0
   autoTrigger: 1
   requiresLocation: 1
-  triggerWhenAtLocation: 0
-  updateLocationMarkerOnComplete: 0
+  overrideLocationDisplayList: {fileID: 0}
 --- !u!114 &827730631
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16908,6 +16890,7 @@ MonoBehaviour:
   customKey: 
   keySeperator: _
   descriptionMode: 0
+  saveProfile: 1
   customDescription: 
   fireEvent: 1
   resumeOnLoad: 1
@@ -16945,6 +16928,7 @@ MonoBehaviour:
   customKey: 
   keySeperator: _
   descriptionMode: 0
+  saveProfile: 1
   customDescription: 
   fireEvent: 1
   resumeOnLoad: 1
@@ -16992,7 +16976,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 0}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -17000,6 +16983,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730657
 MonoBehaviour:
@@ -17033,6 +17017,7 @@ MonoBehaviour:
   customKey: 
   keySeperator: _
   descriptionMode: 0
+  saveProfile: 1
   customDescription: 
   fireEvent: 1
   resumeOnLoad: 1
@@ -17247,9 +17232,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25756.074
-    y: 24942.242
-    width: 140.48001
+    x: 25757.074
+    y: 24954.242
+    width: 140.23999
     height: 40
   nodeName: closelevelselect
   nodeDescription: Basic building block of a narrative engine
@@ -17260,7 +17245,6 @@ MonoBehaviour:
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
-  nodeLocation: {fileID: 0}
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   hoverStartTime: 0
@@ -17268,6 +17252,7 @@ MonoBehaviour:
   targetKeyNode: {fileID: 0}
   showDesc: 0
   saveable: 0
+  updateLocationStatusToComplete: 1
   NodeComplete: 0
 --- !u!114 &827730710
 MonoBehaviour:
@@ -17289,7 +17274,6 @@ MonoBehaviour:
   setMenuDialogue: {fileID: 0}
   hideThisOption: 0
   closeMenuOnSelect: 1
-  buttonFeedback: {fileID: 0}
   buttonSound: {fileID: 0}
   saveSettings: 0
 --- !u!114 &827730711
@@ -36219,42 +36203,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988327293}
   m_CullTransparentMesh: 1
---- !u!114 &1989849661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b4ddc75f9f1b3043893d0de76d49f2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  infoID: 1479e2c3-7de5-4396-b0a9-d24189958481
-  Position: 51.42856861319775, -1.8542802086417438
-  Name: Central Avebury
-  Sprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  InProgressSprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  CompletedSprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  Color: {r: 1, g: 1, b: 1, a: 1}
-  ShowName: 0
-  showRadius: 1
-  defaultRadiusColour: {r: 0.7372549, g: 0.47058824, b: 0.23921569, a: 0.5882353}
-  visitedRadiusColour: {r: 0.96862745, g: 0.8862745, b: 0.14509805, a: 0.5882353}
-  completedRadiusColour: {r: 0.18513432, g: 0.745283, b: 0, a: 0.5882353}
-  locationDisabled: 0
-  radiusIncrease: 0
-  interactable: 1
-  saveInfo: 1
-  indepedentMarkerUpdating: 1
-  allowClickWithoutLocation: 0
-  locationStatus: 1
-  infoImage: {fileID: 0}
-  displayName: 
-  description: 
-  nodeComplete: Location Example
-  executeNode: 
 --- !u!1 &1991244970
 GameObject:
   m_ObjectHideFlags: 0

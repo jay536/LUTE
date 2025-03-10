@@ -47,6 +47,11 @@ namespace LoGaCulture.LUTE
                 return;
             }
 
+            if (location.Value == null)
+            {
+                return;
+            }
+
             if (overrideLocationDisplayList != null && location.Value != null)
             {
                 location.Value.StatusDisplayOptionsList = overrideLocationDisplayList;
