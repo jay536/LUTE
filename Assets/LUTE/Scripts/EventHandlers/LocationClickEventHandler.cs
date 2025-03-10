@@ -17,26 +17,8 @@ namespace LoGaCulture.LUTE
         [SerializeField] protected bool autoTrigger = true;
         [Tooltip("If waiting for marker press, allow it to be pressed without the location satisfied.")]
         [SerializeField] protected bool requiresLocation;
-        [Tooltip("If this node can be triggered by pressing a location marker, should we ensure that the player is outside the location or always trigger?")]
-        [SerializeField] protected bool triggerWhenAtLocation;
-        [Tooltip("Whether to update the location marker when the node is completed.")]
-        [SerializeField] protected bool updateLocationMarkerOnComplete;
-
-        public bool AutoTrigger
-        {
-            get { return autoTrigger; }
-            set { autoTrigger = value; }
-        }
-        public bool RequiresPress
-        {
-            get { return requiresPress; }
-            set { requiresPress = value; }
-        }
-        public bool RequiresLocation
-        {
-            get { return requiresLocation; }
-            set { requiresLocation = value; }
-        }
+        [Tooltip("If true, override the default display list that the location uses.")]
+        [SerializeField] protected LUTELocationStatusDisplayList overrideLocationDisplayList;
 
         public LocationData Location
         {
@@ -55,36 +37,42 @@ namespace LoGaCulture.LUTE
 
         private void Update()
         {
+            // Setting this for editor purposes
             autoTrigger = requiresPress ? false : true;
             requiresPress = autoTrigger ? false : requiresPress;
             requiresLocation = autoTrigger ? true : requiresLocation;
 
-            if (autoTrigger)
+            if (!Application.isPlaying)
             {
-                if (location.Value != null)
-                    parentNode.NodeLocation = location.locationRef;
+                return;
+            }
+
+            if (overrideLocationDisplayList != null && location.Value != null)
+            {
+                location.Value.StatusDisplayOptionsList = overrideLocationDisplayList;
             }
             else
             {
-                parentNode.NodeLocation = null;
+                if (parentNode.GetEngine().GetMapManager().DefaultLocationDisplayList != null)
+                {
+                    location.Value.StatusDisplayOptionsList = parentNode.GetEngine().GetMapManager().DefaultLocationDisplayList;
+                }
+            }
+
+            if (!autoTrigger)
+            {
+                return;
             }
 
             if (location.Value != null)
             {
-                if (updateLocationMarkerOnComplete)
-                {
-                    location.Value.NodeComplete = parentNode._NodeName;
-                }
-
                 if (Application.isPlaying)
                 {
-                    if (autoTrigger)
+                    bool locationMet = location.locationRef.Evaluate(ComparisonOperator.Equals, null);
+                    if (locationMet)
                     {
-                        bool locationMet = location.locationRef.Evaluate(ComparisonOperator.Equals, this.location.Value);
-                        if (locationMet)
-                        {
-                            ExecuteNode();
-                        }
+                        // This may be an issue as we could potentially execute node multiple times?
+                        ExecuteNode();
                     }
                 }
             }
@@ -92,34 +80,24 @@ namespace LoGaCulture.LUTE
 
         protected void OnLocationClicked(LocationVariable location)
         {
-            if (location == null || !requiresPress)
+            if (!requiresPress || location.Value == null)
             {
                 return;
             }
 
-            bool locationMet;
-            if (requiresLocation)
+            bool locationMet = false;
+            if (!requiresLocation)
             {
-                locationMet = location.Evaluate(ComparisonOperator.Equals, this.location.Value);
+                locationMet = true;
             }
             else
             {
-                if (triggerWhenAtLocation)
-                {
-                    locationMet = true;
-                }
-                else
-                {
-                    locationMet = !location.Evaluate(ComparisonOperator.Equals, this.location.Value);
-                }
+                locationMet = location.Evaluate(ComparisonOperator.Equals, null);
             }
 
-            if (location.Value.infoID == this.location.Value.infoID)
+            if (locationMet)
             {
-                if (locationMet)
-                {
-                    ExecuteNode();
-                }
+                ExecuteNode();
             }
         }
     }

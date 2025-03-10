@@ -99,12 +99,12 @@ namespace LoGaCulture.LUTE
                 {
                     foreach (var node in nodes)
                     {
-                        if (node != null && node.NodeLocation != null)
-                        {
-                            // Found a node location so we can set this up
-                            AddNodeLocation(node.NodeLocation);
-                        }
-                        else
+                        //if (node != null && node.NodeLocation != null)
+                        //{
+                        //    // Found a node location so we can set this up
+                        //    AddNodeLocation(node.NodeLocation);
+                        //}
+                        //else
                         {
                             // Node is not null but has no location - check to see if any orders on this node use a location
                             var orders = node.OrderList;
@@ -280,12 +280,12 @@ namespace LoGaCulture.LUTE
                     var engine = failureMethod.GetEngine();
                     if (engine != null)
                     {
-                        var map = engine.GetMap();
-                        if (map != null)
+                        var mapManager = engine.GetMapManager();
+                        if (mapManager != null)
                         {
-                            map.HideLocationMarker(failureMethod.QueriedLocation);
+                            mapManager.HideLocationMarker(failureMethod.QueriedLocation);
                             bool updateText = failureMethod.UpdateLocationText;
-                            map.ShowLocationMarker(backupLocation, updateText, failureMethod.QueriedLocation.Key);
+                            mapManager.ShowLocationMarker(backupLocation);
                         }
                     }
 
@@ -337,14 +337,14 @@ namespace LoGaCulture.LUTE
         private FailureHandlingOutcome Execute_Anyway(FailureMethod failureMethod)
         {
             // If location cannot be accessed then we create a menu of failed nodes for the player to execute
-            failureMethod.QueriedLocation.Value.locationDisabled = true;
+            failureMethod.QueriedLocation.Value.LocationDisabled = true;
             var engine = failureMethod.GetEngine();
             if (engine != null)
             {
-                var map = engine.GetMap();
-                if (map != null)
+                var mapManager = engine.GetMapManager();
+                if (mapManager != null)
                 {
-                    map.HideLocationMarker(failureMethod.QueriedLocation);
+                    mapManager.HideLocationMarker(failureMethod.QueriedLocation);
                 }
 
                 var nodes = engine.GetComponents<Node>();
@@ -354,10 +354,10 @@ namespace LoGaCulture.LUTE
                 {
                     bool nodeAffected = false;
 
-                    if (node.NodeLocation != null && Equals(node.NodeLocation.Value, failureMethod.QueriedLocation.Value))
-                    {
-                        nodeAffected = true;
-                    }
+                    //if (node.NodeLocation != null && Equals(node.NodeLocation.Value, failureMethod.QueriedLocation.Value))
+                    //{
+                    //    nodeAffected = true;
+                    //}
 
                     if (!nodeAffected)
                     {
@@ -378,7 +378,7 @@ namespace LoGaCulture.LUTE
                 string failedNodes = string.Empty;
                 foreach (var affectedNode in affectedNodes)
                 {
-                    affectedNode.NodeLocation = null;
+                    //affectedNode.NodeLocation = null;
                     affectedNode.Stop();
                     affectedNode.ShouldCancel = true;
                     LocationServiceSignals.DoLocationFailed(failureMethod, affectedNode);
@@ -404,8 +404,8 @@ namespace LoGaCulture.LUTE
             var engine = failureMethod.GetEngine();
             if (engine != null)
             {
-                var map = engine.GetMap();
-                if (map != null)
+                var mapManager = engine.GetMapManager();
+                if (mapManager != null)
                 {
                     LocationVariable nearestLocation = null;
                     var allLocations = engine.GetComponents<LocationVariable>();
@@ -430,9 +430,9 @@ namespace LoGaCulture.LUTE
                     }
                     if (nearestLocation != null)
                     {
-                        map.HideLocationMarker(failureMethod.QueriedLocation);
+                        mapManager.HideLocationMarker(failureMethod.QueriedLocation);
                         bool updateText = failureMethod.UpdateLocationText;
-                        map.ShowLocationMarker(nearestLocation, updateText, failureMethod.QueriedLocation.Key);
+                        mapManager.ShowLocationMarker(nearestLocation);
                         failureMethod.QueriedLocation.Apply(SetOperator.Assign, nearestLocation);
                         failureMethod.IsHandled = true;
                         string message = $"Location {failureMethod.QueriedLocation.Key} is inaccessible. The nearest location has been selected instead. Please head to: {nearestLocation.Key}";
@@ -474,22 +474,22 @@ namespace LoGaCulture.LUTE
             var engine = failureMethod.GetEngine();
             if (engine != null)
             {
-                var map = engine.GetMap();
-                if (map != null)
+                var mapManager = engine.GetMapManager();
+                if (mapManager != null)
                 {
-                    map.HideLocationMarker(failureMethod.QueriedLocation);
+                    mapManager.HideLocationMarker(failureMethod.QueriedLocation);
                 }
 
                 var nodes = engine.GetComponents<Node>();
                 foreach (var node in nodes)
                 {
                     // If the node uses the same location as the failure method then it cannot execute
-                    if (node.NodeLocation != null && Equals(node.NodeLocation.Value, failureMethod.QueriedLocation.Value))
-                    {
-                        node.NodeComplete = true;
-                        node.CanExecuteAgain = false;
-                        failureMethod.IsHandled = true;
-                    }
+                    //if (node.NodeLocation != null && Equals(node.NodeLocation.Value, failureMethod.QueriedLocation.Value))
+                    //{
+                    //    node.NodeComplete = true;
+                    //    node.CanExecuteAgain = false;
+                    //    failureMethod.IsHandled = true;
+                    //}
                     foreach (var order in node.OrderList)
                     {
                         // If the order uses the same location as the failure method then the parent node cannot execute
