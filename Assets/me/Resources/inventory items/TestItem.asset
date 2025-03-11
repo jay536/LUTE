@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5357986ab596a824b80c56d829cec32a, type: 3}
-  m_Name: New LUTE Character Inventory Item
+  m_Name: TestItem
   m_EditorClassIdentifier: 
-  itemID: 
+  itemID: 10
   itemType: 0
-  itemName: mouse
-  itemDescription: 
+  itemName: Test Item
+  itemDescription: Testing 1, 2, 3!
   isLocked: 1
   useWhenLocked: 1
   consumeOnUse: 0
   canDrop: 1
   canMove: 1
   maxStackSize: 1
-  unlockedIcon: {fileID: 3496380038528630776, guid: 6db773c76a469384783367bb1977615c, type: 3}
+  unlockedIcon: {fileID: 21300000, guid: 2769339cb84f61145bf700c337ce4761, type: 3}
   lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}

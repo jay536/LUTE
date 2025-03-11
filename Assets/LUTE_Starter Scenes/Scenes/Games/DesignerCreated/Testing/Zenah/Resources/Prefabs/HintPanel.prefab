@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 4101295168688242662}
-  hintText: {fileID: 0}
+  hintText: {fileID: 4300213935936596099}
   fadeDuration: 0.5
 --- !u!1 &1641394995031952503
 GameObject:
