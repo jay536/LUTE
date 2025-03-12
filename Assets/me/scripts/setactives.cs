@@ -6,14 +6,15 @@ namespace LoGaCulture.LUTE
     {
 
         public GameObject dressup;
+        public GameObject nogame;
 
-        public GameObject collected;
+        //public GameObject collected;
 
 
-        public GameObject character1;
-        public GameObject character2;
-        public GameObject charater3;
-        public GameObject charater4;
+        //public GameObject character1;
+        //public GameObject character2;
+        //public GameObject charater3;
+       // public GameObject charater4;
         //public float collectedNum;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
@@ -30,10 +31,10 @@ namespace LoGaCulture.LUTE
         public void dressupon()
         {
             dressup.SetActive(true);
-            character1.SetActive(true);
+            //character1.SetActive(true);
         }
 
-        public void opencollected()
+       /* public void opencollected()
         {
 
          collected.SetActive(true);
@@ -41,6 +42,15 @@ namespace LoGaCulture.LUTE
         public void closecollected()
         {
          collected.SetActive(false);
+        }*/
+
+        public void noGame()
+        {
+            nogame.SetActive(true);
+        }
+        public void closeNoGame()
+        {
+            nogame.SetActive(false);
         }
     }
 }
