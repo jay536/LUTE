@@ -664,7 +664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryID: 0
   inventoryWidth: 4
-  inventoryHeight: 10
+  inventoryHeight: 5
   inventoryCanvas: {fileID: 2059001091973758241}
   popupMenuTransform: {fileID: 4631147714312290364}
   SelectedItemIndex: -1
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridLayout: {fileID: 3812824604984283911}
-  emptyItemPrefab: {fileID: 2124370853999384104, guid: e10937444f44f414f90a59a6f840774b, type: 3}
+  emptyItemPrefab: {fileID: 2124370853999384104, guid: f94cdb5ed48989442a2c99aa735ba67a, type: 3}
   canvasGroup: {fileID: 9222582945795042188}
   fadeDuration: 0.5
   openSound: {fileID: 8300000, guid: 1132a859617ff3f4e891fc697e674bfa, type: 3}
@@ -2238,6 +2238,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3812824604984283911}
     m_Modifications:
+    - target: {fileID: 223953563069564679, guid: f94cdb5ed48989442a2c99aa735ba67a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 12.000061
+      objectReference: {fileID: 0}
     - target: {fileID: 4311117087401242920, guid: f94cdb5ed48989442a2c99aa735ba67a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

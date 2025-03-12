@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1127
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 125
+  controlID: 68
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -441,7 +441,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 378
     height: 621
   m_SerializedDataModeController:
@@ -457,10 +457,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5ccc0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 36f6ffff9af6ffff76faffffdafaffff8ad90000
+      scrollPos: {x: 0, y: 120}
+      m_SelectedIDs: 5cd70000
+      m_LastClickedID: 55132
+      m_ExpandedIDs: 3ee4feff28e6feffdafaffffc0d3000092d4000030d9000032da000032db000060dd0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1120,9 +1120,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 852.4722, y: 918.2121, z: -9.379161}
+    m_Target: {x: 0.71240115, y: -0.8658825, z: 1.6777034}
     speed: 2
-    m_Value: {x: 852.4722, y: 918.2121, z: -9.379161}
+    m_Value: {x: 0.7483149, y: -0.9542418, z: 1.6810952}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1172,9 +1172,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1113.5629
+    m_Target: 7.876648
     speed: 2
-    m_Value: 1113.5629
+    m_Value: 7.537462
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1339,9 +1339,9 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets/me/scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1351,16 +1351,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources
+  - Assets/me/scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Program Files\git\LUTE
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1046}
-    m_SelectedIDs: 80f30000
-    m_LastClickedID: 62336
-    m_ExpandedIDs: 000000002af200002cf200002ef2000030f2000032f2000034f2000036f2000038f200003af200003cf200003ef2000040f2000042f2000044f2000046f2000048f200004af200004cf200004ef2000050f2000052f2000054f2000056f2000058f200007ef3000000ca9a3b
+    scrollPos: {x: 0, y: 1014}
+    m_SelectedIDs: c6f30000
+    m_LastClickedID: 62406
+    m_ExpandedIDs: 00000000b2f20000b4f20000b6f20000b8f20000baf20000bcf20000bef20000c0f20000c2f20000c4f20000c6f20000c8f20000caf20000ccf20000cef20000d0f20000d2f20000d4f20000d6f20000d8f20000daf20000dcf20000def20000e0f2000048f3000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1389,7 +1389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002af200002cf200002ef2000030f2000032f2000034f2000036f2000038f200003af200003cf200003ef2000040f2000042f2000044f2000046f2000048f200004af200004cf200004ef2000050f2000052f2000054f2000056f2000058f20000
+    m_ExpandedIDs: 00000000b2f20000b4f20000b6f20000b8f20000baf20000bcf20000bef20000c0f20000c2f20000c4f20000c6f20000c8f20000caf20000ccf20000cef20000d0f20000d2f20000d4f20000d6f20000d8f20000daf20000dcf20000def20000e0f20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1421,18 +1421,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300002ccb0000c282000046ee000072e90000deed000044e4000034df0000d4d300002ed9000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: InventoryPopupMenuPrefab 1
-      m_OriginalName: InventoryPopupMenuPrefab 1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 60208
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 10}
@@ -1443,7 +1443,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 145}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 210

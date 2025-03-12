@@ -25,6 +25,9 @@ namespace LoGaCulture.LUTE
         public bool wearingh2;
         public bool wearingh3;
         public bool wearingh4;
+
+        public GameObject screenshotui;
+        public GameObject buttons;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
@@ -181,8 +184,34 @@ namespace LoGaCulture.LUTE
         }
 
 
+        public void openscreenshotmenu()
+        {
+            screenshotui.SetActive(true);
+            buttons.SetActive(false);
+        }
+
         public void finish()
         {
+            screenshotui.SetActive(false);
+            buttons.SetActive(true);
+
+            hat1.SetActive(false);
+            hat2.SetActive(false);
+            hat3.SetActive(false);
+            hat4.SetActive(false);
+            wearingh1 = false;
+            wearingh2 = false;
+            wearingh3 = false;
+            wearingh4 = false;
+
+            dress1.SetActive(false);
+            dress2.SetActive(false);
+            dress3.SetActive(false);
+            underdress.SetActive(true);
+            wearingd1 = false;
+            wearingd2 = false;
+            wearingd3 = false;
+
             game.SetActive(false);
         }
     }
