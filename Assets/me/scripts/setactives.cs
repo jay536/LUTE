@@ -8,6 +8,8 @@ namespace LoGaCulture.LUTE
         public GameObject dressup;
         public GameObject nogame;
 
+        public CanvasGroup inventory;
+
         //public GameObject collected;
 
 
@@ -51,6 +53,15 @@ namespace LoGaCulture.LUTE
         public void closeNoGame()
         {
             nogame.SetActive(false);
+        }
+
+        public void hideinventory()
+        {
+            inventory.alpha = 0;
+        }
+        public void showinventory()
+        {
+            inventory.alpha = 1;
         }
     }
 }

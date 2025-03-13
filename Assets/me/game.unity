@@ -24103,6 +24103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dressup: {fileID: 2013796610}
   nogame: {fileID: 587997571}
+  inventory: {fileID: 962205994}
 --- !u!4 &908386099
 Transform:
   m_ObjectHideFlags: 0
@@ -25203,6 +25204,11 @@ RectTransform:
   m_AnchoredPosition: {x: 20.999983, y: 26}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &962205994 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 9222582945795042188, guid: fef2917b60f9a094e8ce5f109b86e116, type: 3}
+  m_PrefabInstance: {fileID: 2096702114}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963470700
 GameObject:
   m_ObjectHideFlags: 0
@@ -28652,10 +28658,14 @@ PrefabInstance:
       objectReference: {fileID: 3496380038528630776, guid: 6db773c76a469384783367bb1977615c, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
@@ -28663,7 +28673,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 908386098}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 908386098}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
@@ -28671,11 +28689,23 @@ PrefabInstance:
       value: dressupon
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: hideinventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: LoGaCulture.LUTE.setactives, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: LoGaCulture.LUTE.setactives, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -30387,7 +30417,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &1241511506
 GameObject:
