@@ -5,6 +5,7 @@ namespace LoGaCulture.LUTE
     public class backupdialogue : MonoBehaviour
     {
         public GameObject game;
+        public GameObject dialogue;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
@@ -22,6 +23,7 @@ namespace LoGaCulture.LUTE
         public void close()
         {
             game.SetActive(false);
+            dialogue.SetActive(false);
         }
     }
 }
