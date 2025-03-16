@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 2
   itemType: 0
-  itemName: Badger
+  itemName: Bobby
   itemDescription: 
-  isLocked: 0
+  isLocked: 1
   useWhenLocked: 1
   consumeOnUse: 0
   canDrop: 0
@@ -31,4 +31,9 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  characterDescription: 'Bobby Badger is one of the older animals invited to the
+    Avebury Costume Party.
+
+    He enjoys quietly watching visitors explore the Avebury
+    Site, and has recently started painting and sketching. He also likes looking
+    into the history of the site with his friend Terrance.'

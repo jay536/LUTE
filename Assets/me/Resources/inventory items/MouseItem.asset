@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 0
   itemType: 0
-  itemName: Mouse
+  itemName: Milly Mouse
   itemDescription: I am a cute mouse!
   isLocked: 1
   useWhenLocked: 1
@@ -31,4 +31,6 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: hidden in a field with few stones
-  characterDescription: an indecicive little mouse, she enjoys tea parties and sewing
+  characterDescription: "Milly is an indecicive little mouse. \nShe enjoys tea parties
+    and sewing her own clothes, but can find it difficult choosing what idea she
+    wants to make first. Luckily her friends are always ready to help."

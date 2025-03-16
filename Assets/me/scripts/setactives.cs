@@ -6,6 +6,7 @@ namespace LoGaCulture.LUTE
     {
 
         public GameObject dressup;
+        public GameObject create;
         public GameObject nogame;
 
         public CanvasGroup inventory;
@@ -34,6 +35,11 @@ namespace LoGaCulture.LUTE
         {
             dressup.SetActive(true);
             //character1.SetActive(true);
+        }
+
+        public void createon()
+        {
+            create.SetActive(true);
         }
 
        /* public void opencollected()
