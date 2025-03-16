@@ -16,7 +16,7 @@ MonoBehaviour:
   itemType: 0
   itemName: Mouse
   itemDescription: I am a cute mouse!
-  isLocked: 0
+  isLocked: 1
   useWhenLocked: 1
   consumeOnUse: 0
   canDrop: 0
