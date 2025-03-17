@@ -77,7 +77,8 @@ namespace LoGaCulture.LUTE
                     if (locationMet)
                     {
                         // This may be an issue as we could potentially execute node multiple times?
-                        ExecuteNode();
+                        if (location.Value.LocationDisabled == false)
+                            ExecuteNode();
                     }
                 }
             }
@@ -102,7 +103,8 @@ namespace LoGaCulture.LUTE
 
             if (locationMet)
             {
-                ExecuteNode();
+                if (location.Value.LocationDisabled == false)
+                    ExecuteNode();
             }
         }
     }
