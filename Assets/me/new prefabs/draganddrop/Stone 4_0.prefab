@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7113378434826151540}
   - component: {fileID: 2666305945085588494}
   - component: {fileID: 7959800467918756626}
-  - component: {fileID: 5134339579624915522}
+  - component: {fileID: 5016038037414478790}
   m_Layer: 0
   m_Name: Stone 4_0
   m_TagString: Untagged
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 6817994618046804764}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -446.61, y: -887, z: -3.9101458}
-  m_LocalScale: {x: 0.055316612, y: 0.055316612, z: 0.055316612}
+  m_LocalPosition: {x: -446.6566, y: -887.0627, z: -3.9101458}
+  m_LocalScale: {x: 0.048462883, y: 0.048462883, z: 0.048462883}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,13 +103,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 6817994618046804764}
   slot: {fileID: 0}
---- !u!65 &5134339579624915522
-BoxCollider:
+--- !u!60 &5016038037414478790
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6817994618046804764}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -118,9 +121,41 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 13.599999, y: 18.289999, z: 0.19999999}
-  m_Center: {x: -0.00069236755, y: -0.00061035156, z: 0}
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13.6, y: 18.29}
+    newSize: {x: 13.6, y: 18.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -3.48, y: 2.5549998}
+      - {x: -6.42, y: -2.895}
+      - {x: -6.6099997, y: -7.375}
+      - {x: -3, y: -8.855}
+      - {x: 5.67, y: -7.975}
+      - {x: 6.5899997, y: -3.965}
+      - {x: 5.71, y: 6.045}
+      - {x: 1.5, y: 9.115}
+      - {x: -2.73, y: 7.045}
+  m_UseDelaunayMesh: 0

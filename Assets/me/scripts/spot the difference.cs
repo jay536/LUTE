@@ -8,14 +8,17 @@ namespace LoGaCulture.LUTE
         public GameObject difference1;
         public GameObject difference2;
         public GameObject difference3;
+        public GameObject difference4;
 
         public GameObject difference11;
         public GameObject difference22;
         public GameObject difference33;
+        public GameObject difference44;
 
         public GameObject button1;
         public GameObject button2;
         public GameObject button3;
+        public GameObject button4;
 
         public float diffound;
 
@@ -31,7 +34,7 @@ namespace LoGaCulture.LUTE
         // Update is called once per frame
         void Update()
         {
-            if (diffound == 3)
+            if (diffound == 4)
             {
                 gameendui.SetActive(true);
             }
@@ -42,22 +45,65 @@ namespace LoGaCulture.LUTE
         {
             difference1.SetActive(true);
             button1.SetActive(false);
-            diffound = diffound + 1;
+            
             difference11.SetActive(true);
+            if (diffound == 4)
+            {
+                gameendui.SetActive(true);
+            }
+            else
+            {
+                diffound = diffound + 1;
+            }
         }
         public void finddifference2()
         {
             difference2.SetActive(true);
             button2.SetActive(false);
-            diffound = diffound + 1;
+            
             difference22.SetActive(true);
+           
+            if (diffound == 4)
+            {
+                gameendui.SetActive(true);
+            }
+            else
+            {
+                diffound = diffound + 1;
+            }
         }
         public void finddifference3()
         {
             difference3.SetActive(true);
             button3.SetActive(false);
-            diffound = diffound + 1;
+            
             difference33.SetActive(true);
+            
+            if (diffound == 4)
+            {
+                gameendui.SetActive(true);
+            }
+            else
+            {
+                diffound = diffound + 1;
+            }
+        }
+
+        public void finddifference4()
+        {
+            difference4.SetActive(true);
+            button4.SetActive(false);
+            
+            difference44.SetActive(true);
+
+            if (diffound == 4)
+            {
+                gameendui.SetActive(true);
+            }
+            else
+            {
+                diffound = diffound + 1;
+            }
         }
 
         public void end()
@@ -73,6 +119,10 @@ namespace LoGaCulture.LUTE
             difference3.SetActive(false);
             difference3.SetActive(false);
             button3.SetActive(true);
+
+            difference4.SetActive(false);
+            difference44.SetActive(false);
+            button4.SetActive(true);
 
             diffound = 0;
 

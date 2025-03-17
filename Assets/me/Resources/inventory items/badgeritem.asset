@@ -16,7 +16,7 @@ MonoBehaviour:
   itemType: 0
   itemName: Bobby
   itemDescription: 
-  isLocked: 1
+  isLocked: 0
   useWhenLocked: 1
   consumeOnUse: 0
   canDrop: 0

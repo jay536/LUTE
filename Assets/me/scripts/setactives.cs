@@ -7,6 +7,8 @@ namespace LoGaCulture.LUTE
 
         public GameObject dressup;
         public GameObject create;
+        public GameObject spotthedif;
+        public GameObject find;
         public GameObject nogame;
 
         public CanvasGroup inventory;
@@ -40,6 +42,16 @@ namespace LoGaCulture.LUTE
         public void createon()
         {
             create.SetActive(true);
+        }
+
+        public void spotthedifon()
+        {
+            spotthedif.SetActive(true);
+        }
+
+        public void findon()
+        {
+            find.SetActive(true);
         }
 
        /* public void opencollected()
