@@ -17,4 +17,4 @@ MonoBehaviour:
   RadiusColour: {r: 1, g: 0.6556604, b: 0.6556604, a: 0.5882353}
   ShowName: 0
   ShowSprite: 1
-  ShowRadius: 1
+  ShowRadius: 0

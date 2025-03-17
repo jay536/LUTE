@@ -13,26 +13,14 @@ MonoBehaviour:
   m_Name: shop19
   m_EditorClassIdentifier: 
   infoID: 7efac6fc-f120-4ae5-af0e-5a35f64e6e92
-  Position: 51.4283647928272, -1.85566652563196
-  Name: shop
-  Sprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  InProgressSprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  CompletedSprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  Color: {r: 1, g: 1, b: 1, a: 1}
-  ShowName: 0
-  showRadius: 0
-  defaultRadiusColour: {r: 188, g: 120, b: 61, a: 150}
-  visitedRadiusColour: {r: 188, g: 120, b: 61, a: 150}
-  completedRadiusColour: {r: 188, g: 120, b: 61, a: 150}
-  locationDisabled: 0
-  radiusIncrease: -15
-  interactable: 1
-  saveInfo: 1
-  indepedentMarkerUpdating: 0
-  allowClickWithoutLocation: 0
+  locationName: 
+  position: 51.4284049206316, -1.85550512708375
   locationStatus: 1
-  infoImage: {fileID: 0}
-  displayName: 
-  description: 
-  nodeComplete: 
+  saveInfo: 1
+  statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
+  locationDisabled: 0
+  radiusIncrease: 0
+  radiusDecrease: 0
+  forcePermanentChange: 0
+  allowNodeControls: 0
   executeNode: 
