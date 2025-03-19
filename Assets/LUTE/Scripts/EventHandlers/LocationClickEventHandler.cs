@@ -47,11 +47,6 @@ namespace LoGaCulture.LUTE
                 return;
             }
 
-            if (location.Value == null)
-            {
-                return;
-            }
-
             if (overrideLocationDisplayList != null && location.Value != null)
             {
                 location.Value.StatusDisplayOptionsList = overrideLocationDisplayList;
@@ -74,7 +69,7 @@ namespace LoGaCulture.LUTE
                 if (Application.isPlaying)
                 {
                     bool locationMet = location.locationRef.Evaluate(ComparisonOperator.Equals, null);
-                    if (locationMet)
+                    if (locationMet && CheckLocationStatus())
                     {
                         // This may be an issue as we could potentially execute node multiple times?
                         ExecuteNode();
@@ -100,10 +95,18 @@ namespace LoGaCulture.LUTE
                 locationMet = location.Evaluate(ComparisonOperator.Equals, null);
             }
 
-            if (locationMet)
+            if (locationMet && CheckLocationStatus())
             {
                 ExecuteNode();
             }
+        }
+
+        protected bool CheckLocationStatus()
+        {
+            if (location.Value.LocationDisabled)
+                return false;
+
+            return true;
         }
     }
 }

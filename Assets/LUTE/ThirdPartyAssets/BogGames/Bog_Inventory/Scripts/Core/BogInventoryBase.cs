@@ -45,8 +45,17 @@ namespace BogGames.Tools.Inventory
             inventoryCanvas?.FadeInventoryCanvas();
         }
 
-        public virtual void AddItem(BogInventoryItem item, int amount = 1)
+        public virtual void AddItem(BogInventoryItem item, int amount = 1, bool addIfExists = true)
         {
+            // Check if item already exists in the inventory
+            if (!addIfExists)
+            {
+                if (items.FindIndex(slot => slot != null && slot.Item.ItemID == item.ItemID) != -1)
+                {
+                    return;
+                }
+            }
+
             // Try stacking into existing slots first
             for (int i = 0; i < items.Count; i++)
             {
@@ -312,6 +321,7 @@ namespace BogGames.Tools.Inventory
                 {
                     slot.Item.IsLocked = false;
                     slot.Item.UnlockItem();
+                    item = slot.Item;
                 }
             }
 
@@ -331,11 +341,26 @@ namespace BogGames.Tools.Inventory
                 {
                     slot.Item.IsLocked = true;
                     slot.Item.LockItem();
+                    item = slot.Item;
                 }
             }
 
             BogInventorySignals.DoInventoryItemLocked(item);
             inventoryCanvas?.DrawInventory(items, SelectedItemIndex, this);
+        }
+
+        public virtual bool InventoryContains(BogInventoryItem item)
+        {
+            bool contains = false;
+            foreach (var slot in items)
+            {
+                if (slot != null && slot.Item.ItemID == item.ItemID)
+                {
+                    contains = true;
+                    break;
+                }
+            }
+            return contains;
         }
 
         public virtual void UnlockRandomItem()
@@ -396,8 +421,13 @@ namespace BogGames.Tools.Inventory
             {
                 items = new List<BogInventorySlot?>(new BogInventorySlot?[inventoryWidth * inventoryHeight]);
                 inventoryCanvas?.DrawInventory(items, SelectedItemIndex, this);
+
                 BogInventorySignals.DoInventoryReset(this);
                 Debug.Log("Inventory reset.");
+            }
+            else
+            {
+                Debug.Log("Please run the game to reset the inventory.");
             }
         }
 
@@ -416,7 +446,11 @@ namespace BogGames.Tools.Inventory
 
                 if (serialisedItem != null)
                 {
-                    InsertItem(serialisedItem.BogInventoryItem, serialisedItem.BogInventoryItem.Quantity);
+                    var item = serialisedItem.BogInventoryItem;
+                    item.Quantity = serialisedItem.Quantity;
+                    item.SlotIndex = serialisedItem.SlotIndex;
+                    item.Item.IsLocked = serialisedItem.LockedState;
+                    InsertItem(item, serialisedItem.BogInventoryItem.Quantity);
                 }
             }
         }
