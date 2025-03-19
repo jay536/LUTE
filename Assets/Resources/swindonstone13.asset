@@ -15,7 +15,7 @@ MonoBehaviour:
   infoID: 70964b9e-a595-4ae4-b412-7cbfc6060382
   locationName: Swindon Stone
   position: 51.4299155463557, -1.8551659090851007
-  locationStatus: 0
+  locationStatus: 1
   saveInfo: 1
   statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
   locationDisabled: 0

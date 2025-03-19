@@ -18,7 +18,7 @@ MonoBehaviour:
   locationStatus: 1
   saveInfo: 1
   statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
-  locationDisabled: 0
+  locationDisabled: 1
   radiusIncrease: 0
   radiusDecrease: 0
   forcePermanentChange: 0
