@@ -44,6 +44,11 @@ namespace BogGames.Tools.Achievements
 
         public static BogAchievementsData Encode(List<BogAchievement> currentAchievements)
         {
+            if (currentAchievements == null || currentAchievements.Count <= 0)
+            {
+                return null;
+            }
+
             var achievementData = new BogAchievementsData();
 
             achievementData.achievements = new SerialisedBogAchievement[currentAchievements.Count];

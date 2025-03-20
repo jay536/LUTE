@@ -30,6 +30,11 @@ public class SaveData : MonoBehaviour
             case SaveManager.SaveProfile.BogInventoryData:
                 SaveInventoryData(saveDataItems);
                 break;
+            case SaveManager.SaveProfile.SaveAll:
+                SaveEngineData(saveDataItems, settingsOnly);
+                SaveAchievementData(saveDataItems);
+                SaveInventoryData(saveDataItems);
+                break;
         }
     }
 
@@ -102,7 +107,6 @@ public class SaveData : MonoBehaviour
                 var achievementData = JsonUtility.FromJson<BogAchievementsData>(saveDataItem.Data);
                 if (achievementData == null)
                 {
-                    Debug.LogError("Achievement data is null so failed to decode achievement data");
                     return;
                 }
 
@@ -114,7 +118,6 @@ public class SaveData : MonoBehaviour
                 var inventoryData = JsonUtility.FromJson<BogInventoryData>(saveDataItem.Data);
                 if (inventoryData == null)
                 {
-                    Debug.LogError("Inventory data is null so failed to decode inventory data");
                     return;
                 }
 

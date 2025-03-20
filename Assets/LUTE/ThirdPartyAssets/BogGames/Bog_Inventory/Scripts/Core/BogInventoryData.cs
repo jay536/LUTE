@@ -50,6 +50,11 @@ namespace BogGames.Tools.Inventory
         /// <returns></returns>
         public static BogInventoryData Encode(List<BogInventorySlot> currentInventoryItems)
         {
+            if (currentInventoryItems == null || currentInventoryItems.Count <= 0)
+            {
+                return null;
+            }
+
             var inventoryData = new BogInventoryData();
 
             inventoryData.inventoryItems = new SerialisedBogInventoryItem[currentInventoryItems.Count];

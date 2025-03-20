@@ -419,6 +419,15 @@ namespace BogGames.Tools.Inventory
         {
             if (Application.isPlaying)
             {
+                // First ensure we reset the locked status back to default in case we do not reload the scene when resetting the saved inventory file
+                foreach (var item in items)
+                {
+                    if (item != null)
+                    {
+                        item.Item.IsLocked = item.Item.DefaultLockedStatus;
+                    }
+                }
+
                 items = new List<BogInventorySlot?>(new BogInventorySlot?[inventoryWidth * inventoryHeight]);
                 inventoryCanvas?.DrawInventory(items, SelectedItemIndex, this);
 

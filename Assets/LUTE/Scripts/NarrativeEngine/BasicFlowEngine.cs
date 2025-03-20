@@ -1,7 +1,6 @@
 using LoGaCulture.LUTE;
 using Mapbox.Examples;
 using Mapbox.Unity.Map;
-using MoreMountains.Tools;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -172,8 +171,6 @@ public class BasicFlowEngine : MonoBehaviour, ISubstitutionHandler
     protected virtual void Start()
     {
         CheckEventSystem();
-        MMGameEvent.Trigger("Load");
-
 
         if (!this.name.Contains("GlobalVariablesEngine"))
             LogaManager.Instance.LogManager.Log(LoGaCulture.LUTE.Logs.LogLevel.Info, "Engine started", "Engine: " + description);
@@ -891,14 +888,24 @@ public class BasicFlowEngine : MonoBehaviour, ISubstitutionHandler
         }
     }
 
-    public virtual void SetLocationInfo(string infoID, LoGaCulture.LUTE.LocationStatus status)
+    public virtual void SetLocationInfo(string infoID, LoGaCulture.LUTE.LocationStatus status, bool disabled)
     {
         foreach (var item in GetComponents<LocationVariable>())
         {
             if (item.Value.InfoID == infoID)
             {
                 item.Value.LocationStatus = status;
+                item.Value.LocationDisabled = disabled;
             }
+        }
+    }
+
+    public virtual void ResetLocationsToDefault()
+    {
+        foreach (var item in GetComponents<LocationVariable>())
+        {
+            item.Value.LocationStatus = item.Value.DefaultLocationStatus;
+            item.Value.LocationDisabled = item.Value.DefaultDisabledStatus;
         }
     }
 
