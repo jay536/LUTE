@@ -16,7 +16,7 @@ MonoBehaviour:
   itemType: 0
   itemName: Milly Mouse
   itemDescription: I am a cute mouse!
-  isLocked: 1
+  defaultLockedStatus: 1
   useWhenLocked: 1
   consumeOnUse: 0
   canDrop: 0
