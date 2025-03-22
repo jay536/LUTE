@@ -12,6 +12,7 @@ namespace LoGaCulture.LUTE
         public GameObject nogame;
 
         public CanvasGroup inventory;
+        public CanvasGroup endscreen;
 
         //public GameObject collected;
 
@@ -76,10 +77,12 @@ namespace LoGaCulture.LUTE
         public void hideinventory()
         {
             inventory.alpha = 0;
+            endscreen.alpha = 0;
         }
         public void showinventory()
         {
             inventory.alpha = 1;
+            endscreen.alpha = 1;
         }
     }
 }

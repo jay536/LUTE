@@ -13,7 +13,10 @@ namespace LoGaCulture.LUTE
         public GameObject slot;
 
 
-       // public GameObject selected;
+
+
+
+        //public GameObject selected;
 
        
         // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -84,6 +87,11 @@ namespace LoGaCulture.LUTE
         /*public void deselect()
         {
             selected.SetActive(false);
+        }*/
+
+       /* public void makebigger()
+        {
+            transform.localScale = new Vector3 (transform.localScale.x + 1, transform.localScale.y + 1);
         }*/
     }
 }
