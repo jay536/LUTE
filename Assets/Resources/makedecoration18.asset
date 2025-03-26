@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: makedecoration18
   m_EditorClassIdentifier: 
   infoID: 42713685-bf65-4ec2-ab73-929c86323315
-  locationName: 
-  position: 51.4296819760459, 1.85737559252224
+  locationName: makedecoration
+  position: 51.4292304432783, -1.85492123506068
   defaultStatus: 0
   saveInfo: 1
   statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
