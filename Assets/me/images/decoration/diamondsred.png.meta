@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: bfb4539b535f5ac498daf5cda59885c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8434502215772076358
+    second: diamondsred_0
+  - first:
+      213: 8426669009151060865
+    second: diamondsred_1
+  - first:
+      213: 8053849617858082217
+    second: diamondsred_2
+  - first:
+      213: 2142504104720463586
+    second: diamondsred_3
+  - first:
+      213: -2133085198539411016
+    second: diamondsred_4
+  - first:
+      213: 5459122899254226668
+    second: diamondsred_5
+  - first:
+      213: -7851828934510816983
+    second: diamondsred_6
+  - first:
+      213: -2226464991884702703
+    second: diamondsred_7
+  - first:
+      213: -8775051075880325583
+    second: diamondsred_8
+  - first:
+      213: 3593188545241001460
+    second: diamondsred_9
+  - first:
+      213: -8600618754536549208
+    second: diamondsred_10
+  - first:
+      213: -4168320248860683730
+    second: diamondsred_11
+  - first:
+      213: 7908383682617502071
+    second: diamondsred_12
+  - first:
+      213: 5055661980212277492
+    second: diamondsred_13
+  - first:
+      213: -5476726278929129621
+    second: diamondsred_14
+  - first:
+      213: 6042212290431853172
+    second: diamondsred_15
+  - first:
+      213: 2585639133328110826
+    second: diamondsred_16
+  - first:
+      213: 3453230349531742802
+    second: diamondsred_17
+  - first:
+      213: 2860159340553696783
+    second: diamondsred_18
+  - first:
+      213: -187231578469289775
+    second: diamondsred_19
+  - first:
+      213: 3009032244649347213
+    second: diamondsred_20
+  - first:
+      213: 9089283360656791778
+    second: diamondsred_21
+  - first:
+      213: 5446282135174315259
+    second: diamondsred_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diamondsred_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 75
+        width: 680
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceeaf3b6a53b2cb40800000000000000
+      internalID: 5459122899254226668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      diamondsred_0: -8434502215772076358
+      diamondsred_1: 8426669009151060865
+      diamondsred_10: -8600618754536549208
+      diamondsred_11: -4168320248860683730
+      diamondsred_12: 7908383682617502071
+      diamondsred_13: 5055661980212277492
+      diamondsred_14: -5476726278929129621
+      diamondsred_15: 6042212290431853172
+      diamondsred_16: 2585639133328110826
+      diamondsred_17: 3453230349531742802
+      diamondsred_18: 2860159340553696783
+      diamondsred_19: -187231578469289775
+      diamondsred_2: 8053849617858082217
+      diamondsred_20: 3009032244649347213
+      diamondsred_21: 9089283360656791778
+      diamondsred_22: 5446282135174315259
+      diamondsred_3: 2142504104720463586
+      diamondsred_4: -2133085198539411016
+      diamondsred_5: 5459122899254226668
+      diamondsred_6: -7851828934510816983
+      diamondsred_7: -2226464991884702703
+      diamondsred_8: -8775051075880325583
+      diamondsred_9: 3593188545241001460
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

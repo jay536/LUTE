@@ -9,6 +9,7 @@ namespace LoGaCulture.LUTE
         public GameObject create;
         public GameObject spotthedif;
         public GameObject find;
+        public GameObject decoration;
         public GameObject nogame;
 
         public CanvasGroup inventory;
@@ -53,6 +54,11 @@ namespace LoGaCulture.LUTE
         public void findon()
         {
             find.SetActive(true);
+        }
+
+        public void decorationon()
+        {
+            decoration.SetActive(true);
         }
 
        /* public void opencollected()
