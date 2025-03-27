@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoID: dbd2687a-95b9-499b-915f-aadeed67312d
   locationName: 
-  position: -51.4286445375926, -1.85455287895725
+  position: 
   defaultStatus: 0
   saveInfo: 1
   statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
