@@ -36,6 +36,11 @@ public class VariableEditor : OrderEditor
     public static void VariableField(SerializedProperty property, GUIContent label, BasicFlowEngine engine, string defaultText,
                                     Func<Variable, bool> filter, Func<string, int, string[], int> drawer = null)
     {
+        if (engine == null)
+        {
+            return;
+        }
+
         List<string> variableKeys = new List<string>();
         List<Variable> variableObjs = new List<Variable>();
 
