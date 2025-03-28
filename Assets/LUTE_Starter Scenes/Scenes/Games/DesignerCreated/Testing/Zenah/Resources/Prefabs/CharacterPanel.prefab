@@ -40,8 +40,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0056152344, y: 0.0048828125}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.0056152344, y: 413.03644}
+  m_SizeDelta: {x: 0, y: -826.063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1296899677392117851
 CanvasRenderer:
@@ -71,8 +71,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 11c61be2bb504b6469a77e1aca116ffc, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 4495440122235666822, guid: 3293c24d79dd0b64e89cb015936000f5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -127,7 +127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.7381, y: 72.700195}
+  m_AnchoredPosition: {x: 19.7381, y: -147}
   m_SizeDelta: {x: 1022.4024, y: 145.4004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4726190691017836322
@@ -865,8 +865,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -100, y: 1362.292}
+  m_AnchoredPosition: {x: 0, y: 277.31702}
+  m_SizeDelta: {x: -100, y: 758.9751}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &2145272846424599786
 CanvasRenderer:
@@ -899,9 +899,8 @@ MonoBehaviour:
   m_text: 'Not be confused with any other brand name characters....
 
 
-
-    Percy
-    Pug is unique!'
+    Percy Pug
+    is unique!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
