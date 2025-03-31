@@ -17,6 +17,13 @@ namespace LoGaCulture.LUTE
         public GameObject hat3;
         public GameObject hat4;
 
+        public GameObject shoe1;
+        public GameObject shoe2;
+        public GameObject shoe3;
+
+        public GameObject falsesleeve1;
+        public GameObject falsesleeve2;
+
         public bool wearingd1;
         public bool wearingd2;
         public bool wearingd3;
@@ -25,6 +32,13 @@ namespace LoGaCulture.LUTE
         public bool wearingh2;
         public bool wearingh3;
         public bool wearingh4;
+
+        public bool wearings1;
+        public bool wearings2;
+        public bool wearings3;
+
+        public bool wearingfs1;
+        public bool wearingfs2;
 
         public GameObject screenshotui;
         public GameObject buttons;
@@ -183,6 +197,109 @@ namespace LoGaCulture.LUTE
             }
         }
 
+        public void addshoe1()
+        {
+            if(wearings1 == false)
+            {
+                shoe1.SetActive(true);
+                shoe2.SetActive(false);
+                shoe3.SetActive(false);
+                wearings1 = true;
+                wearings2 = false;
+                wearings3 = false;
+            }
+            else if (wearings1 == true)
+            {
+                shoe1.SetActive(false);
+                shoe2.SetActive(false);
+                shoe3.SetActive(false);
+
+                wearings1 = false;
+            }
+        }
+
+        public void addshoe2()
+        {
+            if (wearings2 == false)
+            {
+                shoe1.SetActive(false);
+                shoe2.SetActive(true);
+                shoe3.SetActive(false);
+                wearings1 = false;
+                wearings2 = true;
+                wearings3 = false;
+            }
+            else if (wearings2 == true)
+            {
+                shoe1.SetActive(false);
+                shoe2.SetActive(false);
+                shoe3.SetActive(false);
+
+                wearings2 = false;
+            }
+        }
+        public void addshoe3()
+        {
+            if (wearings3 == false)
+            {
+                shoe1.SetActive(false);
+                shoe2.SetActive(false);
+                shoe3.SetActive(true);
+                wearings1 = false;
+                wearings2 = false;
+                wearings3 = true;
+            }
+            else if (wearings3 == true)
+            {
+                shoe1.SetActive(false);
+                shoe2.SetActive(false);
+                shoe3.SetActive(false);
+
+                wearings3 = false;
+            }
+        }
+
+        public void addfalsesleeve1()
+        {
+            if (wearingfs1 == false)
+            {
+                falsesleeve1.SetActive(true);
+                falsesleeve2.SetActive(false);
+                
+                wearingfs1 = true;
+                wearingfs2 = false;
+                
+            }
+            else if (wearingfs1 == true)
+            {
+                falsesleeve1.SetActive(false);
+                falsesleeve2.SetActive(false);
+                
+
+                wearingfs1 = false;
+            }
+        }
+        public void addfalsesleeve2()
+        {
+            if (wearingfs2 == false)
+            {
+                falsesleeve1.SetActive(false);
+                falsesleeve2.SetActive(true);
+
+                wearingfs1 = false;
+                wearingfs2 = true;
+
+            }
+            else if (wearingfs2 == true)
+            {
+                falsesleeve1.SetActive(false);
+                falsesleeve2.SetActive(false);
+
+
+                wearingfs2 = false;
+            }
+        }
+
 
         public void openscreenshotmenu()
         {
@@ -211,6 +328,18 @@ namespace LoGaCulture.LUTE
             wearingd1 = false;
             wearingd2 = false;
             wearingd3 = false;
+
+            shoe1.SetActive(false);
+            shoe2.SetActive(false);
+            shoe3.SetActive(false);
+            wearings1 = false;
+            wearings2 = false;
+            wearings3 = false;
+
+            falsesleeve1.SetActive(false);
+            falsesleeve2.SetActive(false);
+            wearingfs1 = false;
+            wearingfs2 = false;
 
             game.SetActive(false);
         }

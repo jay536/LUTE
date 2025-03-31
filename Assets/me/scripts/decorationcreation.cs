@@ -1,3 +1,4 @@
+using System;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -16,6 +17,9 @@ namespace LoGaCulture.LUTE
         public GameObject finishcreationbutton;
 
         public GameObject game;
+
+        public GameObject[] background1;
+        public GameObject[] background2;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
@@ -39,6 +43,15 @@ namespace LoGaCulture.LUTE
             endgametext.SetActive(true);
             endgamebutton.SetActive(true);
 
+            foreach (GameObject obj in background1)
+            {
+                obj.SetActive(false);
+            }
+            foreach (GameObject obj in background2)
+            {
+                obj.SetActive(false);
+            }
+
         }
 
         public void close()
@@ -52,6 +65,15 @@ namespace LoGaCulture.LUTE
             endgametext.SetActive(false);
             game.SetActive(false);
             endgamebutton.SetActive(false);
+
+            foreach (GameObject obj in background1)
+            {
+                obj.SetActive(true);
+            }
+            foreach (GameObject obj in background2)
+            {
+                obj.SetActive(true);
+            }
         }
     }
 }

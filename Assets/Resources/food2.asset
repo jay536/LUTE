@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4ddc75f9f1b3043893d0de76d49f2c, type: 3}
   m_Name: food2
   m_EditorClassIdentifier: 
-  infoID: 
+  infoID: food2
   locationName: 
-  position: 
+  position: 51.4291505836647, -1.85685048316852
   defaultStatus: 0
   saveInfo: 1
-  statusDisplayOptionsList: {fileID: 0}
+  statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
   defaultDisabledStatus: 0
-  radiusIncrease: 0
+  radiusIncrease: 20
   radiusDecrease: 0
   forcePermanentChange: 0
   allowNodeControls: 0

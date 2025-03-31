@@ -584,7 +584,7 @@ namespace LoGaCulture.LUTE
         }
 
         //set stripe colour
-
+        
         public void stripe1black()
         {
             stripesblack1.SetActive(true);
@@ -777,7 +777,7 @@ namespace LoGaCulture.LUTE
             stripesblue2.SetActive(false);
             stripesblack2.SetActive(false);
         }
-
+       
         //show diamond
         public void showdiamond1()
         {

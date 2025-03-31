@@ -47,22 +47,6 @@ namespace LoGaCulture.LUTE
 
                 textComponent.text = floatVariable.Value.ToString();
 
-
-
-                /* if (time > 0)
-                 {
-                     time -= Time.deltaTime;
-                 }
-                 else if (time < 0)
-                 {
-                     time = 0;
-                 }
-                 int minutes = Mathf.FloorToInt(time / 60);
-                 int seconds = Mathf.FloorToInt(time % 60);
-                 textComponent.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-
-                 time = float.Parse(textComponent.text);
-                 //time = float.TryParse(floatVariable);*/
                 int minutes = floatVariable.Value;
                 int hours = minutes / 60;
                 int mins = minutes % 60;
