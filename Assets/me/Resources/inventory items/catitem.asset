@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 6
   itemType: 0
-  itemName: cat
+  itemName: Celeste
   itemDescription: 
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,12 +23,25 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: -8791720067950080201, guid: 8fec04116b159e643bbc3d69e9f57c45, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  hint: Found near the shops
+  characterDescription: 'Cat
+
+    Found near the shops
+
+    Outfit inspired by
+    the medieval era
+
+    Celeste is a very fashionable cat, and can frequently
+    be found eyeing outfits in shop windows. She wants to be a fashion designer,
+    and uses her friends'' wardrobes to practice. Milly especially will come to Celeste
+    if she is stuck on what to wear. Celeste  also made a lot of the costumes her
+    friends are wearing to the party.
+
+'

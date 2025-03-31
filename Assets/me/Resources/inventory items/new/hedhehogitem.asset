@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 15
   itemType: 0
-  itemName: hedgehog
+  itemName: Harry
   itemDescription: 
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,12 +23,16 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: -3347910513992916872, guid: 30575665105133740943489446d1e37d, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  hint: Found in the northern sector in a field with few stones
+  characterDescription: "Hedgehog\r\nFound in the northern sector\r\nOutfit inspired
+    by early 1900s archaeologists\r\nSurprisingly excitable Harry the hedgehog gets
+    carried away talking about the things he\u2019s interested in most of the time.
+    He takes particular interest in the possibilities of the Avebury site, and often
+    visits the museum to view the artefacts that are displayed there.\r\n"

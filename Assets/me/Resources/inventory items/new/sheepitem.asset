@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 19
   itemType: 0
-  itemName: sheep
+  itemName: Sasha
   itemDescription: 
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,12 +23,24 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: -8636221404721523813, guid: 3759ac9836b967647a82db3ff21c6e55, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  hint: Found at a set of stones known as the Cove
+  characterDescription: 'Sheep
+
+    Found at a set of stones known as the Cove
+
+    Outfit
+    inspired by neolithic people
+
+    Sasha sheep is an aspiring actress. She has
+    shown up as a background actor in many tv shows and films, but has yet to truly
+    break into the mainstream. That doesn''t matter to her though, she enjoys performing,
+    and showing her friends her new roles, much more than any fame.
+
+'

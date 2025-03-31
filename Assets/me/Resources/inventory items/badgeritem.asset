@@ -23,17 +23,16 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: -687963666580537163, guid: 4ece8426c870e9c489092c1b11f1bc89, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: 'Bobby Badger is one of the older animals invited to the
-    Avebury Costume Party.
-
-    He enjoys quietly watching visitors explore the Avebury
+  hint: Found in a field in the northern sector
+  characterDescription: "Badger\r\nFound in the northern sector\r\nOutfit inspired
+    by william stuckley\r\nBobby Badger is one of the older animals invited to the
+    Avebury Costume Party. He enjoys quietly watching visitors explore the Avebury
     Site, and has recently started painting and sketching. He also likes looking
-    into the history of the site with his friend Terrance.'
+    into the history of the site with his friends Terrance and Steve\r"

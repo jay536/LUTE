@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 4
   itemType: 0
-  itemName: Ruth Rabbit
+  itemName: Ruth
   itemDescription: 
-  isLocked: 0
+  defaultLockedStatus: 0
   useWhenLocked: 0
   consumeOnUse: 0
   canDrop: 0
@@ -31,6 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: "Ruth rabbit can often be found running around organising
-    last minute events. \nShe enjoys throwing parties for her friends, busying herself
-    with new projects and coming up with ideas for new activities to do."
+  characterDescription: "Rabbit\r\nOutfit inspired by national trust uniforms \r\nRuth
+    rabbit can often be found running around organising last minute events. She enjoys
+    throwing parties for her friends, busying herself with new projects and coming
+    up with ideas for new activities to do, but can be a little stubborn when it
+    comes to accepting help from her friends.\r\n"

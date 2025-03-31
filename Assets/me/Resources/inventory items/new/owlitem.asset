@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 18
   itemType: 0
-  itemName: owl
+  itemName: Oscar
   itemDescription: 
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,12 +23,17 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: -6367637764002013411, guid: ba5aa889943e5a94a8e68c87b0b2ca01, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  hint: Found at a stone known as the Obelisk
+  characterDescription: "Barn owl\r\nFound at a stone known as the Obelisk\r\nOutfit
+    inspired by early 1900s archaeologists\r\nA little bit eerie, Oscar seems to
+    know things before they actually happen, and has successfully guessed the lottery
+    numbers every week since he has an owlet. He\u2019s best friends with Fey the
+    fox, and they can often be found discussing the hidden meanings in their favourite
+    books.\r\n"

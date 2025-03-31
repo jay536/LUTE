@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 20000
   itemType: 0
-  itemName: crow
+  itemName: Cas
   itemDescription: 
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,12 +23,16 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: 5457513411219821698, guid: f8b9a316ad95b0d4c9f0cc24e4588d91, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  hint: Found outside the cafe
+  characterDescription: "Crow\r\nFound outside the cafe\r\nOutfit inspired by the
+    medieval era\r\n\r\nIf you\u2019ve ever had shiny things go missing mysteriously,
+    or thought you heard someone call your name while visiting the Avebury site it
+    may have been Cas the crow. The only thing they love more than pranks is food,
+    and they can frequently be heard laughing VERY loudly.\r\n"

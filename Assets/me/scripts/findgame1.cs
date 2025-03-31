@@ -18,6 +18,8 @@ namespace LoGaCulture.LUTE
         public GameObject v3;
 
         public int randomselect;
+
+        public GameObject endgameui;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
@@ -65,6 +67,20 @@ namespace LoGaCulture.LUTE
             find.SetActive(true);
         }
 
+        public void endgamedialogue()
+        {
+            endgameui.SetActive(true);
+
+            v1.SetActive(false);
+            v2.SetActive(false);
+            v3.SetActive(false);
+
+            notfind.SetActive(false);
+            find.SetActive(false);
+
+
+        }
+
         public void close()
         {
             game.SetActive(false);
@@ -74,6 +90,7 @@ namespace LoGaCulture.LUTE
             notfindbool = false;
             notfind.SetActive(false);
             find.SetActive(false);
+            endgameui.SetActive(false);
 
 
         }

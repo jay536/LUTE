@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 7
   itemType: 0
-  itemName: 
+  itemName: Terrance
   itemDescription: 
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,12 +23,17 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: -5069759449545651081, guid: f0ea008e70faa2c49ae2b395f24a0b65, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  hint: Found outside the Kieller museum
+  characterDescription: "Bluetit\r\nFound outside the Kieller museum\r\nOutfit inspired
+    by Alexander Kieller\r\nTerrance is absolutely fascinated by the archaeological
+    history of avebury, and his knowledge led to him deciding the costumes for himself,
+    Bobby and Steve. When not reading books or looking in the museum he often can
+    be found discussing what he\u2019s learned with Harry the hedgehog, or quietly
+    drinking tea with his friends.\r\n"

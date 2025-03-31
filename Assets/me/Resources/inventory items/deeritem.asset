@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 8
   itemType: 0
-  itemName: 
+  itemName: Dora
   itemDescription: 
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,12 +23,15 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: -6780331845036650252, guid: e310a6f190dc4ec4294de9c886cf4c9b, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: This item is locked. You need to find a key to unlock it.
-  characterDescription: A character in the scene.
+  hint: Found by a large tree near the bank
+  characterDescription: "Deer\r\nFound by a large tree\r\nOutfit inspired by the
+    medieval era\r\nDora is a very kind, quiet deer, and can often be found quietly
+    reading under a tree, or napping in the sun. She is also a very passionate gardener,
+    with a large personal garden where she grows everything from flowers to vegetables.\r\n "

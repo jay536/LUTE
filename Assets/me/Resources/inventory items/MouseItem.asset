@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 0
   itemType: 0
-  itemName: Milly Mouse
+  itemName: Milly
   itemDescription: I am a cute mouse!
   defaultLockedStatus: 1
   useWhenLocked: 1
@@ -23,14 +23,23 @@ MonoBehaviour:
   canMove: 0
   maxStackSize: 1
   unlockedIcon: {fileID: 3496380038528630776, guid: 6db773c76a469384783367bb1977615c, type: 3}
-  lockedIcon: {fileID: 21300000, guid: b91e4efbf5609634389a18c2b2dba4f8, type: 3}
+  lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
   moveSound: {fileID: 0}
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: hidden in a field with few stones
-  characterDescription: "Milly is an indecicive little mouse. \nShe enjoys tea parties
-    and sewing her own clothes, but can find it difficult choosing what idea she
-    wants to make first. Luckily her friends are always ready to help."
+  hint: Found in the northern sector in a field with few stones
+  characterDescription: 'Mouse
+
+    Found in the northern sector
+
+    Outfit inspired
+    by the medieval era
+
+    Milly is an indecisive little mouse. She enjoys tea
+    parties and sewing her own clothes, but can find it difficult choosing what idea
+    she wants to make first. Luckily her friends are always ready to help.
+
+'
