@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UnvisitedLocationDisplay
   m_EditorClassIdentifier: 
   NameLabelColor: {r: 0, g: 0, b: 0, a: 0}
-  MarkerSprite: {fileID: 0}
+  MarkerSprite: {fileID: 21300000, guid: d764252b019bccb48bc36a1869796494, type: 3}
   RadiusColour: {r: 1, g: 0.6556604, b: 0.6556604, a: 0}
   ShowName: 1
   ShowSprite: 1
