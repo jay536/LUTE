@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoID: 529463c5-c149-498c-b1cd-341dbb2a9bf9
   locationName: 
-  position: 51.4272390942352, -1.85373046609494
-  locationStatus: 1
+  position: 51.4289562382532, -1.85817923003687
+  defaultStatus: 0
   saveInfo: 1
   statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
-  locationDisabled: 0
+  defaultDisabledStatus: 0
   radiusIncrease: 0
   radiusDecrease: 0
   forcePermanentChange: 0
