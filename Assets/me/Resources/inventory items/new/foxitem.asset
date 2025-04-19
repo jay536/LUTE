@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 1
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -4702544020559098553, guid: 6b9d71065c2a2d54bb3a617ed6438bdd, type: 3}
+  unlockedIcon: {fileID: -5196379000393489285, guid: 928c6789379a3aa4a9f7ef7a03ac15df, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,8 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found in a field in the northern sector
-  characterDescription: "Fox\r\nFound in the northern sector \r\nOutfit inspired
-    by modern Avebury visitors\r\nNormally keeping to herself and her group of friends,
-    Fey the fox enjoys anything she thinks is cool, such as performing with her band,
+  characterDescription: "Fox\r\nFound Northwestern sector\r\nOutfit inspired by modern
+    Avebury visitors\r\nNormally keeping to herself and her group of friends, Fey
+    the fox enjoys anything she thinks is cool, such as performing with her band,
     especially playing her bass guitar, reading long novels and writing. She wants
-    to learn how to turn her stories into comics.\r\n"
+    to learn how to turn her stories into comics.\r"

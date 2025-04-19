@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: 7938038189399414149, guid: 2324740e18fa88b48a0b6bc7dd78b60a, type: 3}
+  unlockedIcon: {fileID: 6141425898019221037, guid: f3777f6b699c122418789f54d793b90e, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,16 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found in the southern sector
-  characterDescription: 'Mole
-
-    Found in the southern sector
-
-    Outfit inspired
-    by early 1900s archaeologists
-
-    Frequently described as very to the point
-    Mary mole is one of the more practical animals invited to the party. She has
-    often said she would do great if stranded on a deserted island if she weren''t
-    also quite forgetful and clumsy.
-
-'
+  characterDescription: "Mole\r\nFound in the Southern sector\r\nOutfit inspired
+    by early 1900s archaeologists\r\nFrequently described as very to the point Mary
+    mole is one of the more practical animals invited to the party. She has often
+    said she would do great if stranded on a deserted island if she weren't also
+    quite forgetful and clumsy.\r"

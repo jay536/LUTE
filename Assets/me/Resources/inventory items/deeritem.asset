@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -6780331845036650252, guid: e310a6f190dc4ec4294de9c886cf4c9b, type: 3}
+  unlockedIcon: {fileID: -8347518877216470011, guid: b928ea9418d5e044d9a06e65f1504613, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,7 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found by a large tree near the bank
-  characterDescription: "Deer\r\nFound by a large tree\r\nOutfit inspired by the
-    medieval era\r\nDora is a very kind, quiet deer, and can often be found quietly
-    reading under a tree, or napping in the sun. She is also a very passionate gardener,
-    with a large personal garden where she grows everything from flowers to vegetables.\r\n "
+  characterDescription: "Deer\r\nFound by a large tree on the bank\r\nOutfit inspired
+    by the medieval era\r\nDora is a very kind, quiet deer, and can often be found
+    quietly reading under a tree, or napping in the sun. She is also a very passionate
+    gardener, with a large personal garden where she grows everything from flowers
+    to vegetables.\r"

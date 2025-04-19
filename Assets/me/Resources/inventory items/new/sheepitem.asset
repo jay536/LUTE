@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -8636221404721523813, guid: 3759ac9836b967647a82db3ff21c6e55, type: 3}
+  unlockedIcon: {fileID: -350356423459164557, guid: 43a6be40286e5a94f8b938d4a804a3b9, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,16 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found at a set of stones known as the Cove
-  characterDescription: 'Sheep
-
-    Found at a set of stones known as the Cove
-
-    Outfit
-    inspired by neolithic people
-
-    Sasha sheep is an aspiring actress. She has
-    shown up as a background actor in many tv shows and films, but has yet to truly
-    break into the mainstream. That doesn''t matter to her though, she enjoys performing,
-    and showing her friends her new roles, much more than any fame.
-
-'
+  characterDescription: "Sheep\r\nFound at a set of stones known as the Cove\r\nOutfit
+    inspired by neolithic people\r\nSasha sheep is an aspiring actress. She has shown
+    up as a background actor in many tv shows and films, but has yet to truly break
+    into the mainstream. That doesn't matter to her though, she enjoys performing,
+    and showing her friends her new roles, much more than any fame.\r"

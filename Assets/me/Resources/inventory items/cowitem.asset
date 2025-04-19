@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: 7331045588758425404, guid: c3d868bce416f2b49b3eccca57c61dd2, type: 3}
+  unlockedIcon: {fileID: -1544924621535753310, guid: acbbe782e9326f74a891949e8c8b4f16, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,17 +31,7 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found in a field in the southern sector
-  characterDescription: 'Cow
-
-    Found in the southern sector
-
-    Outfit inspired
-    by neolithic people
-
-    Clemo can seem cold when people first meet her, but
-    her friends know she is actually very kind.
-
-    She likes doing puzzles, especially
-    crosswords, and can often be found helping Milly with her crafts.
-
-'
+  characterDescription: "Cow\r\nFound in the Southern sector\r\nOutfit inspired by
+    neolithic people\r\nClemo can seem cold when people first meet her, but her friends
+    know she is actually very kind.\r\nShe likes doing puzzles, especially crosswords,
+    and can often be found helping Milly with her crafts.\r"

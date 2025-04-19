@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -4426162696298078930, guid: c1a47c31f30da7945ac6a46523005612, type: 3}
+  unlockedIcon: {fileID: 5520341595031711598, guid: 92d381947b3fedc42ab4a4f39212dc15, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -34,5 +34,5 @@ MonoBehaviour:
   characterDescription: "Stoat\r\nFound at the perimeter bank of the circle\r\nOutfit
     inspired by John Aubrey\r\nWhile less interested in diving into the history of
     Avebury, Steve likes listening to his friends discuss what they've found out.
-    He also has a slight theatrical side, frequently visiting sasha to discuss plays
-    and any new scripts they\u2019ve read.\r\n"
+    He also has a slight theatrical side, frequently visiting Sasha to discuss plays
+    and any new scripts they\u2019ve read.\r"

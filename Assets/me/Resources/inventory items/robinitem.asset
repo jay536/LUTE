@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -7968342797858671, guid: fb2f6f5b00272d54e85ef0f29241569c, type: 3}
+  unlockedIcon: {fileID: -6704744128457880795, guid: eb921aeac95cf8a40ba3c55ea7e8b444, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,16 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found by a stone known as the swindon stone
-  characterDescription: 'Robin
-
-    Found by a stone known as the swindon stone
-
-    Outfit
-    inspired by neolithic people
-
-    Ramona Robin Is a very blunt, no nonsense
-    bird. She knows a lot about the layout of the Avebury site, especially the popular
+  characterDescription: "Robin\r\nFound by a stone known as the swindon stone\r\nOutfit
+    inspired by neolithic people\r\nRamona Robin Is a very blunt, no nonsense bird.
+    She knows a lot about the layout of the Avebury site, especially the popular
     tourist locations, and regularly accompanies Sydney on her nature photography
-    outings. Pointing out the best places to capture photos.
-
-'
+    outings. Pointing out the best places to capture photos.\r"

@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -5069759449545651081, guid: f0ea008e70faa2c49ae2b395f24a0b65, type: 3}
+  unlockedIcon: {fileID: 108320453222795372, guid: 02df8ad940a912346aa2e1e85b013bde, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,9 +31,9 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found outside the Kieller museum
-  characterDescription: "Bluetit\r\nFound outside the Kieller museum\r\nOutfit inspired
-    by Alexander Kieller\r\nTerrance is absolutely fascinated by the archaeological
+  characterDescription: "Bluetit\nFound outside the Kieller museum\r\nOutfit inspired
+    by Alexander Keiller\r\nTerrance is absolutely fascinated by the archaeological
     history of avebury, and his knowledge led to him deciding the costumes for himself,
     Bobby and Steve. When not reading books or looking in the museum he often can
     be found discussing what he\u2019s learned with Harry the hedgehog, or quietly
-    drinking tea with his friends.\r\n"
+    drinking tea with his friends.\r\r"

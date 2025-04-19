@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -3367932149377307684, guid: f95f9ea9adf78074b80bb07bb3c7536e, type: 3}
+  unlockedIcon: {fileID: -2896620216504157050, guid: 54a234f85931d534183937c653163246, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,16 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found outside the Great Barn
-  characterDescription: 'Beetle
-
-    Found outside the Great Barn
-
-    Outfit inspired
-    by modern Avebury visitors
-
-    While a lot of the party guests can cook, Bertie
+  characterDescription: "Beetle\r\nFound outside the Great Barn\r\nOutfit inspired
+    by modern Avebury visitors\r\nWhile a lot of the party guests can cook, Bertie
     is considered the best. He often makes snack foods for his friends on days out,
     but he enjoys cooking large group meals the most. Especially for special events
-    like birthdays.
-
-'
+    like birthdays.\r"

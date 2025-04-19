@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -1675867972356042398, guid: 2de1571d46619f6479a94a7267e3e2b2, type: 3}
+  unlockedIcon: {fileID: -713148208722304930, guid: cded0b5f54b187b42a46b67477e5e50d, type: 3}
   lockedIcon: {fileID: 0}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -35,4 +35,4 @@ MonoBehaviour:
     rabbit can often be found running around organising last minute events. She enjoys
     throwing parties for her friends, busying herself with new projects and coming
     up with ideas for new activities to do, but can be a little stubborn when it
-    comes to accepting help from her friends.\r\n"
+    comes to accepting help from her friends.\r"

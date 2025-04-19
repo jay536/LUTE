@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -8791720067950080201, guid: 8fec04116b159e643bbc3d69e9f57c45, type: 3}
+  unlockedIcon: {fileID: -3278165373745321974, guid: fd8f6390320658a448752f8b11ad1938, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,17 +31,9 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found near the shops
-  characterDescription: 'Cat
-
-    Found near the shops
-
-    Outfit inspired by
-    the medieval era
-
-    Celeste is a very fashionable cat, and can frequently
-    be found eyeing outfits in shop windows. She wants to be a fashion designer,
-    and uses her friends'' wardrobes to practice. Milly especially will come to Celeste
-    if she is stuck on what to wear. Celeste  also made a lot of the costumes her
-    friends are wearing to the party.
-
-'
+  characterDescription: "Cat\r\nFound near the shops\r\nOutfit inspired by the medieval
+    era\r\nCeleste is a very fashionable cat, and can frequently be found eyeing
+    outfits in shop windows. She wants to be a fashion designer, and uses her friends'
+    wardrobes to practice. Milly especially will come to Celeste if she is stuck
+    on what to wear. Celeste  also made a lot of the costumes her friends are wearing
+    to the party.\r"

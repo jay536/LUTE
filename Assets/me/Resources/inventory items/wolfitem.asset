@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -8121378459513096612, guid: 551fbf0c8f946074cb0fb671a3ca150d, type: 3}
+  unlockedIcon: {fileID: -8361550052631821590, guid: 2a91ca7670772e545bae2970aa9d0530, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -35,4 +35,4 @@ MonoBehaviour:
     inspired by neolithic people\r\nWylder Is a member of Fey\u2019s band the stone
     rockers, which can seem odd to people who don't know him well. While he comes
     across as very grumpy and quiet he\u2019s actually quite soft, and has begun
-    baking with Bertie on the regular since discovering he enjoys it.\r\n"
+    baking with Bertie on the regular since discovering he enjoys it.\r"

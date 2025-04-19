@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: 5457513411219821698, guid: f8b9a316ad95b0d4c9f0cc24e4588d91, type: 3}
+  unlockedIcon: {fileID: 4536928599827164453, guid: a8c19dabcd7cb424f8ea108a82040d15, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}

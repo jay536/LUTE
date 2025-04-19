@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: -8721966308287911491, guid: 0a0215d1e3a7b1b448d1442bfdcbb690, type: 3}
+  unlockedIcon: {fileID: 1954613109005559761, guid: 693c5f75761a1484488d512852d94eb0, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
   hint: Found at the dovecote
   characterDescription: "Swan\r\nFound at the dovecote\r\nOutfit inspired by modern
     Avebury visitors\r\nSydney is very enthusiastic about her photography, and enjoys
-    taking photos of the landscape and visitors at avebury. She bought her first
+    taking photos of the landscape and visitors at Avebury. She bought her first
     camera after learning about nature photography and deciding she wanted to give
     it a try. It turns out it\u2019s much easier to take photos of wildlife if you\u2019re
-    friends with them.\r\n"
+    friends with them.\r"

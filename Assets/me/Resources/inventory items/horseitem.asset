@@ -22,7 +22,7 @@ MonoBehaviour:
   canDrop: 0
   canMove: 0
   maxStackSize: 1
-  unlockedIcon: {fileID: 4437359081828021743, guid: 4901cbadf592bac429d8f1604d353676, type: 3}
+  unlockedIcon: {fileID: -856808432069148304, guid: 971c0ec84a561e042981d1f7f757aaa2, type: 3}
   lockedIcon: {fileID: 8774444484602777177, guid: a5194a34b048c4d4bb7cb11413f3d3df, type: 3}
   useSound: {fileID: 0}
   dropSound: {fileID: 0}
@@ -31,8 +31,8 @@ MonoBehaviour:
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
   hint: Found by a stone known as the devil chair
-  characterDescription: "Horse\r\nFound by a stone known as the devil chair\r\nOutfit
-    inspired by the medieval era\r\nHector is well known for getting lost, constantly.
-    He refuses, however, to admit it, often confidently leading himself and anyone
-    he\u2019s with far away from where they are wanting to go. His good friend Dora
-    is often sent to find him, since she seemingly always can, even when others can\u2019t.\r\n"
+  characterDescription: "Horse\r\nFound near the Manor\r\nOutfit inspired by the
+    medieval era\r\nHector is well known for getting lost, constantly. He refuses,
+    however, to admit it, often confidently leading himself and anyone he\u2019s
+    with far away from where they are wanting to go. His good friend Dora is often
+    sent to find him, since she seemingly always can, even when others can\u2019t.\r\n"

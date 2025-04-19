@@ -1069,15 +1069,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3628203108739657480, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3628203108739657480, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3628203108739657480, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: saveable
@@ -1105,7 +1105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: orderList.Array.size
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[0]'
@@ -1166,19 +1166,19 @@ PrefabInstance:
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[14]'
       value: 
-      objectReference: {fileID: 827731172}
+      objectReference: {fileID: 827731590}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[15]'
       value: 
-      objectReference: {fileID: 827730346}
+      objectReference: {fileID: 827731172}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[16]'
       value: 
-      objectReference: {fileID: 827731584}
+      objectReference: {fileID: 827730346}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[17]'
       value: 
-      objectReference: {fileID: 827731558}
+      objectReference: {fileID: 827731584}
     - target: {fileID: 4657257208514892370, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.x
       value: 25461.521
@@ -1197,7 +1197,7 @@ PrefabInstance:
       objectReference: {fileID: 1328342161}
     - target: {fileID: 4806665123537749153, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: storyText
-      value: You're here! I was told you would be able to help me!
+      value: "You\u2019re here! I was told you would be able to help me!"
       objectReference: {fileID: 0}
     - target: {fileID: 4806665123537749153, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: showAlways
@@ -1301,7 +1301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: zoom
-      value: 0.7600002
+      value: 0.73000026
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: demoMapMode
@@ -1309,11 +1309,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: scrollPos.x
-      value: -24469.18
+      value: -26159.338
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: scrollPos.y
-      value: -24251.598
+      value: -24657.81
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeViewHeight
@@ -1333,7 +1333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: variablesScrollPos.y
-      value: 12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: groupnames.Array.size
@@ -1482,7 +1482,7 @@ PrefabInstance:
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedNodes.Array.data[0]'
       value: 
-      objectReference: {fileID: 827730811}
+      objectReference: {fileID: 827730553}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedNodes.Array.data[1]'
       value: 
@@ -1570,7 +1570,7 @@ PrefabInstance:
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedOrders.Array.data[0]'
       value: 
-      objectReference: {fileID: 827731585}
+      objectReference: {fileID: 827731587}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedOrders.Array.data[1]'
       value: 
@@ -2947,6 +2947,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
       addedObject: {fileID: 827731585}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731590}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731589}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731588}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731587}
   m_SourcePrefab: {fileID: 100100000, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
 --- !u!4 &15661950 stripped
 Transform:
@@ -26627,8 +26639,7 @@ MonoBehaviour:
   nameColour: {r: 0, g: 0, b: 0, a: 1}
   characterSound: {fileID: 0}
   characterPortraits:
-  - {fileID: 3496380038528630776, guid: 6db773c76a469384783367bb1977615c, type: 3}
-  - {fileID: -7079855067436106863, guid: 0eb38f3e6a683b64d87830cc4f4f62b1, type: 3}
+  - {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
   facingDirection: 0
 --- !u!4 &441848426
 Transform:
@@ -48141,7 +48152,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: back
+  m_text: Back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -49843,7 +49854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26631.828
+    x: 26630.459
     y: 24858.812
     width: 119.4
     height: 40
@@ -50012,7 +50023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 441848425}
-  characterPortrait: {fileID: 3496380038528630776, guid: 6db773c76a469384783367bb1977615c, type: 3}
+  characterPortrait: {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
   characterName: 
   characterNameColour:
     serializedVersion: 2
@@ -50045,7 +50056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 441848425}
-  characterPortrait: {fileID: 3496380038528630776, guid: 6db773c76a469384783367bb1977615c, type: 3}
+  characterPortrait: {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
   characterName: 
   characterNameColour:
     serializedVersion: 2
@@ -50092,7 +50103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 441848425}
-  characterPortrait: {fileID: -7079855067436106863, guid: 0eb38f3e6a683b64d87830cc4f4f62b1, type: 3}
+  characterPortrait: {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
   characterName: 
   characterNameColour:
     serializedVersion: 2
@@ -50125,13 +50136,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 441848425}
-  characterPortrait: {fileID: -7079855067436106863, guid: 0eb38f3e6a683b64d87830cc4f4f62b1, type: 3}
+  characterPortrait: {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
   characterName: 
   characterNameColour:
     serializedVersion: 2
     rgba: 0
   storyText: And to make matters worse I still haven't chosen what costume I want
-    to wear, There are just so many good options! Just deciding to do the medieval
+    to wear! There are just so many good options! Just deciding to do the medieval
     era was hard!
   typingSpeed: 0
   extendPrevious: 0
@@ -50159,7 +50170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 441848425}
-  characterPortrait: {fileID: -7079855067436106863, guid: 0eb38f3e6a683b64d87830cc4f4f62b1, type: 3}
+  characterPortrait: {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
   characterName: 
   characterNameColour:
     serializedVersion: 2
@@ -50378,6 +50389,7 @@ MonoBehaviour:
   - {fileID: 827731501}
   - {fileID: 827731500}
   - {fileID: 827731499}
+  - {fileID: 827731587}
   - {fileID: 827731498}
   - {fileID: 827731497}
   - {fileID: 827731496}
@@ -50745,7 +50757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26554.092
+    x: 26555.46
     y: 24916.49
     width: 129.33
     height: 40
@@ -51170,7 +51182,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Wait, You're here to help with the party? That's great! You can help
+  storyText: Wait, you're here to help with the party? That's great! You can help
     me find it!
   typingSpeed: 0
   extendPrevious: 0
@@ -52194,7 +52206,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 26621.27
-    y: 24953.291
+    y: 24951.922
     width: 72.82
     height: 40
   nodeName: tree
@@ -54982,7 +54994,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: "My friends and I have been planning an Avebury themed costume party.
-    But I made a mistake with the invitations, and now they are lost around Avebury.\r"
+    But I made a mistake with the invitations, and now they are lost around Avebury!\r"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -55530,7 +55542,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: You're here to help me get to the party. Well, thank you. I'm sure I
+  storyText: You're here to help me get to the party? Well, thank you. I'm sure I
     can fix these problems there before the party begins.
   typingSpeed: 0
   extendPrevious: 0
@@ -55563,7 +55575,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Sorry? oh don't worry, I just seem to have made some mistakes when making
+  storyText: Sorry? Oh don't worry, I just seem to have made some mistakes when making
     my party cards.
   typingSpeed: 0
   extendPrevious: 0
@@ -55726,7 +55738,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: William Stuckley did a lot of studies of the Avebury Stone Circle in
+  storyText: William Stuckeley did a lot of studies of the Avebury Stone Circle in
     the 1700s, that was 300 years ago!
   typingSpeed: 0
   extendPrevious: 0
@@ -55759,7 +55771,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Do you like my outfit? I based it on William Stuckley. he was an antiquarian,
+  storyText: Do you like my outfit? I based it on William Stuckeley. He was an antiquarian,
     meaning he studied history and historical sites like Avebury.
   typingSpeed: 0
   extendPrevious: 0
@@ -55989,7 +56001,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: After I've found someone I do need to rest for 10 minutes. It's very
-    tiring to run around the Stone Circle with my little legs!
+    tiring to hop around the Stone Circle with my little legs!
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -57127,6 +57139,8 @@ MonoBehaviour:
   orderList:
   - {fileID: 827731249}
   - {fileID: 827731554}
+  - {fileID: 827731589}
+  - {fileID: 827731588}
   - {fileID: 827731274}
   eventHandler: {fileID: 0}
   isGrouped: 0
@@ -62567,7 +62581,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Hmm? yeah I heard you, thanks, I'll go on my own.
+  storyText: Hmm, yeah I heard you, thanks, I'll go on my own.
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -62631,7 +62645,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: "So if you\u2019d tell me where im actually meant to be,,,"
+  storyText: "So if you\u2019d tell me where I\u2019m actually meant to be,,,"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -62921,7 +62935,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: but if you wanted to give me directions, I wouldn't stop you.
+  storyText: But if you wanted to give me directions, I wouldn't stop you.
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -62985,7 +62999,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: "I guess I didn't notice how far I walked. I\u2019m NOT lost"
+  storyText: "I guess I didn't notice how far I walked. I\u2019m NOT lost!"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63017,7 +63031,8 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Makes you think, what did the ones that have been destroyed look like.
+  storyText: "   Isn\u2019t it weird to think people throughout history lived here?
+    So much is different to what I\u2019m used to, but a lot is also the same."
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63049,8 +63064,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: "I mean, look at this one, it\u2019s naturally formed to look like a
-    seat. I guess that's why some people call it the devil chair."
+  storyText: I ended up next to the manor here, had a look around
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63083,7 +63097,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: I seem to have lost track of my friend Dora. I only wandered away for
-    a moment. I was looking at the stones.
+    a moment.
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63410,7 +63424,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: Do you like mine? I based it on Alexander Kieller, an archaeologist
-    who excavated at avebury in the 1920s-30s.
+    who excavated at Avebury in the 1920s-30s.
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63607,7 +63621,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: "Oh, that\u2019s why you\u2019re here? That explains it, thank you for
-    telling me.\nI\u2019ll note down the new location now."
+    telling me. I\u2019ll note down the new location now."
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63768,7 +63782,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Lovely, the lighting was just right
+  storyText: Lovely, the lighting was just right!!
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63833,7 +63847,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: "Anyway, I\u2019m gonna go help finish setting up the party whether
-    Ruth wants the help or not!"
+    ruth wants the help or not!"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -63898,7 +63912,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: And that is why this stone is known as the barber stone!
+  storyText: And that is why this stone is known as the barber-surgeon stone!
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -64028,7 +64042,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: "I knew I should\u2019ve told Ruth I\u2019d take over the invitations,
-    but its always\r"
+    but it\u2019s always"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -64222,7 +64236,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: "Don't worry, I guessed there was a mix up,  I\u2019ll go when I\u2019m
+  storyText: "Don't worry, I guessed there was a mix up, I\u2019ll go when I\u2019m
     ready, there\u2019s plenty of time."
   typingSpeed: 0
   extendPrevious: 0
@@ -64320,7 +64334,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: It was the tallest stone in the Avebury site, with evidence suggesting
-    it was 21 feet tall.
+    it was 6 meters tall.
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -64449,8 +64463,8 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: "Oh, the party? Honestly i\u2019d almost forgotten, Thank you for reminding
-    me and giving me the new location, I\u2019ll head right on over"
+  storyText: "Oh, the party? Honestly I\u2019d almost forgotten! Thank you for reminding
+    me and giving me the new location, I\u2019ll head right on over!"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -64615,7 +64629,7 @@ MonoBehaviour:
     rgba: 0
   storyText: "If you find some time it wouldn\u2019t be awful to work with you on
     some of these decorations.\r\nYou can visit me by tapping and holding my icon
-    in your notebook.\r\n"
+    in your notebook.\r"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -64712,7 +64726,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: I mean what patterns does she want, or, like, colours
+  storyText: I mean what patterns does she want, or, like, colours?
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -64812,7 +64826,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: "I\u2019m going to enjoy the party, take a moment to help any party
-    guests you haven't had a chance to yet and I hope we see you at Avebury again!"
+    guests you haven't had a chance to yet."
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -64845,7 +64859,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: And the skeleton had a purse with some scissors in it. Suggesting the
-    skeleton was a barber-surgeon
+    skeleton was a barber-surgeon.
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}
@@ -65441,6 +65455,136 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentNode: {fileID: 827730811}
   FireOn: 1
+--- !u!114 &827731587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d6b77eb00dafe45bc66ef633cccddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 670906290}
+  characterPortrait: {fileID: 4437359081828021743, guid: 4901cbadf592bac429d8f1604d353676, type: 3}
+  characterName: 
+  characterNameColour:
+    serializedVersion: 2
+    rgba: 0
+  storyText: ' Makes you think about how people in the future might view our time.'
+  typingSpeed: 0
+  extendPrevious: 0
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  fadeWhenDone: 1
+  allowLineSkip: 1
+  waitForClick: 1
+  timeToWait: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setDialogueBox: {fileID: 0}
+  showButton: 1
+--- !u!114 &827731588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d6b77eb00dafe45bc66ef633cccddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 1328342161}
+  characterPortrait: {fileID: -1675867972356042398, guid: 2de1571d46619f6479a94a7267e3e2b2, type: 3}
+  characterName: 
+  characterNameColour:
+    serializedVersion: 2
+    rgba: 0
+  storyText: I hope we see you at Avebury again!
+  typingSpeed: 0
+  extendPrevious: 0
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  fadeWhenDone: 1
+  allowLineSkip: 1
+  waitForClick: 1
+  timeToWait: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setDialogueBox: {fileID: 0}
+  showButton: 1
+--- !u!114 &827731589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d6b77eb00dafe45bc66ef633cccddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 1328342161}
+  characterPortrait: {fileID: -1675867972356042398, guid: 2de1571d46619f6479a94a7267e3e2b2, type: 3}
+  characterName: 
+  characterNameColour:
+    serializedVersion: 2
+    rgba: 0
+  storyText: "Once you\u2019re ready to end the game press the restart button in
+    the side menu."
+  typingSpeed: 0
+  extendPrevious: 0
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  fadeWhenDone: 1
+  allowLineSkip: 1
+  waitForClick: 1
+  timeToWait: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setDialogueBox: {fileID: 0}
+  showButton: 1
+--- !u!114 &827731590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d6b77eb00dafe45bc66ef633cccddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 1328342161}
+  characterPortrait: {fileID: -1675867972356042398, guid: 2de1571d46619f6479a94a7267e3e2b2, type: 3}
+  characterName: 
+  characterNameColour:
+    serializedVersion: 2
+    rgba: 0
+  storyText: If you want to send everyone back to their places and restart, press
+    the restart button in the side menu.
+  typingSpeed: 0
+  extendPrevious: 0
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  fadeWhenDone: 1
+  allowLineSkip: 1
+  waitForClick: 1
+  timeToWait: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setDialogueBox: {fileID: 0}
+  showButton: 1
 --- !u!1 &830639709
 GameObject:
   m_ObjectHideFlags: 0
@@ -78675,7 +78819,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: zenah
+  m_text: Zenah
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -110301,7 +110445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'pebbles
+  m_text: 'Pebbles
 
     (assistant)'
   m_isRightToLeft: 0
@@ -132210,7 +132354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "design\n\nArt\n\n\nLute\n\n\n\nFeaturing the font \n"
+  m_text: "Design\n\nArt\n\n\nLute\n\n\n\nFeaturing the font \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
