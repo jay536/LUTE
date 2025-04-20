@@ -348,8 +348,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hide
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e0347551b45f96943a46dded20c93ee9, type: 2}
-  m_sharedMaterial: {fileID: -3524813108858004611, guid: e0347551b45f96943a46dded20c93ee9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
+  m_sharedMaterial: {fileID: 3701100367897815746, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -373,8 +373,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -453,8 +453,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 2.947, y: 100}
-  m_SizeDelta: {x: 599.882, y: 112.477}
+  m_AnchoredPosition: {x: 27.8248, y: 88.518}
+  m_SizeDelta: {x: 772.1133, y: 144.7701}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4836005151170833387
 CanvasRenderer:
@@ -617,8 +617,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You will find what you are looking for if you look into your \n\nheart..."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e0347551b45f96943a46dded20c93ee9, type: 2}
-  m_sharedMaterial: {fileID: -3524813108858004611, guid: e0347551b45f96943a46dded20c93ee9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
+  m_sharedMaterial: {fileID: 3701100367897815746, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
