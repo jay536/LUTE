@@ -1345,7 +1345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: variablesScrollPos.y
-      value: 0
+      value: 496
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: groupnames.Array.size
@@ -15334,7 +15334,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &243322724
 RectTransform:
@@ -16403,7 +16403,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &254517654
 RectTransform:
@@ -17136,7 +17136,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &274371777
 RectTransform:
@@ -23815,6 +23815,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8121378459513096612, guid: 551fbf0c8f946074cb0fb671a3ca150d, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -25725,7 +25729,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &408896701
 RectTransform:
@@ -28474,6 +28478,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -6780331845036650252, guid: e310a6f190dc4ec4294de9c886cf4c9b, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -31338,6 +31346,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3367932149377307684, guid: f95f9ea9adf78074b80bb07bb3c7536e, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -32930,6 +32942,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -3347910513992916872, guid: 30575665105133740943489446d1e37d, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -34901,6 +34917,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: 7579966246130621718, guid: afdbc17bcfc0d144389a3f27a469d482, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -36875,6 +36895,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7938038189399414149, guid: 2324740e18fa88b48a0b6bc7dd78b60a, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -37110,6 +37134,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -8791720067950080201, guid: 8fec04116b159e643bbc3d69e9f57c45, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -43053,7 +43081,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &691962742
 RectTransform:
@@ -53869,6 +53897,8 @@ MonoBehaviour:
   - {fileID: 827730957}
   - {fileID: 827731013}
   - {fileID: 827731016}
+  - {fileID: 827731313}
+  - {fileID: 827731315}
   - {fileID: 827731111}
   - {fileID: 827731117}
   - {fileID: 827731116}
@@ -53877,9 +53907,7 @@ MonoBehaviour:
   - {fileID: 827731126}
   - {fileID: 827731129}
   - {fileID: 827731316}
-  - {fileID: 827731315}
   - {fileID: 827731314}
-  - {fileID: 827731313}
   - {fileID: 827731312}
   - {fileID: 827731311}
   - {fileID: 827731310}
@@ -54412,7 +54440,7 @@ MonoBehaviour:
   scope: 0
   key: CurrentWaitTime
   propertyReferences: []
-  value: 600
+  value: 0
 --- !u!114 &827730909
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -54853,7 +54881,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 25429.76
-    y: 24519.219
+    y: 24523.328
     width: 146.69
     height: 40
   nodeName: Interaction Timer
@@ -71791,7 +71819,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &845867274
 RectTransform:
@@ -72291,6 +72319,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -8721966308287911491, guid: 0a0215d1e3a7b1b448d1442bfdcbb690, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -73513,7 +73545,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &866478653
 RectTransform:
@@ -74337,6 +74369,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -7203238822489028306, guid: 6ab4986be8ca9f14598b2f410ef0f3b1, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -75982,6 +76018,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -4426162696298078930, guid: c1a47c31f30da7945ac6a46523005612, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -79432,7 +79472,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &969998935
 RectTransform:
@@ -82253,7 +82293,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1017087769
 RectTransform:
@@ -88233,6 +88273,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -4702544020559098553, guid: 6b9d71065c2a2d54bb3a617ed6438bdd, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -88974,6 +89018,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -89736,7 +89784,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1161309090
 RectTransform:
@@ -93086,6 +93134,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -5069759449545651081, guid: f0ea008e70faa2c49ae2b395f24a0b65, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -94977,6 +95029,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -7968342797858671, guid: fb2f6f5b00272d54e85ef0f29241569c, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -95309,7 +95365,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1267807994
 RectTransform:
@@ -96570,7 +96626,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1292854882
 RectTransform:
@@ -99613,7 +99669,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 7176a911d29efbc4b89a1994bb1ac4ca, type: 3}
     - target: {fileID: 2107744559691650309, guid: 98b707f863b3a5446987254312120025, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3560494724856702529, guid: 98b707f863b3a5446987254312120025, type: 3}
       propertyPath: m_Name
@@ -104756,7 +104812,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1448533983
 RectTransform:
@@ -104876,7 +104932,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1454453153
 RectTransform:
@@ -107159,6 +107215,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7331045588758425404, guid: c3d868bce416f2b49b3eccca57c61dd2, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -108503,7 +108563,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1539429463
 RectTransform:
@@ -111014,7 +111074,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: finished
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -111080,7 +111140,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1583890495
@@ -118263,7 +118323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: click finished when done
+  m_text: Click finished when done
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
   m_sharedMaterial: {fileID: 3701100367897815746, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
@@ -118492,7 +118552,7 @@ PrefabInstance:
       objectReference: {fileID: 4437359081828021743, guid: 4901cbadf592bac429d8f1604d353676, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: showDialogueOnReveal
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
@@ -118599,6 +118659,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -8636221404721523813, guid: 3759ac9836b967647a82db3ff21c6e55, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -119698,6 +119762,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -1675867972356042398, guid: 2de1571d46619f6479a94a7267e3e2b2, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -121071,7 +121139,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1766883883
 RectTransform:
@@ -124029,7 +124097,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1837569128
 RectTransform:
@@ -124149,7 +124217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Make your final changes and screenshot of you would like to save
+  m_text: Make your final changes and screenshot if you would like to save
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
   m_sharedMaterial: {fileID: 3701100367897815746, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
@@ -125019,7 +125087,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Continue
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a014fe1e40a4d674c897c8987cdf5284, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -125044,8 +125112,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -125085,7 +125153,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1866194274
@@ -127282,6 +127350,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: 5457513411219821698, guid: f8b9a316ad95b0d4c9f0cc24e4588d91, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -131361,7 +131433,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1982220090
 RectTransform:
@@ -131949,7 +132021,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1991244975
 RectTransform:
@@ -133059,6 +133131,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: -6367637764002013411, guid: ba5aa889943e5a94a8e68c87b0b2ca01, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -134487,7 +134563,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &2028744295
 RectTransform:
@@ -136447,6 +136523,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -687963666580537163, guid: 4ece8426c870e9c489092c1b11f1bc89, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -138198,7 +138278,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &2084053120
 RectTransform:
@@ -140599,7 +140679,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &2102396577
 RectTransform:
