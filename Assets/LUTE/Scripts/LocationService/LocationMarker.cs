@@ -24,7 +24,7 @@ namespace LoGaCulture.LUTE
         private LocationStatus priorStatus = LocationStatus.Unvisited;
         private bool preventUpdatingVisuals = false; // When a status gets updated the user has an option to ensure that the other settings will never change after the fact
         private BoxCollider2D markerCollider2D; // Used to detect clicks on the marker
-        private bool locationHidden = false;
+        private bool hiddenByZoom = false;
 
         [Tooltip("The location pin sprite renderer")]
         [SerializeField] protected SpriteRenderer markerSpriteRenderer;
@@ -50,7 +50,6 @@ namespace LoGaCulture.LUTE
         public SpriteRenderer RadiusRenderer { get => radiusSpriteRenderer; }
         public TextMesh MarkerTextMesh { get => markerTextMesh; }
         public bool ForceUpdateInEditor { get; set; }
-
 
         public void OnPointerClick(PointerEventData eventData)
         {
@@ -118,38 +117,32 @@ namespace LoGaCulture.LUTE
 
         public void HideMarker()
         {
-            locationHidden = true;
-
-            locVar.Value.StatusDisplayOptionsList.list.ForEach(x =>
+            if (visualisationObject != null)
             {
-                if (x.locationDisplayOptions != null)
-                {
-                    x.locationDisplayOptions.ShowSprite = false;
-                    x.locationDisplayOptions.ShowName = false;
-                    x.locationDisplayOptions.ShowRadius = false;
-                }
-            });
+                visualisationObject.gameObject.SetActive(false);
+            }
         }
 
-        public void ResetHiddenStatus()
+        public void SetHiddenStatus(bool save = false)
         {
-            locationHidden = false;
+            locVar.Value.LocationHidden = true;
+            if (save)
+                SaveData();
+        }
+
+        public void ResetHiddenStatus(bool save = false)
+        {
+            locVar.Value.LocationHidden = false;
+            if (save)
+                SaveData();
         }
 
         public void ShowMarker()
         {
-            if (locationHidden)
-                return;
-
-            locVar.Value.StatusDisplayOptionsList.list.ForEach(x =>
+            if (visualisationObject != null)
             {
-                if (x.locationDisplayOptions != null)
-                {
-                    x.locationDisplayOptions.ShowSprite = true;
-                    x.locationDisplayOptions.ShowName = true;
-                    x.locationDisplayOptions.ShowRadius = true;
-                }
-            });
+                visualisationObject.gameObject.SetActive(true);
+            }
         }
 
         protected void OnEnable()
@@ -182,7 +175,20 @@ namespace LoGaCulture.LUTE
                 visualisationObject = transform.GetChild(0); // On the default location marker prefab we only have one child which is used to hold the visualisation objects; users can override this using the serialised field
             }
 
+            if (engine == null)
+                return;
+
             locVar = engine.GetComponents<LocationVariable>().FirstOrDefault(x => x.Value.InfoID == locVar.Value.InfoID);
+
+            locVar.Value.StatusDisplayOptionsList.list.ForEach(x =>
+            {
+                if (x.locationDisplayOptions != null)
+                {
+                    x.locationDisplayOptions.DefaultShowSprite = x.locationDisplayOptions.ShowSprite;
+                    x.locationDisplayOptions.DefaultShowName = x.locationDisplayOptions.ShowName;
+                    x.locationDisplayOptions.DefaultShowRadius = x.locationDisplayOptions.ShowRadius;
+                }
+            });
         }
 
         protected void Update()
@@ -352,9 +358,14 @@ namespace LoGaCulture.LUTE
             }
             else
             {
-                if (locationHidden)
-                    ResetHiddenStatus();
-                ShowMarker();
+                if (!locVar.Value.LocationHidden)
+                {
+                    ShowMarker();
+                }
+                else
+                {
+                    HideMarker();
+                }
             }
 
             // If zoom is below the threshold stop scaling and retain the default scale
@@ -424,7 +435,7 @@ namespace LoGaCulture.LUTE
             if (locVar.Value == null)
                 return;
 
-            if (location.Value.LocationStatus != LocationStatus.Completed)
+            if (location.Value.LocationStatus != LocationStatus.Completed && this.locVar.Value.InfoID == location.Value.InfoID)
             {
                 locVar.Value.LocationStatus = LocationStatus.Visited;
                 if (locVar.Value.SaveInfo)
@@ -456,10 +467,31 @@ namespace LoGaCulture.LUTE
             if (locVar.Value.LocationStatus != priorStatus)
             {
                 priorStatus = locVar.Value.LocationStatus;
-
                 var saveManager = LogaManager.Instance.SaveManager;
                 saveManager.AddSavePoint("ObjectInfo" + locVar.Value.LocationName, "A list of location info to be stored " + System.DateTime.UtcNow.ToString("HH:mm dd MMMM, yyyy"), false);
             }
+        }
+
+        private void SaveData()
+        {
+            var saveManager = LogaManager.Instance.SaveManager;
+            saveManager.AddSavePoint("ObjectInfo" + locVar.Value.LocationName, "A list of location info to be stored " + System.DateTime.UtcNow.ToString("HH:mm dd MMMM, yyyy"), false);
+        }
+
+        private void OnDisable()
+        {
+            if (locVar == null || locVar.Value == null)
+                return;
+
+            locVar.Value.StatusDisplayOptionsList.list.ForEach(x =>
+            {
+                if (x.locationDisplayOptions != null)
+                {
+                    x.locationDisplayOptions.ShowSprite = x.locationDisplayOptions.DefaultShowSprite;
+                    x.locationDisplayOptions.ShowName = x.locationDisplayOptions.DefaultShowName;
+                    x.locationDisplayOptions.ShowRadius = x.locationDisplayOptions.DefaultShowRadius;
+                }
+            });
         }
     }
 }

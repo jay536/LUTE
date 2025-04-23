@@ -888,7 +888,7 @@ public class BasicFlowEngine : MonoBehaviour, ISubstitutionHandler
         }
     }
 
-    public virtual void SetLocationInfo(string infoID, LoGaCulture.LUTE.LocationStatus status, bool disabled)
+    public virtual void SetLocationInfo(string infoID, LoGaCulture.LUTE.LocationStatus status, bool disabled, bool hidden)
     {
         foreach (var item in GetComponents<LocationVariable>())
         {
@@ -896,16 +896,19 @@ public class BasicFlowEngine : MonoBehaviour, ISubstitutionHandler
             {
                 item.Value.LocationStatus = status;
                 item.Value.LocationDisabled = disabled;
+                item.Value.LocationHidden = hidden;
             }
         }
     }
 
     public virtual void ResetLocationsToDefault()
     {
+        Debug.Log("Resetting locations to default");
         foreach (var item in GetComponents<LocationVariable>())
         {
             item.Value.LocationStatus = item.Value.DefaultLocationStatus;
             item.Value.LocationDisabled = item.Value.DefaultDisabledStatus;
+            item.Value.LocationHidden = false;
         }
     }
 

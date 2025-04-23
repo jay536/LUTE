@@ -9,15 +9,28 @@ namespace LoGaCulture.LUTE
     /// </summary>
     public class CustomLUTEInventoryItemMonoRef : InventoryItemLUTEMonoRef
     {
+        [Header("Character Settings")]
         [Tooltip("Character that is used on the information panel.")]
         [HideInInspector]
         [SerializeField] protected Character character;
         [Tooltip("Portrait that represents the character.")]
         [HideInInspector]
         [SerializeField] protected Sprite characterPortrait;
+
+        [Header("Location Reveal Settings")]
         [Tooltip("If a location is related to this item then it can be set here.")]
         [VariableProperty(typeof(LocationVariable))]
         [SerializeField] protected LocationVariable location;
+        [Tooltip("When using hint panels we need the engine to gain control of the map management system.")]
+        [SerializeField] protected BasicFlowEngine engine;
+        [Tooltip("When a location is revealed, should we show dialogue to indicate this?")]
+        [SerializeField] protected bool showDialogueOnReveal = true;
+        [Tooltip("The text to use when revealing a location.")]
+        [SerializeField] protected string revealText = "My location has been revealed!";
+        [Tooltip("The custom character to use when showing reveal text (default is the character related to the item).")]
+        [SerializeField] protected Character customCharacter;
+        [Tooltip("The speed to write the reveal text to.")]
+        [SerializeField] protected float revealTextSpeed = 30.0f;
 
         public Character Character { get { return character; } }
         public Sprite Portrait { get { return characterPortrait; } set { characterPortrait = value; } }
@@ -34,7 +47,7 @@ namespace LoGaCulture.LUTE
                 if (item.IsLocked)
                 {
                     // If the item is locked but is allowed to be used then we should show a hint to how to unlock this item.
-                    HintPanel hintPanel = HintPanel.GetPanel("HintPanel") as HintPanel;
+                    HintPanel hintPanel = HintPanel.GetPanel("HintPanelExtended") as HintPanel;
                     if (hintPanel == null)
                     {
                         return;
@@ -55,7 +68,13 @@ namespace LoGaCulture.LUTE
                         hintText = charItem.Hint;
                     }
 
-                    hintPanel.SetInformation(hintText);
+                    var newCharacater = character;
+                    if (customCharacter != null)
+                    {
+                        newCharacater = customCharacter;
+                    }
+
+                    hintPanel.SetInformation(hintText, location, engine, showDialogueOnReveal, revealText, newCharacater, revealTextSpeed);
                     hintPanel.TogglePanel();
                 }
                 else

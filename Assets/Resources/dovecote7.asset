@@ -15,10 +15,10 @@ MonoBehaviour:
   infoID: 61c67c68-b120-44f4-9ce5-ab09b021990a
   locationName: 
   position: 
-  locationStatus: 0
+  defaultStatus: 0
   saveInfo: 1
   statusDisplayOptionsList: {fileID: 0}
-  locationDisabled: 0
+  defaultDisabledStatus: 0
   radiusIncrease: 0
   radiusDecrease: 0
   forcePermanentChange: 0

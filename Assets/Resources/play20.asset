@@ -13,26 +13,14 @@ MonoBehaviour:
   m_Name: play20
   m_EditorClassIdentifier: 
   infoID: 51305bae-cde0-4ce5-bd93-1fc1040c8c98
-  Position: 51.4296005296001, -1.85735911754062
-  Name: play
-  Sprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  InProgressSprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  CompletedSprite: {fileID: 21300000, guid: 3d69bf4b1f575644db3fcca0cb5c60f8, type: 3}
-  Color: {r: 1, g: 1, b: 1, a: 1}
-  ShowName: 0
-  showRadius: 0
-  defaultRadiusColour: {r: 188, g: 120, b: 61, a: 150}
-  visitedRadiusColour: {r: 188, g: 120, b: 61, a: 150}
-  completedRadiusColour: {r: 188, g: 120, b: 61, a: 150}
-  locationDisabled: 0
-  radiusIncrease: -15
-  interactable: 1
+  locationName: 
+  position: 
+  defaultStatus: 0
   saveInfo: 1
-  indepedentMarkerUpdating: 0
-  allowClickWithoutLocation: 0
-  locationStatus: 1
-  infoImage: {fileID: 0}
-  displayName: 
-  description: 
-  nodeComplete: 
+  statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
+  defaultDisabledStatus: 0
+  radiusIncrease: 0
+  radiusDecrease: 0
+  forcePermanentChange: 0
+  allowNodeControls: 0
   executeNode: 

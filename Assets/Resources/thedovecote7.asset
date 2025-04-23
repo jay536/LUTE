@@ -15,10 +15,10 @@ MonoBehaviour:
   infoID: 26eaac13-03d3-410c-9859-4c327ac94cb9
   locationName: thedovecote
   position: 51.4289804933398, -1.85775479211669
-  locationStatus: 1
+  defaultStatus: 0
   saveInfo: 1
   statusDisplayOptionsList: {fileID: 11400000, guid: db23122809bb4b841a32f68f725e5941, type: 2}
-  locationDisabled: 0
+  defaultDisabledStatus: 0
   radiusIncrease: 0
   radiusDecrease: 0
   forcePermanentChange: 0

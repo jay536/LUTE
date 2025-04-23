@@ -26,5 +26,13 @@ namespace LoGaCulture.LUTE
         public bool ShowSprite = true;
         [Tooltip("Whether the radius of the location should be shown or not")]
         public bool ShowRadius = true;
+
+        private bool defaultShowName;
+        private bool defaultShowSprite;
+        private bool defaultShowRadius;
+
+        public bool DefaultShowName { get { return defaultShowName; } set { defaultShowName = value; } }
+        public bool DefaultShowSprite { get { return defaultShowSprite; } set { defaultShowSprite = value; } }
+        public bool DefaultShowRadius { get { return defaultShowRadius; } set { defaultShowRadius = value; } }
     }
 }

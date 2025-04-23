@@ -79,6 +79,11 @@ namespace LoGaCulture.LUTE
             return latlongDelta;
         }
 
+        public Transform TrackerTransform()
+        {
+            return playerTracker.transform;
+        }
+
         public virtual void SpawnMarkers()
         {
             foreach (LocationVariable location in allLocationsAtRuntime)
@@ -105,6 +110,7 @@ namespace LoGaCulture.LUTE
 
             foreach (var locationMarker in relatedLocationMarkers)
             {
+                locationMarker.SetHiddenStatus();
                 locationMarker.HideMarker();
             }
         }
@@ -129,6 +135,7 @@ namespace LoGaCulture.LUTE
                 foreach (var locationMarker in relatedLocationMarkers)
                 {
                     locationMarker.ResetHiddenStatus();
+                    locationMarker.ShowMarker();
                 }
             }
         }
@@ -173,6 +180,20 @@ namespace LoGaCulture.LUTE
             }
             spawnedLocationMarkers.Clear();
             allLocationsAtRuntime.Clear();
+        }
+
+        public virtual List<Transform> GetMarkerTransforms(LocationVariable locationVar)
+        {
+            if (locationVar == null || locationVar.Value == null)
+            {
+                return null;
+            }
+
+            var relatedLocationMarkers = spawnedLocationMarkers.FindAll(spawnedLocationMarkers =>
+                spawnedLocationMarkers != null && spawnedLocationMarkers.LocationVariable.Value != null &&
+                spawnedLocationMarkers.LocationVariable.Value.InfoID == locationVar.Value.InfoID);
+
+            return relatedLocationMarkers.ConvertAll(marker => marker.transform);
         }
 
         protected virtual void Awake()
@@ -229,12 +250,32 @@ namespace LoGaCulture.LUTE
 
         protected virtual void SpawnMarker(LocationVariable location)
         {
+            if (location == null || location.Value == null)
+            {
+                return;
+            }
+
+            // Check if a marker with the same location info already exists
+            var existingMarker = spawnedLocationMarkers.Find(marker =>
+                marker != null &&
+                marker.LocationVariable != null &&
+                marker.LocationVariable.Value != null &&
+                marker.LocationVariable.Value.InfoID == location.Value.InfoID);
+
+            if (existingMarker != null)
+            {
+                // A marker with the same location info already exists, so we skip spawning
+                return;
+            }
+
+            // Instantiate a new marker
             var marker = Instantiate(markerPrefab);
             marker.SetCanvasCam(mapMovement.ReferenceCamera);
             marker.SetInfo(location, engine);
             marker.transform.localScale = Vector3.one * markerScale;
             marker.transform.localPosition = map.GeoToWorldPosition(location.Value.LatLongString(), true);
 
+            // Add the new marker to the list
             spawnedLocationMarkers.Add(marker);
         }
 
@@ -246,7 +287,19 @@ namespace LoGaCulture.LUTE
             bool shouldShowTracker = engine.DemoMapMode && mapCam.enabled;
             if (playerTracker != null)
             {
-                playerTracker.gameObject.SetActive(shouldShowTracker);
+                var astroController = playerTracker.GetComponent<Mapbox.Examples.AstronautMouseController>();
+                if (astroController != null)
+                {
+                    astroController.enabled = shouldShowTracker;
+                }
+                else
+                    return;
+
+                var raycastPlane = playerTracker.GetComponentInChildren<MeshCollider>();
+                if (raycastPlane != null)
+                {
+                    raycastPlane.enabled = shouldShowTracker;
+                }
             }
         }
     }

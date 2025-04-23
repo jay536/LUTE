@@ -446,6 +446,7 @@ namespace BogGames.Tools.Inventory
         /// <param name="serialisedItems"></param>
         public virtual void ExtractSerialisedBogInventoryData(BogInventoryData serialisedItems)
         {
+
             if (serialisedItems == null)
                 return;
 

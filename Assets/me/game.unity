@@ -961,7 +961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 348119232951787683, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.width
-      value: 127.61
+      value: 127.55
       objectReference: {fileID: 0}
     - target: {fileID: 409185329649348036, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: location.locationRef
@@ -985,7 +985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 830664824052957531, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.width
-      value: 147.45999
+      value: 147.35
       objectReference: {fileID: 0}
     - target: {fileID: 830664824052957531, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: orderList.Array.size
@@ -1021,7 +1021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1350923007532579518, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.width
-      value: 194.43
+      value: 193.92
       objectReference: {fileID: 0}
     - target: {fileID: 2093784469197862826, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: m_IsActive
@@ -1089,11 +1089,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.x
-      value: 25943.658
+      value: 25931.812
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.y
-      value: 24877.947
+      value: 24826.63
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: repeatable
@@ -1101,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.width
-      value: 77.62
+      value: 78.03
       objectReference: {fileID: 0}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: orderList.Array.size
@@ -1126,59 +1126,67 @@ PrefabInstance:
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[4]'
       value: 
-      objectReference: {fileID: 827730653}
+      objectReference: {fileID: 827731559}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[5]'
       value: 
-      objectReference: {fileID: 827731559}
+      objectReference: {fileID: 827730347}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[6]'
       value: 
-      objectReference: {fileID: 827730347}
+      objectReference: {fileID: 827731048}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[7]'
       value: 
-      objectReference: {fileID: 827731048}
+      objectReference: {fileID: 827731047}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[8]'
       value: 
-      objectReference: {fileID: 827731047}
+      objectReference: {fileID: 827731046}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[9]'
       value: 
-      objectReference: {fileID: 827731046}
+      objectReference: {fileID: 827731045}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[10]'
       value: 
-      objectReference: {fileID: 827731045}
+      objectReference: {fileID: 827731175}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[11]'
       value: 
-      objectReference: {fileID: 827731175}
+      objectReference: {fileID: 827731174}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[12]'
       value: 
-      objectReference: {fileID: 827731174}
+      objectReference: {fileID: 827731173}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[13]'
       value: 
-      objectReference: {fileID: 827731173}
+      objectReference: {fileID: 827731590}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[14]'
       value: 
-      objectReference: {fileID: 827731590}
+      objectReference: {fileID: 827731172}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[15]'
       value: 
-      objectReference: {fileID: 827731172}
+      objectReference: {fileID: 827730346}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[16]'
       value: 
-      objectReference: {fileID: 827730346}
+      objectReference: {fileID: 827731584}
     - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'orderList.Array.data[17]'
       value: 
-      objectReference: {fileID: 827731584}
+      objectReference: {fileID: 827731615}
+    - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      propertyPath: 'orderList.Array.data[18]'
+      value: 
+      objectReference: {fileID: 827731615}
+    - target: {fileID: 4303630939233821233, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      propertyPath: 'orderList.Array.data[19]'
+      value: 
+      objectReference: {fileID: 827731614}
     - target: {fileID: 4657257208514892370, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.x
       value: 25461.521
@@ -1189,7 +1197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4657257208514892370, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.width
-      value: 115.8
+      value: 115.56
       objectReference: {fileID: 0}
     - target: {fileID: 4806665123537749153, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: character
@@ -1216,6 +1224,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1675867972356042398, guid: 2de1571d46619f6479a94a7267e3e2b2, type: 3}
     - target: {fileID: 4958521245205742243, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      propertyPath: showDesc
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4958521245205742243, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.x
       value: 27062.254
       objectReference: {fileID: 0}
@@ -1225,7 +1237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4958521245205742243, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.width
-      value: 177.7
+      value: 177.36
       objectReference: {fileID: 0}
     - target: {fileID: 5375476576259629837, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1309,15 +1321,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: scrollPos.x
-      value: -26159.338
+      value: -24929.059
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: scrollPos.y
-      value: -24657.81
+      value: -24471.854
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeViewHeight
-      value: 280
+      value: 760
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: groups.Array.size
@@ -1329,7 +1341,7 @@ PrefabInstance:
       objectReference: {fileID: 827730904}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: variables.Array.size
-      value: 33
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: variablesScrollPos.y
@@ -1476,13 +1488,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 827731560}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      propertyPath: 'variables.Array.data[33]'
+      value: 
+      objectReference: {fileID: 827731618}
+    - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: selectedOrders.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedNodes.Array.data[0]'
       value: 
-      objectReference: {fileID: 827730553}
+      objectReference: {fileID: 827730629}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedNodes.Array.data[1]'
       value: 
@@ -1570,7 +1586,7 @@ PrefabInstance:
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedOrders.Array.data[0]'
       value: 
-      objectReference: {fileID: 827731587}
+      objectReference: {fileID: 827730631}
     - target: {fileID: 8743389473436946330, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: 'selectedOrders.Array.data[1]'
       value: 
@@ -1593,7 +1609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9173212861755980778, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: nodeRect.width
-      value: 111.880005
+      value: 111.81
       objectReference: {fileID: 0}
     - target: {fileID: 9173266300743798265, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       propertyPath: location.locationRef
@@ -2073,9 +2089,6 @@ PrefabInstance:
       addedObject: {fileID: 827730652}
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 827730653}
-    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 827730654}
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
@@ -2131,9 +2144,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
       addedObject: {fileID: 827730740}
-    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 827730742}
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
       addedObject: {fileID: 827730743}
@@ -2943,9 +2953,6 @@ PrefabInstance:
       addedObject: {fileID: 827731584}
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 827731586}
-    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 827731585}
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
@@ -2959,6 +2966,87 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
       insertIndex: -1
       addedObject: {fileID: 827731587}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731615}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731614}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731617}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731616}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731618}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731619}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731620}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731644}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731668}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731669}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731670}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731671}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731672}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731673}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731674}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731675}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731676}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731678}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731677}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731679}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731680}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731681}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731682}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731684}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731683}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731685}
+    - targetCorrespondingSourceObject: {fileID: 1159015562283511075, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827731686}
   m_SourcePrefab: {fileID: 100100000, guid: 69d44f7ad440d2e4697c6536d141ba16, type: 3}
 --- !u!4 &15661950 stripped
 Transform:
@@ -23550,6 +23638,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterwolf
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730572}
@@ -28068,6 +28160,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterdeer
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730628}
@@ -30927,6 +31023,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterbug
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730398}
@@ -32515,6 +32615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharacterhedgehog
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -34482,6 +34586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharactersquirrel
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -36452,6 +36560,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharactermole
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730581}
@@ -36683,6 +36795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharactercat
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -49165,8 +49281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26072.467
-    y: 24864.574
+    x: 25754.656
+    y: 24557.725
     width: 104.630005
     height: 40
   nodeName: collection
@@ -49202,15 +49318,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26396.365
-    y: 24791.936
-    width: 76.1
+    x: 26393.625
+    y: 24722.082
+    width: 75.83
     height: 40
   nodeName: food
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731675}
   - {fileID: 827730369}
   - {fileID: 827730370}
   - {fileID: 827730265}
@@ -49304,8 +49421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26294.037
-    y: 24957.852
+    x: 26288.559
+    y: 24941.396
     width: 85.85
     height: 40
   nodeName: manor
@@ -49637,8 +49754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26288.445
-    y: 24743.775
+    x: 26288.39
+    y: 24633.143
     width: 88.34
     height: 40
   nodeName: william
@@ -49646,6 +49763,7 @@ MonoBehaviour:
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731669}
   - {fileID: 827730423}
   - {fileID: 827730901}
   - {fileID: 827730447}
@@ -49779,15 +49897,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26472.242
-    y: 24796.668
-    width: 101.36
+    x: 26469.502
+    y: 24726.814
+    width: 100.53
     height: 40
   nodeName: farmyard
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731676}
   - {fileID: 827730422}
   - {fileID: 827730424}
   - {fileID: 827730401}
@@ -49977,8 +50096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26055.13
-    y: 24946.725
+    x: 25772.943
+    y: 24511.113
     width: 80.63
     height: 40
   nodeName: Node
@@ -50072,15 +50191,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26574.438
-    y: 24795.656
-    width: 101.35
+    x: 26571.697
+    y: 24725.803
+    width: 100.869995
     height: 40
   nodeName: TheCove
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731678}
   - {fileID: 827730689}
   - {fileID: 827730502}
   - {fileID: 827731535}
@@ -50240,8 +50360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26682.916
-    y: 24791.729
+    x: 26680.176
+    y: 24721.875
     width: 98.07
     height: 40
   nodeName: museum
@@ -50249,6 +50369,7 @@ MonoBehaviour:
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731677}
   - {fileID: 827730688}
   - {fileID: 827730521}
   - {fileID: 827731513}
@@ -50340,15 +50461,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26287.883
-    y: 24793.01
-    width: 103.490005
+    x: 26285.143
+    y: 24723.156
+    width: 102.95
     height: 40
   nodeName: dovecote
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731674}
   - {fileID: 827730690}
   - {fileID: 827730525}
   - {fileID: 827731523}
@@ -50421,15 +50543,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26630.459
-    y: 24858.812
-    width: 119.4
+    x: 26630.457
+    y: 24802.65
+    width: 119.33
     height: 40
   nodeName: barberstone
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731682}
   - {fileID: 827730684}
   - {fileID: 827730532}
   - {fileID: 827731530}
@@ -50799,15 +50922,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26382.61
-    y: 24741.727
-    width: 95.740005
+    x: 26392.191
+    y: 24636.256
+    width: 95.53
     height: 40
   nodeName: dressup
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731670}
   - {fileID: 827730545}
   - {fileID: 827730544}
   - {fileID: 827730542}
@@ -50942,8 +51066,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26414.406
-    y: 24857.455
+    x: 26415.773
+    y: 24801.293
     width: 104.68
     height: 40
   nodeName: devilchair
@@ -50951,6 +51075,7 @@ MonoBehaviour:
   groupDescription: A series of nodes that can be executed as a group
   itemId: 1
   orderList:
+  - {fileID: 827731680}
   - {fileID: 827730686}
   - {fileID: 827730555}
   - {fileID: 827731501}
@@ -51129,15 +51254,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26287.324
-    y: 24856.143
-    width: 124.26
+    x: 26287.322
+    y: 24799.98
+    width: 124.19
     height: 40
   nodeName: buriedstones
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731679}
   - {fileID: 827730687}
   - {fileID: 827730558}
   - {fileID: 827731545}
@@ -51193,15 +51319,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26523.686
-    y: 24859.33
-    width: 104.86
+    x: 26523.684
+    y: 24803.168
+    width: 104.79
     height: 40
   nodeName: perimeter
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731681}
   - {fileID: 827730685}
   - {fileID: 827730564}
   - {fileID: 827731517}
@@ -51324,15 +51451,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26555.46
-    y: 24916.49
-    width: 129.33
+    x: 26556.828
+    y: 24874.02
+    width: 129.26999
     height: 40
   nodeName: swindonstone
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731683}
   - {fileID: 827730683}
   - {fileID: 827730569}
   - {fileID: 827731493}
@@ -51469,8 +51597,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26454.365
-    y: 24909.77
+    x: 26455.732
+    y: 24867.299
     width: 90.09
     height: 40
   nodeName: obelisk
@@ -51478,6 +51606,7 @@ MonoBehaviour:
   groupDescription: A series of nodes that can be executed as a group
   itemId: 1
   orderList:
+  - {fileID: 827731668}
   - {fileID: 827730681}
   - {fileID: 827730575}
   - {fileID: 827731540}
@@ -51651,15 +51780,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26289.633
-    y: 24910.145
-    width: 157.65
+    x: 26291
+    y: 24867.674
+    width: 157.72
     height: 40
   nodeName: southernenterance
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731684}
   - {fileID: 827730682}
   - {fileID: 827730578}
   - {fileID: 827731490}
@@ -51895,15 +52025,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26483.89
-    y: 24745.217
-    width: 111.979996
+    x: 26496.215
+    y: 24637.002
+    width: 112.130005
     height: 40
   nodeName: lostpottery
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731671}
   - {fileID: 827730590}
   - {fileID: 827730589}
   - {fileID: 827730774}
@@ -51960,15 +52091,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26602.635
-    y: 24744.09
-    width: 111.270004
+    x: 26616.33
+    y: 24638.621
+    width: 110.79
     height: 40
   nodeName: makecircle
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731672}
   - {fileID: 827730600}
   - {fileID: 827730601}
   - {fileID: 827731159}
@@ -52153,15 +52285,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26724.184
-    y: 24742.615
-    width: 141.64
+    x: 26733.766
+    y: 24639.883
+    width: 141.37
     height: 40
   nodeName: makedecoration
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731673}
   - {fileID: 827730611}
   - {fileID: 827730610}
   - {fileID: 827730609}
@@ -52396,8 +52529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26382.621
-    y: 24955.652
+    x: 26377.143
+    y: 24939.197
     width: 77.84
     height: 40
   nodeName: shop
@@ -52405,6 +52538,7 @@ MonoBehaviour:
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731685}
   - {fileID: 827730680}
   - {fileID: 827730616}
   - {fileID: 827731508}
@@ -52526,9 +52660,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26464.717
-    y: 24956.17
-    width: 73.61
+    x: 26459.238
+    y: 24939.715
+    width: 73.38
     height: 40
   nodeName: play
   nodeDescription: Basic building block of a narrative engine
@@ -52648,8 +52782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26542.02
-    y: 24955.732
+    x: 26536.541
+    y: 24939.277
     width: 78.32
     height: 40
   nodeName: drink
@@ -52772,15 +52906,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26621.27
-    y: 24951.922
-    width: 72.82
+    x: 26614.422
+    y: 24935.467
+    width: 72.61
     height: 40
   nodeName: tree
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731686}
   - {fileID: 827730677}
   - {fileID: 827730631}
   - {fileID: 827731504}
@@ -52907,22 +53042,6 @@ MonoBehaviour:
   fireEvent: 1
   resumeOnLoad: 1
   autoSave: 1
---- !u!114 &827730653
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827730149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbdad587763ac83449df1cf4eee6338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  saveKey: SaveData
-  loadCustomPoint: 0
-  customKey: 
-  continueToNextOrder: 1
 --- !u!114 &827730654
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -53195,7 +53314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25454.64
     y: 24767.668
-    width: 140.48001
+    width: 140.23999
     height: 40
   nodeName: closelevelselect
   nodeDescription: Basic building block of a narrative engine
@@ -53229,9 +53348,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25720.06
-    y: 24590.334
-    width: 177.1
+    x: 25721.43
+    y: 24416.36
+    width: 177.06
     height: 40
   nodeName: location reveal at start
   nodeDescription: Basic building block of a narrative engine
@@ -53239,7 +53358,7 @@ MonoBehaviour:
   itemId: 0
   orderList:
   - {fileID: 827731202}
-  eventHandler: {fileID: 827730742}
+  eventHandler: {fileID: 0}
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
@@ -53252,20 +53371,6 @@ MonoBehaviour:
   saveable: 0
   updateLocationStatusToComplete: 1
   NodeComplete: 0
---- !u!114 &827730742
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827730149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f38c0eb32b6f8e6488f591c0813b73db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentNode: {fileID: 827730740}
-  waitForFrames: 1
 --- !u!114 &827730743
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -53384,8 +53489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25700.133
-    y: 24716.023
+    x: 25760.205
+    y: 24464.416
     width: 91.270004
     height: 40
   nodeName: Node 2
@@ -53406,7 +53511,7 @@ MonoBehaviour:
   - {fileID: 827731122}
   - {fileID: 827731125}
   - {fileID: 827731128}
-  eventHandler: {fileID: 827731586}
+  eventHandler: {fileID: 0}
   isGrouped: 0
   groupIndex: -1
   repeatable: 0
@@ -53447,15 +53552,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25720.922
-    y: 24656.943
-    width: 105.95
+    x: 26003.115
+    y: 24510.38
+    width: 105.880005
     height: 40
   nodeName: add items
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
   itemId: 0
   orderList:
+  - {fileID: 827731644}
   - {fileID: 827731017}
   - {fileID: 827730843}
   - {fileID: 827730845}
@@ -53711,10 +53817,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26237.324
-    y: 24691.727
-    width: 678.5
-    height: 356.125
+    x: 26235.143
+    y: 24583.143
+    width: 689.9922
+    height: 448.2539
   nodeName: Group 0
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
@@ -54036,8 +54142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25429.775
-    y: 24586.41
+    x: 25454.426
+    y: 24598.732
     width: 133.9
     height: 40
   nodeName: unlock random
@@ -54408,9 +54514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25203.033
-    y: 24587.602
-    width: 202.61
+    x: 25190.71
+    y: 24527.326
+    width: 202.47
     height: 40
   nodeName: unlock random item button
   nodeDescription: Basic building block of a narrative engine
@@ -54447,7 +54553,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25429.76
     y: 24519.219
-    width: 146.69
+    width: 146.62
     height: 40
   nodeName: Interaction Timer
   nodeDescription: Basic building block of a narrative engine
@@ -54455,9 +54561,9 @@ MonoBehaviour:
   itemId: 1
   orderList:
   - {fileID: 827730921}
-  - {fileID: 827731389}
   - {fileID: 827730920}
   - {fileID: 827730919}
+  - {fileID: 827731389}
   - {fileID: 827730922}
   eventHandler: {fileID: 827730918}
   isGrouped: 0
@@ -55275,9 +55381,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25209.24
-    y: 24530.295
-    width: 146.54001
+    x: 25425.676
+    y: 24463.18
+    width: 146.4
     height: 40
   nodeName: Reset Interaction
   nodeDescription: Basic building block of a narrative engine
@@ -55619,7 +55725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25465.42
     y: 24874.191
-    width: 110.5
+    width: 110.43
     height: 40
   nodeName: togglemap
   nodeDescription: Basic building block of a narrative engine
@@ -55690,7 +55796,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25461.584
     y: 24933.639
-    width: 183.3
+    width: 182.83
     height: 40
   nodeName: toggle inventory button
   nodeDescription: Basic building block of a narrative engine
@@ -56689,9 +56795,9 @@ MonoBehaviour:
   locations:
   - locationRef: {fileID: 827731413}
     locationVal: {fileID: 0}
-  - locationRef: {fileID: 827730394}
-    locationVal: {fileID: 0}
   - locationRef: {fileID: 827730497}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730394}
     locationVal: {fileID: 0}
   - locationRef: {fileID: 827730520}
     locationVal: {fileID: 0}
@@ -56741,9 +56847,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25257.309
-    y: 24666.39
-    width: 115.22
+    x: 25202.52
+    y: 24674.605
+    width: 114.92
     height: 40
   nodeName: ssve delete
   nodeDescription: Basic building block of a narrative engine
@@ -56777,7 +56883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveMenu: {fileID: 904737641}
-  saveKey: save_data_zenah
+  saveKey: 
   resetScene: 1
   resetLocations: 1
   inventory: {fileID: 2096702116}
@@ -57695,8 +57801,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26990.367
-    y: 24839.582
+    x: 26936.95
+    y: 24992.998
     width: 119.8
     height: 40
   nodeName: enddialogue
@@ -63080,7 +63186,7 @@ MonoBehaviour:
   saveProfile: 1
   customDescription: 
   fireEvent: 1
-  resumeOnLoad: 1
+  resumeOnLoad: 0
   autoSave: 1
 --- !u!114 &827731413
 MonoBehaviour:
@@ -66008,20 +66114,6 @@ MonoBehaviour:
     inventoryRef: {fileID: 0}
     inventoryVal: {fileID: 0}
     item: {fileID: 0}
---- !u!114 &827731586
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827730149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76d2916b1cf4a5b4391d968526553eec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentNode: {fileID: 827730811}
-  FireOn: 1
 --- !u!114 &827731587
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -66152,6 +66244,4192 @@ MonoBehaviour:
   waitForVO: 0
   setDialogueBox: {fileID: 0}
   showButton: 1
+--- !u!114 &827731614
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b319c96f49b7a49b87135a6e3241c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &827731615
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8917b3b565fc8bd40b694af83193d3ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartingPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeperator: _
+  descriptionMode: 0
+  saveProfile: 1
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 0
+  autoSave: 1
+--- !u!114 &827731616
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e56cae64a5b12345b59d98fed25cc80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locations:
+  - locationRef: {fileID: 827730179}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730628}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730394}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730398}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730497}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730520}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730528}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730529}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730533}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730552}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730551}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730561}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730566}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730572}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730571}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730581}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730593}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730602}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730613}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730618}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827730623}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827731413}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 827731437}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  - locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+--- !u!114 &827731617
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9f689a21732a34489f55c1ed82a919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 25980.004
+    y: 24583.693
+    width: 146.51001
+    height: 40
+  nodeName: Hide all locations
+  nodeDescription: Basic building block of a narrative engine
+  groupDescription: A series of nodes that can be executed as a group
+  itemId: 0
+  orderList:
+  - {fileID: 827731620}
+  - {fileID: 827731616}
+  eventHandler: {fileID: 827731619}
+  isGrouped: 0
+  groupIndex: -1
+  repeatable: 1
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  hoverStartTime: 0
+  targetUnlockNode: {fileID: 0}
+  targetKeyNode: {fileID: 0}
+  showDesc: 0
+  saveable: 0
+  updateLocationStatusToComplete: 1
+  NodeComplete: 0
+--- !u!114 &827731618
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd739d175bf61648a65eed84911a998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Node1
+  propertyReferences: []
+  value: {fileID: 827731617}
+--- !u!114 &827731619
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38c0eb32b6f8e6488f591c0813b73db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentNode: {fileID: 827731617}
+  waitForFrames: 1
+--- !u!114 &827731620
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731644
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731668
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731669
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731670
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731671
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731672
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731673
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731674
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731675
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731676
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731677
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731678
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731679
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731680
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731681
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731682
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731683
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731684
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731685
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
+--- !u!114 &827731686
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827730149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b38f47b6de1de4baa9eb142b211426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anyOrAllCondition: 0
+  conditions:
+  - compareOperator: 0
+    anyVariable:
+      variable: {fileID: 827731560}
+      data:
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        locationData:
+          locationRef: {fileID: 0}
+          locationVal: {fileID: 0}
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        nodeCollectionData:
+          nodeCollectionRef: {fileID: 0}
+          nodeCollectionVal: {fileID: 0}
+          total: 0
+        nodeData:
+          nodeRef: {fileID: 0}
+          nodeVal: {fileID: 0}
+        inventoryData:
+          inventoryRef: {fileID: 0}
+          inventoryVal: {fileID: 0}
+          item: {fileID: 0}
+        diceData:
+          diceRef: {fileID: 0}
+          diceVal: 0
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 0
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        timeOfDayData:
+          timeOfDayRef: {fileID: 0}
+          timeOfDayVal: 0
+        seasonData:
+          seasonRef: {fileID: 0}
+          seasonVal: 0
+        uDateTimeData:
+          uDateTimeRef: {fileID: 0}
+          uDateTimeVal:
+            _dateTime: 01/01/0001 00:00:00
+        uDateData:
+          uDateRef: {fileID: 0}
+          uDateVal:
+            _dateString: 01/01/0001
+        uTimeData:
+          uTimeRef: {fileID: 0}
+          uTimeVal:
+            _timeString: 00:00:00
+        saveKeyData:
+          saveKeyRef: {fileID: 0}
+          saveKeyVal: 
+  compareOperator: 0
+  anyVariable:
+    variable: {fileID: 0}
+    data:
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      locationData:
+        locationRef: {fileID: 0}
+        locationVal: {fileID: 0}
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      nodeCollectionData:
+        nodeCollectionRef: {fileID: 0}
+        nodeCollectionVal: {fileID: 0}
+        total: 0
+      nodeData:
+        nodeRef: {fileID: 0}
+        nodeVal: {fileID: 0}
+      inventoryData:
+        inventoryRef: {fileID: 0}
+        inventoryVal: {fileID: 0}
+        item: {fileID: 0}
+      diceData:
+        diceRef: {fileID: 0}
+        diceVal: 0
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      timeOfDayData:
+        timeOfDayRef: {fileID: 0}
+        timeOfDayVal: 0
+      seasonData:
+        seasonRef: {fileID: 0}
+        seasonVal: 0
+      uDateTimeData:
+        uDateTimeRef: {fileID: 0}
+        uDateTimeVal:
+          _dateTime: 01/01/0001 00:00:00
+      uDateData:
+        uDateRef: {fileID: 0}
+        uDateVal:
+          _dateString: 01/01/0001
+      uTimeData:
+        uTimeRef: {fileID: 0}
+        uTimeVal:
+          _timeString: 00:00:00
+      saveKeyData:
+        saveKeyRef: {fileID: 0}
+        saveKeyVal: 
+  variable: {fileID: 0}
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  locationData:
+    locationRef: {fileID: 0}
+    locationVal: {fileID: 0}
+  collectionData:
+    collectionRef: {fileID: 0}
+    collectionVal: {fileID: 0}
+  nodeCollectionData:
+    nodeCollectionRef: {fileID: 0}
+    nodeCollectionVal: {fileID: 0}
+    total: 0
+  nodeData:
+    nodeRef: {fileID: 0}
+    nodeVal: {fileID: 0}
+  diceData:
+    diceRef: {fileID: 0}
+    diceVal: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  timeOfDayData:
+    timeOfDayRef: {fileID: 0}
+    timeOfDayVal: 0
+  seasonData:
+    seasonRef: {fileID: 0}
+    seasonVal: 0
+  uDateTimeData:
+    uDateTimeRef: {fileID: 0}
+    uDateTimeVal:
+      _dateTime: 01/01/0001 00:00:00
+  uDateData:
+    uDateRef: {fileID: 0}
+    uDateVal:
+      _dateString: 01/01/0001
+  uTimeData:
+    uTimeRef: {fileID: 0}
+    uTimeVal:
+      _timeString: 00:00:00
+  saveKeyData:
+    saveKeyRef: {fileID: 0}
+    saveKeyVal: 
+  inventoryData:
+    inventoryRef: {fileID: 0}
+    inventoryVal: {fileID: 0}
+    item: {fileID: 0}
 --- !u!1 &830639709
 GameObject:
   m_ObjectHideFlags: 0
@@ -67556,6 +71834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharacterswan
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -69603,6 +73885,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterotter
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 514206945}
@@ -71239,6 +75525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharacterweasel
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -83482,6 +87772,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterfox
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730602}
@@ -84220,6 +88514,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterMouse
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730533}
@@ -84234,7 +88532,7 @@ PrefabInstance:
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: characterPortrait
       value: 
-      objectReference: {fileID: 3496380038528630776, guid: 6db773c76a469384783367bb1977615c, type: 3}
+      objectReference: {fileID: 3496380038528630776, guid: 59da5bd5e97b58a47b412c8031a573cd, type: 3}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -86221,7 +90519,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 851156596007385019, guid: 4b636ecdca48e9448bf3f0524e8455d9, type: 3}
       propertyPath: saveKey
-      value: save_data_zenah
+      value: save_data_zenah_game
+      objectReference: {fileID: 0}
+    - target: {fileID: 851156596007385019, guid: 4b636ecdca48e9448bf3f0524e8455d9, type: 3}
+      propertyPath: loadOnStart
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 851156596007385019, guid: 4b636ecdca48e9448bf3f0524e8455d9, type: 3}
       propertyPath: deleteOnRestart
@@ -88323,6 +92625,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterbluetit
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730520}
@@ -90209,6 +94515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharacterrobin
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -102384,6 +106694,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharactercow
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730593}
@@ -113706,6 +118020,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterhorse
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730551}
@@ -113714,6 +118032,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 670906290}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: revealText
+      value: My location has been revealed!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: inventoryItem
       value: 
       objectReference: {fileID: 11400000, guid: f8e7a5a567bd49c47b4b9903939535c7, type: 2}
@@ -113721,6 +118043,10 @@ PrefabInstance:
       propertyPath: characterPortrait
       value: 
       objectReference: {fileID: 4437359081828021743, guid: 4901cbadf592bac429d8f1604d353676, type: 3}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: showDialogueOnReveal
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: unityAction.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -113806,6 +118132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharactersheep
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -114905,6 +119235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharacterrabbit
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: character
       value: 
@@ -122476,6 +126810,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharactercrow
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827731413}
@@ -128249,6 +132587,10 @@ PrefabInstance:
       value: LUTEInventoryItemReferenceCharacterowl
       objectReference: {fileID: 0}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
       objectReference: {fileID: 827730571}
@@ -131631,6 +135973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LUTEInventoryItemReferenceCharacterbadger
       objectReference: {fileID: 0}
+    - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
+      propertyPath: engine
+      value: 
+      objectReference: {fileID: 827730151}
     - target: {fileID: 9092712212945813094, guid: 9fadc0d4a84f5f04bbb4383ef1005951, type: 3}
       propertyPath: location
       value: 
@@ -135508,6 +139854,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7366789441586497175, guid: fef2917b60f9a094e8ce5f109b86e116, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2096702118}
+    - targetCorrespondingSourceObject: {fileID: 7366789441586497175, guid: fef2917b60f9a094e8ce5f109b86e116, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096702120}
   m_SourcePrefab: {fileID: 100100000, guid: fef2917b60f9a094e8ce5f109b86e116, type: 3}
 --- !u!4 &2096702115 stripped
 Transform:
@@ -135538,6 +139887,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 2096702116}
+--- !u!114 &2096702120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299430760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c77b8a4811ced54f8b58043e886ff8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2097584718
 GameObject:
   m_ObjectHideFlags: 0
