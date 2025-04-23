@@ -34,6 +34,9 @@ namespace LoGaCulture.LUTE
 
         public GameObject openingdialogue;
 
+        //public GameObject text;
+        public CanvasGroup timer;
+
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
@@ -132,6 +135,7 @@ namespace LoGaCulture.LUTE
             screenshotcontrol.SetActive(true);
             luteui.SetActive(false);
             screenshotbutton.SetActive(true);
+            timer.alpha = 0;
         }
 
         public void close()
@@ -142,12 +146,13 @@ namespace LoGaCulture.LUTE
             dialogue.SetActive(true);
             gameobjects.SetActive(false);
             screenshotbutton.SetActive(false);
+            timer.alpha = 1;
 
-           /* gameui.SetActive(true);
-            screenshotui.SetActive(false);
-            screenshotcontrol.SetActive(false);
-            bin.SetActive(true);
-            screenshotbutton.SetActive(false);*/
+            /* gameui.SetActive(true);
+             screenshotui.SetActive(false);
+             screenshotcontrol.SetActive(false);
+             bin.SetActive(true);
+             screenshotbutton.SetActive(false);*/
         }
 
         public void refresh()

@@ -30,7 +30,7 @@ MonoBehaviour:
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: Found by a stone known as the devil chair
+  hint: Found near the entrance to the manor
   characterDescription: "Horse\r\nFound near the Manor\r\nOutfit inspired by the
     medieval era\r\nHector is well known for getting lost, constantly. He refuses,
     however, to admit it, often confidently leading himself and anyone he\u2019s

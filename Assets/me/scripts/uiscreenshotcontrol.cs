@@ -7,6 +7,9 @@ namespace LoGaCulture.LUTE
 
         public GameObject ui;
 
+        public GameObject text;
+        public CanvasGroup timer;
+
         public bool uion;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
@@ -49,10 +52,14 @@ namespace LoGaCulture.LUTE
             if (uion == true)
             {
                 ui.SetActive(false);
+                //text.SetActive(false);
+               // timer.alpha = 0;
             }
             if (uion == false)
             {
                 ui.SetActive(true);
+                //text.SetActive(true);
+               // timer.alpha = 1;
                 //uionoff = true;
             }
         }
