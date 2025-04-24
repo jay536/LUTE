@@ -2,73 +2,84 @@ using UnityEngine;
 
 namespace LoGaCulture.LUTE
 {
-    /// <summary>
-    /// A simple helper class that allows for the display of a float variable in the Unity Editor.
-    /// In the example we display the float as text but you could easily modify this to display as a slider or other UI element.
-    /// </summary>
     public class FloatVariableUI : MonoBehaviour
     {
         [Tooltip("The text component to display the float variable.")]
         [SerializeField] protected TMPro.TextMeshProUGUI textComponent;
-        [Tooltip("The float variable to display.")]
+
         [VariableProperty(typeof(IntegerVariable))]
         [SerializeField] protected IntegerVariable floatVariable;
-        [Tooltip("A boolean variable to constrain the showing of UI elements.")]
+
         [VariableProperty(typeof(BooleanVariable))]
-        [SerializeField] protected BooleanVariable showUI;
+        [SerializeField] protected BooleanVariable canUnlockItem;
+
+        [VariableProperty(typeof(BooleanVariable))]
+        [SerializeField] protected BooleanVariable revealUI;
+
+        [VariableProperty(typeof(FloatVariable))]
+        [SerializeField] protected FloatVariable revealTime;
 
         [SerializeField] protected GameObject gameui;
+        [SerializeField] protected CanvasGroup canvasGroup;
 
-        //public float time;
+        private float fadeTimer = 0f;
+        private bool isFadingIn = false;
 
         private void Update()
         {
-            if (textComponent != null && floatVariable != null && showUI != null)
+            if (textComponent == null || floatVariable == null || canvasGroup == null)
+                return;
+
+            // Update display
+            int minutes = floatVariable.Value;
+            int hours = minutes / 60;
+            int mins = minutes % 60;
+            textComponent.text = $"{hours:D2}:{mins:D2}";
+
+            if (canUnlockItem.Value == true)
             {
-                // If this is false (i.e., we are waiting to be able to click) then show the time left
-                if (showUI.Value == false)
-                {
-                    textComponent.enabled = true;
-                    gameui.SetActive(true);
-
-                    /* int minutes = floatVariable.Value;
-                     int hours = minutes / 60;
-                     int mins = minutes % 60;
-
-                     string timeFormat = $"{hours:D2}:{mins:D2}";*/
-                }
-                else
-                {
-                    // Once we can click, hide the time left
-                    // You could also show something here to inform the player they can now click
-                    textComponent.enabled = false;
-                    gameui.SetActive(false);
-                }
-
-                textComponent.text = floatVariable.Value.ToString();
-
-                int minutes = floatVariable.Value;
-                int hours = minutes / 60;
-                int mins = minutes % 60;
-
-                string timeFormat = $"{hours:D2}:{mins:D2}";
-                textComponent.text = timeFormat;
+                FadeOut();
             }
-            // If we cannot find the text component or relevant variables then disable it
-
-
             else
-                textComponent.enabled = false;
+            {
+                HandleRevealUI();
+            }
 
-            
+            UpdateFade();
         }
 
-        /*private void Start()
+        private void HandleRevealUI()
         {
-
+            if (revealUI.Value == true)
             {
-                time = floatVariable.Value;
+                isFadingIn = true;
+                fadeTimer = 0f;
             }
-        }*/
+            else
+            {
+                isFadingIn = false;
+                fadeTimer = 0f;
+            }
+        }
+
+        private void FadeOut()
+        {
+            isFadingIn = false;
+            fadeTimer = 0f;
+        }
+
+        private void UpdateFade()
+        {
+            float duration = Mathf.Max(0.01f, revealTime.Value); // avoid division by zero
+            float targetAlpha = isFadingIn ? 1f : 0f;
+
+            // Smoothly interpolate alpha
+            canvasGroup.alpha = Mathf.MoveTowards(canvasGroup.alpha, targetAlpha, Time.deltaTime / duration);
+
+            // Enable interaction only when visible enough
+            bool visible = canvasGroup.alpha > 0.01f;
+            canvasGroup.interactable = visible;
+            canvasGroup.blocksRaycasts = visible;
+        }
     }
 }
