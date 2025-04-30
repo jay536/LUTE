@@ -49647,8 +49647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26393.625
-    y: 24722.082
+    x: 26401.842
+    y: 24745.371
     width: 76.1
     height: 40
   nodeName: food
@@ -49750,8 +49750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26288.559
-    y: 24941.396
+    x: 26296.775
+    y: 24964.686
     width: 85.85
     height: 40
   nodeName: manor
@@ -50083,8 +50083,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26288.39
-    y: 24634.512
+    x: 26296.607
+    y: 24657.8
     width: 88.34
     height: 40
   nodeName: william
@@ -50226,8 +50226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26469.502
-    y: 24726.814
+    x: 26477.719
+    y: 24750.104
     width: 101.36
     height: 40
   nodeName: farmyard
@@ -50520,8 +50520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26571.697
-    y: 24725.803
+    x: 26579.914
+    y: 24749.092
     width: 101.35
     height: 40
   nodeName: TheCove
@@ -50689,8 +50689,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26680.176
-    y: 24721.875
+    x: 26688.393
+    y: 24745.164
     width: 98.07
     height: 40
   nodeName: museum
@@ -50790,8 +50790,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26285.143
-    y: 24723.156
+    x: 26293.36
+    y: 24746.445
     width: 103.490005
     height: 40
   nodeName: dovecote
@@ -50872,8 +50872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26630.457
-    y: 24802.65
+    x: 26635.936
+    y: 24828.678
     width: 119.4
     height: 40
   nodeName: barberstone
@@ -51251,8 +51251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26392.191
-    y: 24636.256
+    x: 26400.408
+    y: 24659.545
     width: 95.740005
     height: 40
   nodeName: dressup
@@ -51395,8 +51395,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26415.773
-    y: 24801.293
+    x: 26423.99
+    y: 24824.582
     width: 104.68
     height: 40
   nodeName: devilchair
@@ -51583,8 +51583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26287.322
-    y: 24799.98
+    x: 26295.54
+    y: 24823.27
     width: 124.26
     height: 40
   nodeName: buriedstones
@@ -51648,8 +51648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26523.684
-    y: 24803.168
+    x: 26531.9
+    y: 24826.457
     width: 104.86
     height: 40
   nodeName: perimeter
@@ -51780,8 +51780,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26556.828
-    y: 24874.02
+    x: 26565.045
+    y: 24897.309
     width: 129.33
     height: 40
   nodeName: swindonstone
@@ -51926,8 +51926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26455.732
-    y: 24867.299
+    x: 26463.95
+    y: 24890.588
     width: 90.09
     height: 40
   nodeName: obelisk
@@ -52109,8 +52109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26291
-    y: 24867.674
+    x: 26299.217
+    y: 24890.963
     width: 157.65
     height: 40
   nodeName: southernenterance
@@ -52354,8 +52354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26496.215
-    y: 24637.002
+    x: 26504.432
+    y: 24660.291
     width: 111.979996
     height: 40
   nodeName: lostpottery
@@ -52420,8 +52420,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26616.33
-    y: 24638.621
+    x: 26624.547
+    y: 24661.91
     width: 111.270004
     height: 40
   nodeName: makecircle
@@ -52614,8 +52614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26733.766
-    y: 24639.883
+    x: 26741.982
+    y: 24663.172
     width: 141.64
     height: 40
   nodeName: makedecoration
@@ -52858,8 +52858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26377.143
-    y: 24939.197
+    x: 26385.36
+    y: 24962.486
     width: 77.84
     height: 40
   nodeName: shop
@@ -52989,8 +52989,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26459.238
-    y: 24939.715
+    x: 26467.455
+    y: 24963.004
     width: 73.61
     height: 40
   nodeName: play
@@ -53111,8 +53111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26536.541
-    y: 24939.277
+    x: 26544.758
+    y: 24962.566
     width: 78.32
     height: 40
   nodeName: drink
@@ -53235,8 +53235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26614.422
-    y: 24935.467
+    x: 26622.639
+    y: 24958.756
     width: 72.82
     height: 40
   nodeName: tree
@@ -54146,8 +54146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26235.143
-    y: 24584.512
+    x: 26243.36
+    y: 24607.8
     width: 690.2637
     height: 446.88477
   nodeName: Group 0
@@ -54493,7 +54493,7 @@ MonoBehaviour:
   hoverStartTime: 0
   targetUnlockNode: {fileID: 0}
   targetKeyNode: {fileID: 0}
-  showDesc: 0
+  showDesc: 1
   saveable: 0
   updateLocationStatusToComplete: 1
   NodeComplete: 0
@@ -64849,7 +64849,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   storyText: "Anyway, I\u2019m gonna go help finish setting up the party whether
-    ruth wants the help or not!"
+    Ruth wants the help or not!"
   typingSpeed: 0
   extendPrevious: 0
   voiceOverClip: {fileID: 0}

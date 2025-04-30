@@ -30,7 +30,7 @@ MonoBehaviour:
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: Found at a stone known as the barber stone
+  hint: Found at a stone known as the barber-surgeon stone
   characterDescription: "Red squirrel\r\nFound at a stone known as the barber-surgeon
     stone\r\nOutfit inspired by early 1900s archaeologists\r\nFourth member of the
     band The Stone Rockers with Fey, Oscar and Wylder, Sam may have joined last but
