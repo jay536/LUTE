@@ -30,8 +30,8 @@ MonoBehaviour:
   unlockSound: {fileID: 0}
   lockSound: {fileID: 0}
   addSound: {fileID: 0}
-  hint: Found outside the Kieller museum
-  characterDescription: "Bluetit\nFound outside the Kieller museum\r\nOutfit inspired
+  hint: Found outside the Keiller museum
+  characterDescription: "Bluetit\nFound outside the Keiller museum\r\nOutfit inspired
     by Alexander Keiller\r\nTerrance is absolutely fascinated by the archaeological
     history of avebury, and his knowledge led to him deciding the costumes for himself,
     Bobby and Steve. When not reading books or looking in the museum he often can

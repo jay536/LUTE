@@ -50084,7 +50084,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 26288.39
-    y: 24633.143
+    y: 24634.512
     width: 88.34
     height: 40
   nodeName: william
@@ -54147,9 +54147,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 26235.143
-    y: 24583.143
+    y: 24584.512
     width: 690.2637
-    height: 448.2539
+    height: 446.88477
   nodeName: Group 0
   nodeDescription: Basic building block of a narrative engine
   groupDescription: A series of nodes that can be executed as a group
@@ -56740,7 +56740,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: William Stuckeley did a lot of studies of the Avebury Stone Circle in
+  storyText: William Stukeley did a lot of studies of the Avebury Stone Circle in
     the 1700s, that was 300 years ago!
   typingSpeed: 0
   extendPrevious: 0
@@ -56773,7 +56773,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Do you like my outfit? I based it on William Stuckeley. He was an antiquarian,
+  storyText: Do you like my outfit? I based it on William Stukeley. He was an antiquarian,
     meaning he studied history and historical sites like Avebury.
   typingSpeed: 0
   extendPrevious: 0
@@ -64425,7 +64425,7 @@ MonoBehaviour:
   characterNameColour:
     serializedVersion: 2
     rgba: 0
-  storyText: Do you like mine? I based it on Alexander Kieller, an archaeologist
+  storyText: Do you like mine? I based it on Alexander Keiller, an archaeologist
     who excavated at Avebury in the 1920s-30s.
   typingSpeed: 0
   extendPrevious: 0
